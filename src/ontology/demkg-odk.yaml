@@ -1,0 +1,9 @@
+id: demkg
+title: demKG extensions ontology
+github_org: DDI-NO
+repo: demkg
+import_group:
+  products:
+    - id: ro
+    - id: bfo
+    - id: pato
