@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/demkg/imports/ro_import.owl>
-<http://purl.obolibrary.org/obo/demkg/releases/2023-05-23/imports/ro_import.owl>
+<http://purl.obolibrary.org/obo/demkg/releases/2023-05-27/imports/ro_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>)
-Annotation(owl:versionInfo "2023-05-23")
+Annotation(owl:versionInfo "2023-05-27")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -107,6 +107,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002559>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002563>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002564>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002566>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002578>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002584>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002595>))
@@ -1138,6 +1139,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002566> "caus
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/RO_0002506>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000002>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002573> (has modifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002573> "A relation that holds between an attribute or a qualifier and another attribute.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002573> <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002573> <http://www.ncbi.nlm.nih.gov/pubmed/20064205>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/RO_0002573> "This relation is intended to be used in combination with PATO, to be able to refine PATO quality classes using modifiers such as 'abnormal' and 'normal'. It has yet to be formally aligned into an ontological framework; it's not clear what the ontological status of the \"modifiers\" are.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002573> "has modifier")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/BFO_0000020>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/BFO_0000020>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002578> (directly regulates)
 
