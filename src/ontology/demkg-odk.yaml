@@ -2,8 +2,17 @@ id: demkg
 title: demKG extensions ontology
 github_org: DDI-NO
 repo: demkg
+export_formats:
+  - owl
 import_group:
   products:
     - id: ro
     - id: bfo
     - id: pato
+    - id: hp
+    - id: go
+    - id: uberon
+    - id: obi
+      method: MIREOT
+use_dosdps: true
+robot_java_args: '-Xmx8G'

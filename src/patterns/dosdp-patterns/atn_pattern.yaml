@@ -1,0 +1,39 @@
+pattern_name: atn_pattern
+pattern_iri: http://purl.obolibrary.org/obo/demkg/patterns/atn_pattern.yaml
+
+description: "A pattern to define the ATN categories."
+
+classes:  
+  atn: DEMKG:1900000
+  missing: OBI:0000852
+
+relations:
+  is about: IAO:0000136
+
+vars:
+  a: "owl:Thing" # Must be 'decreased CSF abeta' or 'normal CSF abeta levels' or 'missing'
+  t: "owl:Thing" # Must be 'increased CSF ptau' or 'normal CSF ptau levels' or 'missing'
+  n: "owl:Thing" # Must be 'increased CSF totaltau' or 'normal CSF totaltau levels' or 'missing'
+  label: "owl:Thing"
+  sc: "owl:Thing"
+
+name:
+  text: "%s"
+  vars:
+    - label
+
+equivalentTo:
+  text: "'is about' some %s and 'is about' some %s and 'is about' some %s"
+  vars:
+    - a
+    - t
+    - n
+
+subClassOf: 
+  # text: "DEMKG:1900000"
+  text: "%s"
+  vars:
+    - sc
+  
+
+

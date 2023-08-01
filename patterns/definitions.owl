@@ -1,0 +1,93 @@
+Prefix(:=<http://purl.obolibrary.org/obo/demkg/patterns/definitions.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/demkg/patterns/definitions.owl>
+<http://purl.obolibrary.org/obo/demkg/releases/2023-07-08/patterns/definitions.owl>
+Annotation(owl:versionInfo "2023-07-08")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_000103>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050890>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025456>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000461>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000470>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001509>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001997>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000010173>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000027446>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001359>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/DEMKG_0000002> (Normality of the nervous system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000002> "Normality of the nervous system")
+EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
+SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000002> <http://purl.obolibrary.org/obo/DEMKG_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DEMKG_0000003> (Normal nervous system physiology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000003> "Normal nervous system physiology")
+EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
+SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000003> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/DEMKG_0000004> (Normality of higher mental function)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000004> "Normality of higher mental function")
+SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000004> <http://purl.obolibrary.org/obo/DEMKG_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/DEMKG_0000005> (Normal cognition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000005> "Normal cognition")
+EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0050890>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
+SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000005> <http://purl.obolibrary.org/obo/DEMKG_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/DEMKG_000100> (Increased levels of phosphorylated tau)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_000100> "Increased levels of phosphorylated tau")
+EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000027446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_000100> <http://purl.obolibrary.org/obo/HP_0025456>)
+
+# Class: <http://purl.obolibrary.org/obo/DEMKG_000101> (Decreased levels of phosphorylated tau)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_000101> "Decreased levels of phosphorylated tau")
+EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_000101> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001997> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000027446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_000101> <http://purl.obolibrary.org/obo/HP_0025456>)
+
+# Class: <http://purl.obolibrary.org/obo/DEMKG_000102> (Increased levels of total tau)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_000102> "Increased levels of total tau")
+EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_000102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_000102> <http://purl.obolibrary.org/obo/HP_0025456>)
+
+# Class: <http://purl.obolibrary.org/obo/DEMKG_000103> (Decreased levels of total tau)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_000103> "Decreased levels of total tau")
+EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_000103> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001997> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_000103> <http://purl.obolibrary.org/obo/HP_0025456>)
+
+
+)

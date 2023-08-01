@@ -1,0 +1,45 @@
+pattern_name: csf_protein_concentration
+pattern_iri: http://purl.obolibrary.org/obo/demkg/patterns/csf_protein_concentration.yaml
+
+description: "A pattern to define CSF protein concentration subclasses."
+
+classes:  
+  normal: PATO:0000461
+  abnormal: PATO:0000460
+  decreased amount: PATO:0001997
+  increased amount: PATO:0000470
+  present: PATO:0000467
+  cerebrospinal fluid: UBERON:0001359
+  'Abnormal CSF protein concentration': HP:0025456
+
+relations:
+  has part: BFO:0000051
+  part of: BFO:0000050
+  characteristic of: RO:0000052
+  has modifier: RO:0002573
+
+vars:
+  amount_class: "owl:Thing" # Should be 'decreased amount' or 'increased amount'
+  protein_class: "owl:Thing" # ideally PR or CHEBI class 
+  parent: "owl:Thing" # the parent class
+  label: "owl:Thing"
+  modifier: "owl:Thing"
+
+name:
+  text: "%s"
+  vars:
+    - label
+
+equivalentTo:
+  text: "'has part' some (%s and ('characteristic of' some (%s and ('part of' some 'cerebrospinal fluid'))) and ('has modifier' some %s))"
+  vars:
+    - amount_class
+    - protein_class
+    - modifier
+
+subClassOf: 
+  text: "%s"
+  vars:
+    - parent
+
+
