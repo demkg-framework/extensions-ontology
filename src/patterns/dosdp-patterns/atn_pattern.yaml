@@ -1,5 +1,5 @@
 pattern_name: atn_pattern
-pattern_iri: http://purl.obolibrary.org/obo/demkg/patterns/atn_pattern.yaml
+pattern_iri: http://purl.archive.org/demkg/patterns/atn_pattern.yaml
 
 description: "A pattern to define the ATN categories."
 

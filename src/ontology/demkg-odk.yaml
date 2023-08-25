@@ -2,6 +2,9 @@ id: demkg
 title: DemKG extensions ontology
 github_org: demkg-framework
 repo: extensions-ontology
+namespaces: 
+  - https://purl.archive.org/demkg/DEMKG_
+  - https://purl.archive.org/demkg
 export_formats:
   - owl
 import_group:

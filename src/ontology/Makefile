@@ -16,9 +16,9 @@
 # these can be overwritten on the command line
 
 OBOBASE=                    http://purl.obolibrary.org/obo
-URIBASE=                    http://purl.obolibrary.org/obo
+URIBASE=                    https://purl.archive.org/demkg
 ONT=                        demkg
-ONTBASE=                    http://purl.obolibrary.org/obo/demkg
+ONTBASE=                    https://purl.archive.org/demkg/demkg
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
 MAKE_FAST=                  $(MAKE) IMP=false PAT=false COMP=false MIR=false

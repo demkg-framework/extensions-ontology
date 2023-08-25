@@ -13,4 +13,4 @@ ontrdf.facts: demkg-base.owl
 	riot --output=ntriples $< | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
 
 properties-nonredundant.nt: rdf.facts ontrdf.facts prune.dl
-	souffle -c prune.dl && mv nonredundant.csv $@
+	souffle -c prune.dl && mv nonredundant.csv $@ && cp $@ ../../$(ONT)-materialized-relations.nt

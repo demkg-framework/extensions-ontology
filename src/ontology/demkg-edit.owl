@@ -8,14 +8,14 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/demkg.owl>
-Import(<http://purl.obolibrary.org/obo/demkg/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/demkg/imports/go_import.owl>)
-Import(<http://purl.obolibrary.org/obo/demkg/imports/hp_import.owl>)
-Import(<http://purl.obolibrary.org/obo/demkg/imports/obi_import.owl>)
-Import(<http://purl.obolibrary.org/obo/demkg/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/demkg/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/demkg/patterns/definitions.owl>)
+Ontology(<https://purl.archive.org/demkg/demkg.owl>
+Import(<http://purl.archive.org/demkg/imports/bfo_import.owl>)
+Import(<http://purl.archive.org/demkg/imports/go_import.owl>)
+Import(<http://purl.archive.org/demkg/imports/hp_import.owl>)
+Import(<http://purl.archive.org/demkg/imports/obi_import.owl>)
+Import(<http://purl.archive.org/demkg/imports/pato_import.owl>)
+Import(<http://purl.archive.org/demkg/imports/ro_import.owl>)
+Import(<http://purl.archive.org/demkg/patterns/definitions.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "demKG extensions ontology")
@@ -50,15 +50,15 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000001> (Phenotypic normality)
+# Class: <http://purl.archive.org/demkg/DEMKG_0000001> (Phenotypic normality)
 
-#AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000001> "Phenotypic normality"@en)
-#SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000001> <http://purl.obolibrary.org/obo/HP_0000001>)
+#AnnotationAssertion(rdfs:label <http://purl.archive.org/demkg/DEMKG_0000001> "Phenotypic normality"@en)
+#SubClassOf(<http://purl.archive.org/demkg/DEMKG_0000001> <http://purl.obolibrary.org/obo/HP_0000001>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900000> (ATN classification value)
+# Class: <http://purl.archive.org/demkg/DEMKG_1900000> (ATN biomarker profile value)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900000> "ATN classification value"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900000> <http://purl.obolibrary.org/obo/OBI_0001930>)
+AnnotationAssertion(rdfs:label <http://purl.archive.org/demkg/DEMKG_1900000> "ATN biomarker profile value"@en)
+SubClassOf(<http://purl.archive.org/demkg/DEMKG_1900000> <http://purl.obolibrary.org/obo/OBI_0001930>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0025684> (Decreased amyloid beta 42 peptide CSF concentration)
 

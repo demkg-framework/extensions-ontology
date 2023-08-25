@@ -1,5 +1,5 @@
 pattern_name: normality_hierarchy
-pattern_iri: http://purl.obolibrary.org/obo/demkg/patterns/normality_hierarchy.yaml
+pattern_iri: http://purl.archive.org/demkg/patterns/normality_hierarchy.yaml
 
 description: "
   Mirrors the phenotypic abnormality branch to allocate terms for phenotypic normality."
