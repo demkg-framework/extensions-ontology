@@ -1,7 +1,7 @@
 id: demkg
-title: demKG extensions ontology
-github_org: DDI-NO
-repo: demkg
+title: DemKG extensions ontology
+github_org: demkg-framework
+repo: extensions-ontology
 export_formats:
   - owl
 import_group:
@@ -13,6 +13,5 @@ import_group:
     - id: go
     - id: uberon
     - id: obi
-      method: MIREOT
 use_dosdps: true
 robot_java_args: '-Xmx8G'

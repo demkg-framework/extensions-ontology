@@ -1,0 +1,808 @@
+<http://purl.obolibrary.org/obo/demkg/demkg-base.owl>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Ontology>
+<http://purl.obolibrary.org/obo/demkg/demkg-base.owl>	<http://www.w3.org/2002/07/owl#versionIRI>	<http://purl.obolibrary.org/obo/demkg/releases/2023-08-02/demkg-base.owl>
+<http://purl.obolibrary.org/obo/demkg/demkg-base.owl>	<http://purl.org/dc/elements/1.1/type>	<http://purl.obolibrary.org/obo/IAO_8000001>
+<http://purl.obolibrary.org/obo/demkg/demkg-base.owl>	<http://purl.org/dc/terms/description>	"None"
+<http://purl.obolibrary.org/obo/demkg/demkg-base.owl>	<http://purl.org/dc/terms/license>	<https://creativecommons.org/licenses/unspecified>
+<http://purl.obolibrary.org/obo/demkg/demkg-base.owl>	<http://purl.org/dc/terms/title>	"demKG extensions ontology"
+<http://purl.obolibrary.org/obo/demkg/demkg-base.owl>	<http://www.w3.org/2002/07/owl#versionInfo>	"2023-08-02"
+<http://purl.org/dc/elements/1.1/type>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#AnnotationProperty>
+<http://purl.org/dc/terms/description>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#AnnotationProperty>
+<http://purl.org/dc/terms/description>	<http://www.w3.org/2000/01/rdf-schema#label>	"description"
+<http://purl.org/dc/terms/license>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#AnnotationProperty>
+<http://purl.org/dc/terms/license>	<http://www.w3.org/2000/01/rdf-schema#label>	"license"
+<http://purl.org/dc/terms/title>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#AnnotationProperty>
+<http://purl.org/dc/terms/title>	<http://www.w3.org/2000/01/rdf-schema#label>	"title"
+<http://purl.obolibrary.org/obo/BFO_0000050>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#ObjectProperty>
+<http://purl.obolibrary.org/obo/BFO_0000051>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#ObjectProperty>
+<http://purl.obolibrary.org/obo/IAO_0000136>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#ObjectProperty>
+<http://purl.obolibrary.org/obo/RO_0000052>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#ObjectProperty>
+<http://purl.obolibrary.org/obo/RO_0002573>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#ObjectProperty>
+<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000001>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000002>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000002>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/HP_0000001>
+<http://purl.obolibrary.org/obo/DEMKG_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"Phenotypic normality"
+<http://purl.obolibrary.org/obo/DEMKG_0000003>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000003>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the nervous system"
+<http://purl.obolibrary.org/obo/DEMKG_0000004>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000004>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000003>
+<http://purl.obolibrary.org/obo/DEMKG_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal nervous system physiology"
+<http://purl.obolibrary.org/obo/DEMKG_0000005>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000005>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000004>
+<http://purl.obolibrary.org/obo/DEMKG_0000005>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of higher mental function"
+<http://purl.obolibrary.org/obo/DEMKG_0000006>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000006>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000005>
+<http://purl.obolibrary.org/obo/DEMKG_0000006>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal behavior"
+<http://purl.obolibrary.org/obo/DEMKG_0000008>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000008>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000008>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of metabolism/homeostasis"
+<http://purl.obolibrary.org/obo/DEMKG_0000009>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000009>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000008>
+<http://purl.obolibrary.org/obo/DEMKG_0000009>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating metabolite concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000010>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000010>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000009>
+<http://purl.obolibrary.org/obo/DEMKG_0000010>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating protein concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000011>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000011>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000010>
+<http://purl.obolibrary.org/obo/DEMKG_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating albumin concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000012>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000012>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000012>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of blood and blood-forming tissues"
+<http://purl.obolibrary.org/obo/DEMKG_0000013>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000013>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000012>
+<http://purl.obolibrary.org/obo/DEMKG_0000013>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal leukocyte morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000014>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000014>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000013>
+<http://purl.obolibrary.org/obo/DEMKG_0000014>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal leukocyte count"
+<http://purl.obolibrary.org/obo/DEMKG_0000017>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000017>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000004>
+<http://purl.obolibrary.org/obo/DEMKG_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal central motor function"
+<http://purl.obolibrary.org/obo/DEMKG_0000020>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000020>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000003>
+<http://purl.obolibrary.org/obo/DEMKG_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal nervous system morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000021>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000021>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000020>
+<http://purl.obolibrary.org/obo/DEMKG_0000021>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal peripheral nervous system morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000022>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000022>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000021>
+<http://purl.obolibrary.org/obo/DEMKG_0000022>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal cranial nerve morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000023>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000023>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000004>
+<http://purl.obolibrary.org/obo/DEMKG_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of movement"
+<http://purl.obolibrary.org/obo/DEMKG_0000024>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000024>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000023>
+<http://purl.obolibrary.org/obo/DEMKG_0000024>	<http://www.w3.org/2000/01/rdf-schema#label>	"Postural stability"
+<http://purl.obolibrary.org/obo/DEMKG_0000025>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000025>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000025>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the respiratory system"
+<http://purl.obolibrary.org/obo/DEMKG_0000026>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000026>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000025>
+<http://purl.obolibrary.org/obo/DEMKG_0000026>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal respiratory system physiology"
+<http://purl.obolibrary.org/obo/DEMKG_0000027>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000027>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000023>
+<http://purl.obolibrary.org/obo/DEMKG_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal gait"
+<http://purl.obolibrary.org/obo/DEMKG_0000028>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000028>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000009>
+<http://purl.obolibrary.org/obo/DEMKG_0000028>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal blood ion concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000029>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000029>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000028>
+<http://purl.obolibrary.org/obo/DEMKG_0000029>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal blood cation concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000030>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000030>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000029>
+<http://purl.obolibrary.org/obo/DEMKG_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal blood inorganic cation concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000031>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000031>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000030>
+<http://purl.obolibrary.org/obo/DEMKG_0000031>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating calcium concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000032>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000032>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000008>
+<http://purl.obolibrary.org/obo/DEMKG_0000032>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal erythrocyte sedimentation rate"
+<http://purl.obolibrary.org/obo/DEMKG_0000033>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000033>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000008>
+<http://purl.obolibrary.org/obo/DEMKG_0000033>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal metabolism"
+<http://purl.obolibrary.org/obo/DEMKG_0000034>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000034>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000033>
+<http://purl.obolibrary.org/obo/DEMKG_0000034>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of vitamin metabolism"
+<http://purl.obolibrary.org/obo/DEMKG_0000035>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000035>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000034>
+<http://purl.obolibrary.org/obo/DEMKG_0000035>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of vitamin D metabolism"
+<http://purl.obolibrary.org/obo/DEMKG_0000036>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000036>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000026>
+<http://purl.obolibrary.org/obo/DEMKG_0000036>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal pattern of respiration"
+<http://purl.obolibrary.org/obo/DEMKG_0000039>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000039>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000039>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the cardiovascular system"
+<http://purl.obolibrary.org/obo/DEMKG_0000040>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000040>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000039>
+<http://purl.obolibrary.org/obo/DEMKG_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the vasculature"
+<http://purl.obolibrary.org/obo/DEMKG_0000041>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000041>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000040>
+<http://purl.obolibrary.org/obo/DEMKG_0000041>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal vascular morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000042>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000042>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000041>
+<http://purl.obolibrary.org/obo/DEMKG_0000042>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal blood vessel morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000043>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000043>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000042>
+<http://purl.obolibrary.org/obo/DEMKG_0000043>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal systemic arterial morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000044>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000044>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000043>
+<http://purl.obolibrary.org/obo/DEMKG_0000044>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal carotid artery morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000045>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000045>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000012>
+<http://purl.obolibrary.org/obo/DEMKG_0000045>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal bleeding"
+<http://purl.obolibrary.org/obo/DEMKG_0000049>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000049>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000049>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the ear"
+<http://purl.obolibrary.org/obo/DEMKG_0000050>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000050>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000049>
+<http://purl.obolibrary.org/obo/DEMKG_0000050>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal ear physiology"
+<http://purl.obolibrary.org/obo/DEMKG_0000051>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000051>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000050>
+<http://purl.obolibrary.org/obo/DEMKG_0000051>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hearing normality"
+<http://purl.obolibrary.org/obo/DEMKG_0000052>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000052>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000052>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the digestive system"
+<http://purl.obolibrary.org/obo/DEMKG_0000053>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000053>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000052>
+<http://purl.obolibrary.org/obo/DEMKG_0000053>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of digestive system physiology"
+<http://purl.obolibrary.org/obo/DEMKG_0000054>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000054>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000017>
+<http://purl.obolibrary.org/obo/DEMKG_0000054>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of coordination"
+<http://purl.obolibrary.org/obo/DEMKG_0000055>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000055>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000055>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the eye"
+<http://purl.obolibrary.org/obo/DEMKG_0000056>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000056>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000055>
+<http://purl.obolibrary.org/obo/DEMKG_0000056>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal eye physiology"
+<http://purl.obolibrary.org/obo/DEMKG_0000057>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000057>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000056>
+<http://purl.obolibrary.org/obo/DEMKG_0000057>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of vision"
+<http://purl.obolibrary.org/obo/DEMKG_0000058>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000058>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000009>
+<http://purl.obolibrary.org/obo/DEMKG_0000058>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating lipid concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000059>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000059>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000058>
+<http://purl.obolibrary.org/obo/DEMKG_0000059>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating cholesterol concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000061>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000061>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000061>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the genitourinary system"
+<http://purl.obolibrary.org/obo/DEMKG_0000062>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000062>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000061>
+<http://purl.obolibrary.org/obo/DEMKG_0000062>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the genital system"
+<http://purl.obolibrary.org/obo/DEMKG_0000063>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000063>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000062>
+<http://purl.obolibrary.org/obo/DEMKG_0000063>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of reproductive system physiology"
+<http://purl.obolibrary.org/obo/DEMKG_0000064>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000064>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000008>
+<http://purl.obolibrary.org/obo/DEMKG_0000064>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal CSF protein concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000065>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000065>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000064>
+<http://purl.obolibrary.org/obo/DEMKG_0000065>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal amyloid beta peptide CSF concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000066>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000066>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000065>
+<http://purl.obolibrary.org/obo/DEMKG_0000066>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal amyloid beta 42 peptide CSF concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000068>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000068>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000029>
+<http://purl.obolibrary.org/obo/DEMKG_0000068>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal blood monovalent inorganic cation concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000069>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000069>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000068>
+<http://purl.obolibrary.org/obo/DEMKG_0000069>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal blood sodium concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000070>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000070>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000006>
+<http://purl.obolibrary.org/obo/DEMKG_0000070>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal personality functioning"
+<http://purl.obolibrary.org/obo/DEMKG_0000072>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000072>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000006>
+<http://purl.obolibrary.org/obo/DEMKG_0000072>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal sleep"
+<http://purl.obolibrary.org/obo/DEMKG_0000075>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000075>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000053>
+<http://purl.obolibrary.org/obo/DEMKG_0000075>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal appetite"
+<http://purl.obolibrary.org/obo/DEMKG_0000078>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000078>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000078>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the endocrine system"
+<http://purl.obolibrary.org/obo/DEMKG_0000079>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000079>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000078>
+<http://purl.obolibrary.org/obo/DEMKG_0000079>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the hypothalamus-pituitary axis"
+<http://purl.obolibrary.org/obo/DEMKG_0000080>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000080>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000079>
+<http://purl.obolibrary.org/obo/DEMKG_0000080>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the pituitary gland"
+<http://purl.obolibrary.org/obo/DEMKG_0000081>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000081>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000080>
+<http://purl.obolibrary.org/obo/DEMKG_0000081>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal thyroid-stimulating hormone level"
+<http://purl.obolibrary.org/obo/DEMKG_0000082>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000082>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000008>
+<http://purl.obolibrary.org/obo/DEMKG_0000082>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal homeostasis"
+<http://purl.obolibrary.org/obo/DEMKG_0000083>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000083>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000082>
+<http://purl.obolibrary.org/obo/DEMKG_0000083>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal glucose homeostasis"
+<http://purl.obolibrary.org/obo/DEMKG_0000084>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000084>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000083>
+<http://purl.obolibrary.org/obo/DEMKG_0000084>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal blood glucose concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000085>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000085>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000004>
+<http://purl.obolibrary.org/obo/DEMKG_0000085>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal somatic sensory function"
+<http://purl.obolibrary.org/obo/DEMKG_0000086>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000086>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000023>
+<http://purl.obolibrary.org/obo/DEMKG_0000086>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal reflex"
+<http://purl.obolibrary.org/obo/DEMKG_0000087>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000087>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000012>
+<http://purl.obolibrary.org/obo/DEMKG_0000087>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal erythrocyte morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000088>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000088>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000087>
+<http://purl.obolibrary.org/obo/DEMKG_0000088>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal hemoglobin"
+<http://purl.obolibrary.org/obo/DEMKG_0000089>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000089>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000010>
+<http://purl.obolibrary.org/obo/DEMKG_0000089>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating C-reactive protein concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000090>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000090>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000034>
+<http://purl.obolibrary.org/obo/DEMKG_0000090>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of vitamin B metabolism"
+<http://purl.obolibrary.org/obo/DEMKG_0000091>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000091>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000090>
+<http://purl.obolibrary.org/obo/DEMKG_0000091>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of vitamin B12 metabolism"
+<http://purl.obolibrary.org/obo/DEMKG_0000092>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000092>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000091>
+<http://purl.obolibrary.org/obo/DEMKG_0000092>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal vitamin B12 level"
+<http://purl.obolibrary.org/obo/DEMKG_0000094>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000094>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000090>
+<http://purl.obolibrary.org/obo/DEMKG_0000094>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of folate metabolism"
+<http://purl.obolibrary.org/obo/DEMKG_0000095>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000095>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000094>
+<http://purl.obolibrary.org/obo/DEMKG_0000095>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal blood folate concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000096>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000096>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000061>
+<http://purl.obolibrary.org/obo/DEMKG_0000096>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the urinary system"
+<http://purl.obolibrary.org/obo/DEMKG_0000097>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000097>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000008>
+<http://purl.obolibrary.org/obo/DEMKG_0000097>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal CSF metabolite concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000098>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000098>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000097>
+<http://purl.obolibrary.org/obo/DEMKG_0000098>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal CSF glucose concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000099>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000099>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000005>
+<http://purl.obolibrary.org/obo/DEMKG_0000099>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal cognition"
+<http://purl.obolibrary.org/obo/DEMKG_0000100>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000100>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000010>
+<http://purl.obolibrary.org/obo/DEMKG_0000100>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating ferritin concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000101>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000101>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000087>
+<http://purl.obolibrary.org/obo/DEMKG_0000101>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal hematocrit"
+<http://purl.obolibrary.org/obo/DEMKG_0000102>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000102>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000068>
+<http://purl.obolibrary.org/obo/DEMKG_0000102>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal blood potassium concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000103>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000103>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000052>
+<http://purl.obolibrary.org/obo/DEMKG_0000103>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal abdomen morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000105>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000105>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000020>
+<http://purl.obolibrary.org/obo/DEMKG_0000105>	<http://www.w3.org/2000/01/rdf-schema#label>	"Morphological central nervous system normality"
+<http://purl.obolibrary.org/obo/DEMKG_0000106>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000106>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000105>
+<http://purl.obolibrary.org/obo/DEMKG_0000106>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of brain morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000107>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000107>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000106>
+<http://purl.obolibrary.org/obo/DEMKG_0000107>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal cerebral vascular morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000110>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000110>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000106>
+<http://purl.obolibrary.org/obo/DEMKG_0000110>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal forebrain morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000111>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000111>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000110>
+<http://purl.obolibrary.org/obo/DEMKG_0000111>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal cerebral morphology"
+<http://purl.obolibrary.org/obo/DEMKG_0000114>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000114>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000059>
+<http://purl.obolibrary.org/obo/DEMKG_0000114>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of lipoprotein cholesterol concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000115>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000115>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000114>
+<http://purl.obolibrary.org/obo/DEMKG_0000115>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal HDL cholesterol concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000116>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000116>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000017>
+<http://purl.obolibrary.org/obo/DEMKG_0000116>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of extrapyramidal motor function"
+<http://purl.obolibrary.org/obo/DEMKG_0000118>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000118>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000039>
+<http://purl.obolibrary.org/obo/DEMKG_0000118>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal cardiovascular system physiology"
+<http://purl.obolibrary.org/obo/DEMKG_0000119>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000119>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000118>
+<http://purl.obolibrary.org/obo/DEMKG_0000119>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal systemic blood pressure"
+<http://purl.obolibrary.org/obo/DEMKG_0000120>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000120>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000119>
+<http://purl.obolibrary.org/obo/DEMKG_0000120>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal blood pressure"
+<http://purl.obolibrary.org/obo/DEMKG_0000124>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000124>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/DEMKG_0000124>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of head or neck"
+<http://purl.obolibrary.org/obo/DEMKG_0000125>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000125>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000124>
+<http://purl.obolibrary.org/obo/DEMKG_0000125>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the head"
+<http://purl.obolibrary.org/obo/DEMKG_0000126>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000126>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000125>
+<http://purl.obolibrary.org/obo/DEMKG_0000126>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the face"
+<http://purl.obolibrary.org/obo/DEMKG_0000127>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000127>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000126>
+<http://purl.obolibrary.org/obo/DEMKG_0000127>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the nose"
+<http://purl.obolibrary.org/obo/DEMKG_0000128>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000128>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000127>
+<http://purl.obolibrary.org/obo/DEMKG_0000128>	<http://www.w3.org/2000/01/rdf-schema#label>	"normality of the sense of smell"
+<http://purl.obolibrary.org/obo/DEMKG_0000129>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000129>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000070>
+<http://purl.obolibrary.org/obo/DEMKG_0000129>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal fear/anxiety-related behavior"
+<http://purl.obolibrary.org/obo/DEMKG_0000134>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000134>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000114>
+<http://purl.obolibrary.org/obo/DEMKG_0000134>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal LDL cholesterol concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000135>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000135>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000009>
+<http://purl.obolibrary.org/obo/DEMKG_0000135>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating carboxylic acid concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000136>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000136>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000135>
+<http://purl.obolibrary.org/obo/DEMKG_0000136>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating amino acid concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000137>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000137>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000136>
+<http://purl.obolibrary.org/obo/DEMKG_0000137>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating proteinogenic amino acid concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000138>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000138>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000137>
+<http://purl.obolibrary.org/obo/DEMKG_0000138>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating sulfur amino acid concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000139>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000139>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000138>
+<http://purl.obolibrary.org/obo/DEMKG_0000139>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating homocysteine concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000140>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000140>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000009>
+<http://purl.obolibrary.org/obo/DEMKG_0000140>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating nitrogen compound concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000141>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000141>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000140>
+<http://purl.obolibrary.org/obo/DEMKG_0000141>	<http://www.w3.org/2000/01/rdf-schema#label>	"normal circulating creatinine concentration"
+<http://purl.obolibrary.org/obo/DEMKG_0000200>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B39ce4ea3X2D4d45X2D4784X2Da93aX2Ddfc290356059	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/DEMKG_0000200>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:B39ce4ea3X2D4d45X2D4784X2Da93aX2Ddfc290356059
+_:B39ce4ea3X2D4d45X2D4784X2Da93aX2Ddfc290356059	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:Bb7e3b0c1X2Da95bX2D4046X2Db881X2Ddf21069fb528	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B39ce4ea3X2D4d45X2D4784X2Da93aX2Ddfc290356059	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:Bb7e3b0c1X2Da95bX2D4046X2Db881X2Ddf21069fb528
+_:Bb7e3b0c1X2Da95bX2D4046X2Db881X2Ddf21069fb528	<http://www.w3.org/2002/07/owl#intersectionOf>	_:Be143a048X2D76c3X2D4d72X2D900bX2Da04e5870ffc9
+_:Be143a048X2D76c3X2D4d72X2D900bX2Da04e5870ffc9	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PATO_0000470>
+_:B162212a5X2D5620X2D478dX2D8ceaX2Db45c440ac90b	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Be143a048X2D76c3X2D4d72X2D900bX2Da04e5870ffc9	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B3912646cX2D9236X2D4de6X2Db25cX2D4b14173df404
+_:B3912646cX2D9236X2D4de6X2Db25cX2D4b14173df404	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B162212a5X2D5620X2D478dX2D8ceaX2Db45c440ac90b
+_:B162212a5X2D5620X2D478dX2D8ceaX2Db45c440ac90b	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:B2e796038X2D679aX2D45bbX2Db971X2D26c202023177	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B162212a5X2D5620X2D478dX2D8ceaX2Db45c440ac90b	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B2e796038X2D679aX2D45bbX2Db971X2D26c202023177
+_:B2e796038X2D679aX2D45bbX2Db971X2D26c202023177	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B475434dfX2D5906X2D4883X2Da635X2D930cecfffd60
+_:B475434dfX2D5906X2D4883X2Da635X2D930cecfffd60	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PR_000027446>
+_:B6b834239X2D2473X2D4b1cX2D83c7X2Dcf86269bbd2f	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B475434dfX2D5906X2D4883X2Da635X2D930cecfffd60	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B0726606fX2Dccb7X2D4712X2Db972X2D139081e1e241
+_:B0726606fX2Dccb7X2D4712X2Db972X2D139081e1e241	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B6b834239X2D2473X2D4b1cX2D83c7X2Dcf86269bbd2f
+_:B6b834239X2D2473X2D4b1cX2D83c7X2Dcf86269bbd2f	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000050>
+_:B6b834239X2D2473X2D4b1cX2D83c7X2Dcf86269bbd2f	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/UBERON_0001359>
+_:B0726606fX2Dccb7X2D4712X2Db972X2D139081e1e241	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+_:B1e101269X2D83e2X2D4c3eX2Db83dX2D69301f3a265e	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B3912646cX2D9236X2D4de6X2Db25cX2D4b14173df404	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bb9f9c158X2Df021X2D426cX2D8d5eX2Dd870f4a11f25
+_:Bb9f9c158X2Df021X2D426cX2D8d5eX2Dd870f4a11f25	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B1e101269X2D83e2X2D4c3eX2Db83dX2D69301f3a265e
+_:B1e101269X2D83e2X2D4c3eX2Db83dX2D69301f3a265e	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:B1e101269X2D83e2X2D4c3eX2Db83dX2D69301f3a265e	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000460>
+_:Bb9f9c158X2Df021X2D426cX2D8d5eX2Dd870f4a11f25	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000200>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/HP_0025456>
+<http://purl.obolibrary.org/obo/DEMKG_0000200>	<http://www.w3.org/2000/01/rdf-schema#label>	"Increased levels of phosphorylated tau"
+<http://purl.obolibrary.org/obo/DEMKG_0000201>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bae83d27aX2D3c6fX2D4dbcX2D9681X2D84f6e9a783b9	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/DEMKG_0000201>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:Bae83d27aX2D3c6fX2D4dbcX2D9681X2D84f6e9a783b9
+_:Bae83d27aX2D3c6fX2D4dbcX2D9681X2D84f6e9a783b9	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:B14da14fbX2Db944X2D4beeX2D867aX2Dfbb0c95abbc6	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bae83d27aX2D3c6fX2D4dbcX2D9681X2D84f6e9a783b9	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B14da14fbX2Db944X2D4beeX2D867aX2Dfbb0c95abbc6
+_:B14da14fbX2Db944X2D4beeX2D867aX2Dfbb0c95abbc6	<http://www.w3.org/2002/07/owl#intersectionOf>	_:Bc401c2a5X2D5255X2D4f29X2Db5f5X2D785e7ec2cf76
+_:Bc401c2a5X2D5255X2D4f29X2Db5f5X2D785e7ec2cf76	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PATO_0001997>
+_:B768652b8X2D5bc0X2D4946X2D92afX2D11eee5a369d6	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bc401c2a5X2D5255X2D4f29X2Db5f5X2D785e7ec2cf76	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B2fa436f4X2D53c0X2D4563X2Dad52X2Ddd4fe80cc745
+_:B2fa436f4X2D53c0X2D4563X2Dad52X2Ddd4fe80cc745	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B768652b8X2D5bc0X2D4946X2D92afX2D11eee5a369d6
+_:B768652b8X2D5bc0X2D4946X2D92afX2D11eee5a369d6	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:Bb12f0d16X2D9656X2D442fX2Da0fdX2Dcfdf4d9a6db9	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B768652b8X2D5bc0X2D4946X2D92afX2D11eee5a369d6	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:Bb12f0d16X2D9656X2D442fX2Da0fdX2Dcfdf4d9a6db9
+_:Bb12f0d16X2D9656X2D442fX2Da0fdX2Dcfdf4d9a6db9	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B7d30a241X2Dcba2X2D49eaX2D886dX2D01193deb39c1
+_:B7d30a241X2Dcba2X2D49eaX2D886dX2D01193deb39c1	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PR_000027446>
+_:B8ad54201X2D295dX2D45d4X2Db016X2Df964f9b9691a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B7d30a241X2Dcba2X2D49eaX2D886dX2D01193deb39c1	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bf4c28ebfX2Dea41X2D48feX2D9cc6X2D60624bdaaf93
+_:Bf4c28ebfX2Dea41X2D48feX2D9cc6X2D60624bdaaf93	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B8ad54201X2D295dX2D45d4X2Db016X2Df964f9b9691a
+_:B8ad54201X2D295dX2D45d4X2Db016X2Df964f9b9691a	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000050>
+_:B8ad54201X2D295dX2D45d4X2Db016X2Df964f9b9691a	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/UBERON_0001359>
+_:Bf4c28ebfX2Dea41X2D48feX2D9cc6X2D60624bdaaf93	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+_:B6678ea09X2D41faX2D4342X2D8f56X2D1e27f9d0eb86	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B2fa436f4X2D53c0X2D4563X2Dad52X2Ddd4fe80cc745	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B2230e1f5X2Dd891X2D4ee6X2Dbaf8X2D2376205699e8
+_:B2230e1f5X2Dd891X2D4ee6X2Dbaf8X2D2376205699e8	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B6678ea09X2D41faX2D4342X2D8f56X2D1e27f9d0eb86
+_:B6678ea09X2D41faX2D4342X2D8f56X2D1e27f9d0eb86	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:B6678ea09X2D41faX2D4342X2D8f56X2D1e27f9d0eb86	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000460>
+_:B2230e1f5X2Dd891X2D4ee6X2Dbaf8X2D2376205699e8	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000201>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/HP_0025456>
+<http://purl.obolibrary.org/obo/DEMKG_0000201>	<http://www.w3.org/2000/01/rdf-schema#label>	"Decreased levels of phosphorylated tau"
+<http://purl.obolibrary.org/obo/DEMKG_0000202>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B0cb53054X2Da626X2D4a0fX2Da1b9X2D9096fe80f060	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/DEMKG_0000202>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:B0cb53054X2Da626X2D4a0fX2Da1b9X2D9096fe80f060
+_:B0cb53054X2Da626X2D4a0fX2Da1b9X2D9096fe80f060	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:Bdbf4c4beX2D590cX2D4647X2D9f21X2D30d3e3249d07	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B0cb53054X2Da626X2D4a0fX2Da1b9X2D9096fe80f060	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:Bdbf4c4beX2D590cX2D4647X2D9f21X2D30d3e3249d07
+_:Bdbf4c4beX2D590cX2D4647X2D9f21X2D30d3e3249d07	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B65b28530X2Dd712X2D45b8X2D8506X2D68872e1de445
+_:B65b28530X2Dd712X2D45b8X2D8506X2D68872e1de445	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PATO_0000470>
+_:B63a26dceX2D7c37X2D47a0X2Da3deX2D15e35b07edd0	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B65b28530X2Dd712X2D45b8X2D8506X2D68872e1de445	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bce37429dX2Dcc10X2D4913X2D973aX2Ddfd37daddf06
+_:Bce37429dX2Dcc10X2D4913X2D973aX2Ddfd37daddf06	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B63a26dceX2D7c37X2D47a0X2Da3deX2D15e35b07edd0
+_:B63a26dceX2D7c37X2D47a0X2Da3deX2D15e35b07edd0	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:Bf940f2a9X2D5066X2D43c4X2Da942X2Dc2cddc74643b	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B63a26dceX2D7c37X2D47a0X2Da3deX2D15e35b07edd0	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:Bf940f2a9X2D5066X2D43c4X2Da942X2Dc2cddc74643b
+_:Bf940f2a9X2D5066X2D43c4X2Da942X2Dc2cddc74643b	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B38ff054cX2Dd242X2D4a72X2DbcfdX2Db03d3e29d658
+_:B38ff054cX2Dd242X2D4a72X2DbcfdX2Db03d3e29d658	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PR_000010173>
+_:B5af43916X2D79c4X2D488cX2DbfabX2D0645d2f5c6de	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B38ff054cX2Dd242X2D4a72X2DbcfdX2Db03d3e29d658	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B6e0b3ccaX2D1ba1X2D4eafX2Da182X2Dd80cdde3180b
+_:B6e0b3ccaX2D1ba1X2D4eafX2Da182X2Dd80cdde3180b	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B5af43916X2D79c4X2D488cX2DbfabX2D0645d2f5c6de
+_:B5af43916X2D79c4X2D488cX2DbfabX2D0645d2f5c6de	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000050>
+_:B5af43916X2D79c4X2D488cX2DbfabX2D0645d2f5c6de	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/UBERON_0001359>
+_:B6e0b3ccaX2D1ba1X2D4eafX2Da182X2Dd80cdde3180b	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+_:B945f03d4X2D1c6eX2D46e6X2Db110X2Dfa643c4cc275	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bce37429dX2Dcc10X2D4913X2D973aX2Ddfd37daddf06	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B9e9d4fd0X2Da172X2D4e5fX2D880aX2D17d567b88b4d
+_:B9e9d4fd0X2Da172X2D4e5fX2D880aX2D17d567b88b4d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B945f03d4X2D1c6eX2D46e6X2Db110X2Dfa643c4cc275
+_:B945f03d4X2D1c6eX2D46e6X2Db110X2Dfa643c4cc275	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:B945f03d4X2D1c6eX2D46e6X2Db110X2Dfa643c4cc275	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000460>
+_:B9e9d4fd0X2Da172X2D4e5fX2D880aX2D17d567b88b4d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000202>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/HP_0025456>
+<http://purl.obolibrary.org/obo/DEMKG_0000202>	<http://www.w3.org/2000/01/rdf-schema#label>	"Increased levels of total tau"
+<http://purl.obolibrary.org/obo/DEMKG_0000203>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bb631bd86X2D7e6aX2D490dX2D9fc1X2D3383e4205ab8	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/DEMKG_0000203>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:Bb631bd86X2D7e6aX2D490dX2D9fc1X2D3383e4205ab8
+_:Bb631bd86X2D7e6aX2D490dX2D9fc1X2D3383e4205ab8	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:B1033e748X2Df38cX2D481fX2D8e94X2D8f248936a0c6	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bb631bd86X2D7e6aX2D490dX2D9fc1X2D3383e4205ab8	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B1033e748X2Df38cX2D481fX2D8e94X2D8f248936a0c6
+_:B1033e748X2Df38cX2D481fX2D8e94X2D8f248936a0c6	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B33e1e0b9X2De3d0X2D43e8X2D9dc0X2Dc52fca5ad38e
+_:B33e1e0b9X2De3d0X2D43e8X2D9dc0X2Dc52fca5ad38e	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PATO_0001997>
+_:Bdc22b5bdX2D0ab8X2D4188X2D9e2eX2D43e60787663d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B33e1e0b9X2De3d0X2D43e8X2D9dc0X2Dc52fca5ad38e	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B9189415bX2D228aX2D424fX2Da535X2Deaec4bcd18a0
+_:B9189415bX2D228aX2D424fX2Da535X2Deaec4bcd18a0	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bdc22b5bdX2D0ab8X2D4188X2D9e2eX2D43e60787663d
+_:Bdc22b5bdX2D0ab8X2D4188X2D9e2eX2D43e60787663d	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:Bc5cb4f04X2D93dfX2D4ae1X2Dbd95X2D179e4f9bbf45	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bdc22b5bdX2D0ab8X2D4188X2D9e2eX2D43e60787663d	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:Bc5cb4f04X2D93dfX2D4ae1X2Dbd95X2D179e4f9bbf45
+_:Bc5cb4f04X2D93dfX2D4ae1X2Dbd95X2D179e4f9bbf45	<http://www.w3.org/2002/07/owl#intersectionOf>	_:Bd1d11d20X2Dac51X2D48c3X2Daf98X2D327506233ae7
+_:Bd1d11d20X2Dac51X2D48c3X2Daf98X2D327506233ae7	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PR_000010173>
+_:B22a3542cX2Dcd85X2D481eX2D9495X2D3dafaadfab44	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bd1d11d20X2Dac51X2D48c3X2Daf98X2D327506233ae7	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B67c25cb0X2D8956X2D46eaX2D8300X2Ddf230d0b0bc6
+_:B67c25cb0X2D8956X2D46eaX2D8300X2Ddf230d0b0bc6	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B22a3542cX2Dcd85X2D481eX2D9495X2D3dafaadfab44
+_:B22a3542cX2Dcd85X2D481eX2D9495X2D3dafaadfab44	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000050>
+_:B22a3542cX2Dcd85X2D481eX2D9495X2D3dafaadfab44	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/UBERON_0001359>
+_:B67c25cb0X2D8956X2D46eaX2D8300X2Ddf230d0b0bc6	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+_:B911820acX2D6730X2D4b59X2D8200X2D5e16cda80902	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B9189415bX2D228aX2D424fX2Da535X2Deaec4bcd18a0	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bd70b8e20X2Da6e6X2D4877X2Dbb6eX2D98d7813288b3
+_:Bd70b8e20X2Da6e6X2D4877X2Dbb6eX2D98d7813288b3	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B911820acX2D6730X2D4b59X2D8200X2D5e16cda80902
+_:B911820acX2D6730X2D4b59X2D8200X2D5e16cda80902	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:B911820acX2D6730X2D4b59X2D8200X2D5e16cda80902	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000460>
+_:Bd70b8e20X2Da6e6X2D4877X2Dbb6eX2D98d7813288b3	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000203>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/HP_0025456>
+<http://purl.obolibrary.org/obo/DEMKG_0000203>	<http://www.w3.org/2000/01/rdf-schema#label>	"Decreased levels of total tau"
+<http://purl.obolibrary.org/obo/DEMKG_0000204>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B75883605X2Db8a1X2D42a5X2D9c33X2D577453d48aee	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/DEMKG_0000204>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:B75883605X2Db8a1X2D42a5X2D9c33X2D577453d48aee
+_:B75883605X2Db8a1X2D42a5X2D9c33X2D577453d48aee	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:B8b194798X2Db657X2D4e3eX2D8ea8X2D831cc8600f7c	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B75883605X2Db8a1X2D42a5X2D9c33X2D577453d48aee	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B8b194798X2Db657X2D4e3eX2D8ea8X2D831cc8600f7c
+_:B8b194798X2Db657X2D4e3eX2D8ea8X2D831cc8600f7c	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B76a91eecX2D97a7X2D419fX2D9edfX2D1d3bebe50f67
+_:B76a91eecX2D97a7X2D419fX2D9edfX2D1d3bebe50f67	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PATO_0000467>
+_:B5455c77dX2D52c5X2D496fX2Dbfe5X2Dbf9fb780972c	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B76a91eecX2D97a7X2D419fX2D9edfX2D1d3bebe50f67	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B8cfacb7eX2Db381X2D4d47X2Db832X2D0ebcaa7d396d
+_:B8cfacb7eX2Db381X2D4d47X2Db832X2D0ebcaa7d396d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B5455c77dX2D52c5X2D496fX2Dbfe5X2Dbf9fb780972c
+_:B5455c77dX2D52c5X2D496fX2Dbfe5X2Dbf9fb780972c	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:B0151a160X2D5ce3X2D4031X2Dbe2cX2D9bd92d1d8ff3	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B5455c77dX2D52c5X2D496fX2Dbfe5X2Dbf9fb780972c	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B0151a160X2D5ce3X2D4031X2Dbe2cX2D9bd92d1d8ff3
+_:B0151a160X2D5ce3X2D4031X2Dbe2cX2D9bd92d1d8ff3	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B57498319X2D7e56X2D4aebX2D9058X2D770ca76c8913
+_:B57498319X2D7e56X2D4aebX2D9058X2D770ca76c8913	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PR_000027446>
+_:Bbf4cf8e2X2Dc33eX2D4686X2D90d3X2D8dd6d0c24c19	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B57498319X2D7e56X2D4aebX2D9058X2D770ca76c8913	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B9c848319X2D6245X2D42a9X2D84b5X2Dbd5b420a379d
+_:B9c848319X2D6245X2D42a9X2D84b5X2Dbd5b420a379d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bbf4cf8e2X2Dc33eX2D4686X2D90d3X2D8dd6d0c24c19
+_:Bbf4cf8e2X2Dc33eX2D4686X2D90d3X2D8dd6d0c24c19	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000050>
+_:Bbf4cf8e2X2Dc33eX2D4686X2D90d3X2D8dd6d0c24c19	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/UBERON_0001359>
+_:B9c848319X2D6245X2D42a9X2D84b5X2Dbd5b420a379d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+_:Be502595bX2Dbb9aX2D4a35X2Dbc74X2Dee99eeb910c6	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B8cfacb7eX2Db381X2D4d47X2Db832X2D0ebcaa7d396d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B726a958bX2D2203X2D48caX2Da1b0X2D216c8d41de0c
+_:B726a958bX2D2203X2D48caX2Da1b0X2D216c8d41de0c	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Be502595bX2Dbb9aX2D4a35X2Dbc74X2Dee99eeb910c6
+_:Be502595bX2Dbb9aX2D4a35X2Dbc74X2Dee99eeb910c6	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:Be502595bX2Dbb9aX2D4a35X2Dbc74X2Dee99eeb910c6	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000461>
+_:B726a958bX2D2203X2D48caX2Da1b0X2D216c8d41de0c	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000204>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000064>
+<http://purl.obolibrary.org/obo/DEMKG_0000204>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal levels of phosphorylated tau"
+<http://purl.obolibrary.org/obo/DEMKG_0000205>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B32d75b35X2D9c8dX2D4ff5X2D9067X2D4a36f20cc37d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/DEMKG_0000205>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:B32d75b35X2D9c8dX2D4ff5X2D9067X2D4a36f20cc37d
+_:B32d75b35X2D9c8dX2D4ff5X2D9067X2D4a36f20cc37d	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:B581c9aa1X2D83baX2D454eX2D9277X2D12df99b22c31	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B32d75b35X2D9c8dX2D4ff5X2D9067X2D4a36f20cc37d	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B581c9aa1X2D83baX2D454eX2D9277X2D12df99b22c31
+_:B581c9aa1X2D83baX2D454eX2D9277X2D12df99b22c31	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B442f0ab8X2D16c1X2D4069X2Dae80X2D11524d4097b4
+_:B442f0ab8X2D16c1X2D4069X2Dae80X2D11524d4097b4	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PATO_0000467>
+_:B34f403deX2D1cc7X2D4331X2Da798X2Da51c9835a6d6	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B442f0ab8X2D16c1X2D4069X2Dae80X2D11524d4097b4	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B7e3e9a6bX2D6d92X2D4c04X2Da1dfX2D2cec5a40bc3a
+_:B7e3e9a6bX2D6d92X2D4c04X2Da1dfX2D2cec5a40bc3a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B34f403deX2D1cc7X2D4331X2Da798X2Da51c9835a6d6
+_:B34f403deX2D1cc7X2D4331X2Da798X2Da51c9835a6d6	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:B2776fe30X2Dc6e5X2D4ba2X2D8ea3X2D0e4454849cc7	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B34f403deX2D1cc7X2D4331X2Da798X2Da51c9835a6d6	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B2776fe30X2Dc6e5X2D4ba2X2D8ea3X2D0e4454849cc7
+_:B2776fe30X2Dc6e5X2D4ba2X2D8ea3X2D0e4454849cc7	<http://www.w3.org/2002/07/owl#intersectionOf>	_:Bfb82d93aX2D553cX2D499fX2D8489X2Db1e6d31621c5
+_:Bfb82d93aX2D553cX2D499fX2D8489X2Db1e6d31621c5	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PR_000010173>
+_:B9d95dc21X2Dc5e6X2D4b91X2Da848X2Dc1706a133e35	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bfb82d93aX2D553cX2D499fX2D8489X2Db1e6d31621c5	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B897fbe05X2D591dX2D4dc6X2D9285X2De23ddad9a840
+_:B897fbe05X2D591dX2D4dc6X2D9285X2De23ddad9a840	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B9d95dc21X2Dc5e6X2D4b91X2Da848X2Dc1706a133e35
+_:B9d95dc21X2Dc5e6X2D4b91X2Da848X2Dc1706a133e35	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000050>
+_:B9d95dc21X2Dc5e6X2D4b91X2Da848X2Dc1706a133e35	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/UBERON_0001359>
+_:B897fbe05X2D591dX2D4dc6X2D9285X2De23ddad9a840	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+_:Bec56c5f2X2D6b14X2D47eeX2Db691X2D5169b00f0d35	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B7e3e9a6bX2D6d92X2D4c04X2Da1dfX2D2cec5a40bc3a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Ba3c51088X2D5da4X2D40a7X2D9815X2Df9d0f57d41c6
+_:Ba3c51088X2D5da4X2D40a7X2D9815X2Df9d0f57d41c6	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bec56c5f2X2D6b14X2D47eeX2Db691X2D5169b00f0d35
+_:Bec56c5f2X2D6b14X2D47eeX2Db691X2D5169b00f0d35	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:Bec56c5f2X2D6b14X2D47eeX2Db691X2D5169b00f0d35	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000461>
+_:Ba3c51088X2D5da4X2D40a7X2D9815X2Df9d0f57d41c6	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000205>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000064>
+<http://purl.obolibrary.org/obo/DEMKG_0000205>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal levels of total tau"
+<http://purl.obolibrary.org/obo/DEMKG_0000500>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bf66db535X2Dd56cX2D4e31X2Dbf99X2D32b81c0b4300	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000500>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:Bf66db535X2Dd56cX2D4e31X2Dbf99X2D32b81c0b4300
+_:B788fd8d4X2D6d29X2D4306X2D87b2X2De313f9b5960f	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bf66db535X2Dd56cX2D4e31X2Dbf99X2D32b81c0b4300	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B25cefa97X2D30c3X2D40edX2D81d3X2D39a826a2dcc4
+_:B25cefa97X2D30c3X2D40edX2D81d3X2D39a826a2dcc4	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B788fd8d4X2D6d29X2D4306X2D87b2X2De313f9b5960f
+_:B788fd8d4X2D6d29X2D4306X2D87b2X2De313f9b5960f	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B788fd8d4X2D6d29X2D4306X2D87b2X2De313f9b5960f	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000066>
+_:B047fab9bX2D622fX2D4714X2D86f5X2D81155bc716d4	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B25cefa97X2D30c3X2D40edX2D81d3X2D39a826a2dcc4	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bbb4a77baX2De459X2D41f5X2Daba9X2D9438a316cc19
+_:Bbb4a77baX2De459X2D41f5X2Daba9X2D9438a316cc19	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B047fab9bX2D622fX2D4714X2D86f5X2D81155bc716d4
+_:B047fab9bX2D622fX2D4714X2D86f5X2D81155bc716d4	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B047fab9bX2D622fX2D4714X2D86f5X2D81155bc716d4	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000204>
+_:B3efcf351X2Dbe0bX2D4751X2Db199X2D8a2401bbf171	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bbb4a77baX2De459X2D41f5X2Daba9X2D9438a316cc19	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bdea79179X2D8503X2D4d8dX2D93c5X2D9649049e83bf
+_:Bdea79179X2D8503X2D4d8dX2D93c5X2D9649049e83bf	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B3efcf351X2Dbe0bX2D4751X2Db199X2D8a2401bbf171
+_:B3efcf351X2Dbe0bX2D4751X2Db199X2D8a2401bbf171	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B3efcf351X2Dbe0bX2D4751X2Db199X2D8a2401bbf171	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000205>
+_:Bdea79179X2D8503X2D4d8dX2D93c5X2D9649049e83bf	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000500>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_1900000>
+<http://purl.obolibrary.org/obo/DEMKG_0000500>	<http://www.w3.org/2000/01/rdf-schema#label>	"A-T-N-"
+<http://purl.obolibrary.org/obo/DEMKG_0000501>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bfc34731fX2D68ddX2D43b0X2Db8a8X2Dc58f6a9c9c5b	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000501>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:Bfc34731fX2D68ddX2D43b0X2Db8a8X2Dc58f6a9c9c5b
+_:B5425a59eX2D2148X2D40d1X2Dbc4bX2D6592062f2412	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bfc34731fX2D68ddX2D43b0X2Db8a8X2Dc58f6a9c9c5b	<http://www.w3.org/2002/07/owl#intersectionOf>	_:Bc7392f99X2D4957X2D41a5X2Db7adX2D5c635d67721a
+_:Bc7392f99X2D4957X2D41a5X2Db7adX2D5c635d67721a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B5425a59eX2D2148X2D40d1X2Dbc4bX2D6592062f2412
+_:B5425a59eX2D2148X2D40d1X2Dbc4bX2D6592062f2412	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B5425a59eX2D2148X2D40d1X2Dbc4bX2D6592062f2412	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000204>
+_:Be84c6927X2D227cX2D4e3eX2D98d6X2Ddd50a20660bf	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bc7392f99X2D4957X2D41a5X2Db7adX2D5c635d67721a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B72dd64f9X2D5ce7X2D4540X2D8cf6X2D2194637ab8a9
+_:B72dd64f9X2D5ce7X2D4540X2D8cf6X2D2194637ab8a9	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Be84c6927X2D227cX2D4e3eX2D98d6X2Ddd50a20660bf
+_:Be84c6927X2D227cX2D4e3eX2D98d6X2Ddd50a20660bf	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:Be84c6927X2D227cX2D4e3eX2D98d6X2Ddd50a20660bf	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000205>
+_:Bd073b130X2D3b71X2D425eX2Da8caX2De8b9260b9503	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B72dd64f9X2D5ce7X2D4540X2D8cf6X2D2194637ab8a9	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B81368b0eX2D35adX2D457fX2D8aadX2D42a86e21676a
+_:B81368b0eX2D35adX2D457fX2D8aadX2D42a86e21676a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bd073b130X2D3b71X2D425eX2Da8caX2De8b9260b9503
+_:Bd073b130X2D3b71X2D425eX2Da8caX2De8b9260b9503	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:Bd073b130X2D3b71X2D425eX2Da8caX2De8b9260b9503	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/HP_0025684>
+_:B81368b0eX2D35adX2D457fX2D8aadX2D42a86e21676a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000501>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_1900000>
+<http://purl.obolibrary.org/obo/DEMKG_0000501>	<http://www.w3.org/2000/01/rdf-schema#label>	"A+T-N-"
+<http://purl.obolibrary.org/obo/DEMKG_0000502>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B9860c1faX2D17e6X2D4da7X2Db487X2Dd1742e49cc19	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000502>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:B9860c1faX2D17e6X2D4da7X2Db487X2Dd1742e49cc19
+_:B6d9a5002X2D07deX2D4a17X2Dac7fX2D2647a28d35a7	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B9860c1faX2D17e6X2D4da7X2Db487X2Dd1742e49cc19	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B7fd17c6aX2Ded0bX2D4bd1X2Dbd57X2D73a0cb17b9b4
+_:B7fd17c6aX2Ded0bX2D4bd1X2Dbd57X2D73a0cb17b9b4	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B6d9a5002X2D07deX2D4a17X2Dac7fX2D2647a28d35a7
+_:B6d9a5002X2D07deX2D4a17X2Dac7fX2D2647a28d35a7	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B6d9a5002X2D07deX2D4a17X2Dac7fX2D2647a28d35a7	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000066>
+_:Bed6f8138X2Df13bX2D4dbcX2D8e33X2D0c28824a060d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B7fd17c6aX2Ded0bX2D4bd1X2Dbd57X2D73a0cb17b9b4	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bef2e259eX2D05bbX2D4dcfX2Dad20X2Dd564ebee6d15
+_:Bef2e259eX2D05bbX2D4dcfX2Dad20X2Dd564ebee6d15	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bed6f8138X2Df13bX2D4dbcX2D8e33X2D0c28824a060d
+_:Bed6f8138X2Df13bX2D4dbcX2D8e33X2D0c28824a060d	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:Bed6f8138X2Df13bX2D4dbcX2D8e33X2D0c28824a060d	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000201>
+_:B80417536X2D8029X2D44daX2D8269X2D36f46e2ba6d2	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bef2e259eX2D05bbX2D4dcfX2Dad20X2Dd564ebee6d15	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bcea21d5cX2D87d5X2D4be3X2Da199X2Dad039de84571
+_:Bcea21d5cX2D87d5X2D4be3X2Da199X2Dad039de84571	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B80417536X2D8029X2D44daX2D8269X2D36f46e2ba6d2
+_:B80417536X2D8029X2D44daX2D8269X2D36f46e2ba6d2	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B80417536X2D8029X2D44daX2D8269X2D36f46e2ba6d2	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000205>
+_:Bcea21d5cX2D87d5X2D4be3X2Da199X2Dad039de84571	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000502>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_1900000>
+<http://purl.obolibrary.org/obo/DEMKG_0000502>	<http://www.w3.org/2000/01/rdf-schema#label>	"A-T+N-"
+<http://purl.obolibrary.org/obo/DEMKG_0000503>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B256912f7X2D7231X2D476fX2D82ebX2Dc8b05d304363	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000503>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:B256912f7X2D7231X2D476fX2D82ebX2Dc8b05d304363
+_:B5bb343ceX2Db861X2D4258X2D8015X2Db51cfc62ac3b	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B256912f7X2D7231X2D476fX2D82ebX2Dc8b05d304363	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B97f49ff6X2D6a7aX2D4bb8X2D83c2X2Ddce30f466217
+_:B97f49ff6X2D6a7aX2D4bb8X2D83c2X2Ddce30f466217	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B5bb343ceX2Db861X2D4258X2D8015X2Db51cfc62ac3b
+_:B5bb343ceX2Db861X2D4258X2D8015X2Db51cfc62ac3b	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B5bb343ceX2Db861X2D4258X2D8015X2Db51cfc62ac3b	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000066>
+_:Bbd319314X2D2199X2D4d4aX2DbcdaX2Df39aa2de3f53	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B97f49ff6X2D6a7aX2D4bb8X2D83c2X2Ddce30f466217	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B2ebd197aX2D44ceX2D4510X2Da0ebX2D2de30b29c0db
+_:B2ebd197aX2D44ceX2D4510X2Da0ebX2D2de30b29c0db	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bbd319314X2D2199X2D4d4aX2DbcdaX2Df39aa2de3f53
+_:Bbd319314X2D2199X2D4d4aX2DbcdaX2Df39aa2de3f53	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:Bbd319314X2D2199X2D4d4aX2DbcdaX2Df39aa2de3f53	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000202>
+_:Bc624b4e7X2Db5e1X2D4e41X2D8907X2D26ce9ba6aa40	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B2ebd197aX2D44ceX2D4510X2Da0ebX2D2de30b29c0db	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B652ad356X2Db419X2D4c88X2Da14bX2Ddccefa62c1ca
+_:B652ad356X2Db419X2D4c88X2Da14bX2Ddccefa62c1ca	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bc624b4e7X2Db5e1X2D4e41X2D8907X2D26ce9ba6aa40
+_:Bc624b4e7X2Db5e1X2D4e41X2D8907X2D26ce9ba6aa40	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:Bc624b4e7X2Db5e1X2D4e41X2D8907X2D26ce9ba6aa40	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000204>
+_:B652ad356X2Db419X2D4c88X2Da14bX2Ddccefa62c1ca	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000503>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_1900000>
+<http://purl.obolibrary.org/obo/DEMKG_0000503>	<http://www.w3.org/2000/01/rdf-schema#label>	"A-T-N+"
+<http://purl.obolibrary.org/obo/DEMKG_0000504>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bebde6845X2D05f6X2D4b22X2D87e6X2Dd9014c61f9af	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000504>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:Bebde6845X2D05f6X2D4b22X2D87e6X2Dd9014c61f9af
+_:B9779173aX2D29bfX2D4171X2Da6e5X2De2bd347aad5f	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bebde6845X2D05f6X2D4b22X2D87e6X2Dd9014c61f9af	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B67d087f1X2Dd9b0X2D4ce5X2D88f8X2Dcfd3a9db8a0f
+_:B67d087f1X2Dd9b0X2D4ce5X2D88f8X2Dcfd3a9db8a0f	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B9779173aX2D29bfX2D4171X2Da6e5X2De2bd347aad5f
+_:B9779173aX2D29bfX2D4171X2Da6e5X2De2bd347aad5f	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B9779173aX2D29bfX2D4171X2Da6e5X2De2bd347aad5f	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000201>
+_:B1fbf670aX2DacdfX2D49feX2DadaaX2D3cfdb6457443	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B67d087f1X2Dd9b0X2D4ce5X2D88f8X2Dcfd3a9db8a0f	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bdcf1f542X2D7ebcX2D49a6X2Da485X2Dc6456ba0c35a
+_:Bdcf1f542X2D7ebcX2D49a6X2Da485X2Dc6456ba0c35a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B1fbf670aX2DacdfX2D49feX2DadaaX2D3cfdb6457443
+_:B1fbf670aX2DacdfX2D49feX2DadaaX2D3cfdb6457443	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B1fbf670aX2DacdfX2D49feX2DadaaX2D3cfdb6457443	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000205>
+_:B7ef8b272X2D37b4X2D47caX2Da498X2Dbce178fa068f	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bdcf1f542X2D7ebcX2D49a6X2Da485X2Dc6456ba0c35a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B520b4d4eX2D108eX2D4301X2D99ceX2D354cac262065
+_:B520b4d4eX2D108eX2D4301X2D99ceX2D354cac262065	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B7ef8b272X2D37b4X2D47caX2Da498X2Dbce178fa068f
+_:B7ef8b272X2D37b4X2D47caX2Da498X2Dbce178fa068f	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B7ef8b272X2D37b4X2D47caX2Da498X2Dbce178fa068f	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/HP_0025684>
+_:B520b4d4eX2D108eX2D4301X2D99ceX2D354cac262065	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000504>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_1900000>
+<http://purl.obolibrary.org/obo/DEMKG_0000504>	<http://www.w3.org/2000/01/rdf-schema#label>	"A+T+N-"
+<http://purl.obolibrary.org/obo/DEMKG_0000505>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bfd9f714fX2D5b1cX2D49f3X2Db51dX2D87b590108a6d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000505>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:Bfd9f714fX2D5b1cX2D49f3X2Db51dX2D87b590108a6d
+_:B7778d9e0X2Dab4aX2D4b8dX2D8170X2Ddd920855782b	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bfd9f714fX2D5b1cX2D49f3X2Db51dX2D87b590108a6d	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B05f7b107X2D4977X2D4451X2D9303X2D80fec15c7a37
+_:B05f7b107X2D4977X2D4451X2D9303X2D80fec15c7a37	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B7778d9e0X2Dab4aX2D4b8dX2D8170X2Ddd920855782b
+_:B7778d9e0X2Dab4aX2D4b8dX2D8170X2Ddd920855782b	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B7778d9e0X2Dab4aX2D4b8dX2D8170X2Ddd920855782b	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000202>
+_:B5311335dX2DeccbX2D42adX2Db67eX2Dfb56bb967369	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B05f7b107X2D4977X2D4451X2D9303X2D80fec15c7a37	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B63492f97X2D526dX2D4966X2D935cX2D4653dcd9d91d
+_:B63492f97X2D526dX2D4966X2D935cX2D4653dcd9d91d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B5311335dX2DeccbX2D42adX2Db67eX2Dfb56bb967369
+_:B5311335dX2DeccbX2D42adX2Db67eX2Dfb56bb967369	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B5311335dX2DeccbX2D42adX2Db67eX2Dfb56bb967369	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000204>
+_:Bbd34adffX2D1073X2D4c5cX2D9e8eX2Dd630e1c5a58c	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B63492f97X2D526dX2D4966X2D935cX2D4653dcd9d91d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B72e7dbe3X2D1832X2D4caeX2Db902X2D29a18c7e2889
+_:B72e7dbe3X2D1832X2D4caeX2Db902X2D29a18c7e2889	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bbd34adffX2D1073X2D4c5cX2D9e8eX2Dd630e1c5a58c
+_:Bbd34adffX2D1073X2D4c5cX2D9e8eX2Dd630e1c5a58c	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:Bbd34adffX2D1073X2D4c5cX2D9e8eX2Dd630e1c5a58c	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/HP_0025684>
+_:B72e7dbe3X2D1832X2D4caeX2Db902X2D29a18c7e2889	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000505>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_1900000>
+<http://purl.obolibrary.org/obo/DEMKG_0000505>	<http://www.w3.org/2000/01/rdf-schema#label>	"A+T-N+"
+<http://purl.obolibrary.org/obo/DEMKG_0000506>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bb758cd4fX2Da5cfX2D4e53X2Da789X2D0dbcd665db9a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000506>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:Bb758cd4fX2Da5cfX2D4e53X2Da789X2D0dbcd665db9a
+_:Ba2e7ffa6X2D65a4X2D4252X2D9596X2D4934754f5673	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bb758cd4fX2Da5cfX2D4e53X2Da789X2D0dbcd665db9a	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B55438d74X2Db321X2D4d91X2D91d4X2D30257d9f5611
+_:B55438d74X2Db321X2D4d91X2D91d4X2D30257d9f5611	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Ba2e7ffa6X2D65a4X2D4252X2D9596X2D4934754f5673
+_:Ba2e7ffa6X2D65a4X2D4252X2D9596X2D4934754f5673	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:Ba2e7ffa6X2D65a4X2D4252X2D9596X2D4934754f5673	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000066>
+_:B50211274X2Dfee4X2D4f44X2Db8e8X2D9d36a79a584b	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B55438d74X2Db321X2D4d91X2D91d4X2D30257d9f5611	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B7b6ac009X2De59fX2D40a0X2Da121X2Dd93aac701c38
+_:B7b6ac009X2De59fX2D40a0X2Da121X2Dd93aac701c38	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B50211274X2Dfee4X2D4f44X2Db8e8X2D9d36a79a584b
+_:B50211274X2Dfee4X2D4f44X2Db8e8X2D9d36a79a584b	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B50211274X2Dfee4X2D4f44X2Db8e8X2D9d36a79a584b	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000201>
+_:B8c173853X2Da9e0X2D4b15X2Da355X2De9f997dfb636	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B7b6ac009X2De59fX2D40a0X2Da121X2Dd93aac701c38	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bff81c8ecX2D58a2X2D415fX2Da9b6X2D13a27e11dbfc
+_:Bff81c8ecX2D58a2X2D415fX2Da9b6X2D13a27e11dbfc	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B8c173853X2Da9e0X2D4b15X2Da355X2De9f997dfb636
+_:B8c173853X2Da9e0X2D4b15X2Da355X2De9f997dfb636	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B8c173853X2Da9e0X2D4b15X2Da355X2De9f997dfb636	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000202>
+_:Bff81c8ecX2D58a2X2D415fX2Da9b6X2D13a27e11dbfc	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000506>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_1900000>
+<http://purl.obolibrary.org/obo/DEMKG_0000506>	<http://www.w3.org/2000/01/rdf-schema#label>	"A-T+N+"
+<http://purl.obolibrary.org/obo/DEMKG_0000507>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B5c6c2581X2D25a9X2D47e6X2Db972X2Dc30d176c4156	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_0000507>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:B5c6c2581X2D25a9X2D47e6X2Db972X2Dc30d176c4156
+_:Ba332138fX2De8b5X2D4938X2Db259X2D29e5d8f90f2d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B5c6c2581X2D25a9X2D47e6X2Db972X2Dc30d176c4156	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B283811b3X2D1c19X2D481dX2Dad36X2D0316eff79968
+_:B283811b3X2D1c19X2D481dX2Dad36X2D0316eff79968	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Ba332138fX2De8b5X2D4938X2Db259X2D29e5d8f90f2d
+_:Ba332138fX2De8b5X2D4938X2Db259X2D29e5d8f90f2d	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:Ba332138fX2De8b5X2D4938X2Db259X2D29e5d8f90f2d	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000201>
+_:Bbbd70b06X2Dea94X2D4058X2Da9e3X2D30890916fd36	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B283811b3X2D1c19X2D481dX2Dad36X2D0316eff79968	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B5a3513c3X2D3274X2D49afX2Db4deX2D5f1be0556b07
+_:B5a3513c3X2D3274X2D49afX2Db4deX2D5f1be0556b07	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bbbd70b06X2Dea94X2D4058X2Da9e3X2D30890916fd36
+_:Bbbd70b06X2Dea94X2D4058X2Da9e3X2D30890916fd36	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:Bbbd70b06X2Dea94X2D4058X2Da9e3X2D30890916fd36	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/DEMKG_0000202>
+_:B32094f63X2D433fX2D407cX2D89e7X2D37237ae48f84	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B5a3513c3X2D3274X2D49afX2Db4deX2D5f1be0556b07	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B74130480X2D3135X2D403fX2Dbc04X2D8c6f59873fbe
+_:B74130480X2D3135X2D403fX2Dbc04X2D8c6f59873fbe	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B32094f63X2D433fX2D407cX2D89e7X2D37237ae48f84
+_:B32094f63X2D433fX2D407cX2D89e7X2D37237ae48f84	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/IAO_0000136>
+_:B32094f63X2D433fX2D407cX2D89e7X2D37237ae48f84	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/HP_0025684>
+_:B74130480X2D3135X2D403fX2Dbc04X2D8c6f59873fbe	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/DEMKG_0000507>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_1900000>
+<http://purl.obolibrary.org/obo/DEMKG_0000507>	<http://www.w3.org/2000/01/rdf-schema#label>	"A+T+N+"
+<http://purl.obolibrary.org/obo/DEMKG_1900000>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/DEMKG_1900000>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/OBI_0001930>
+<http://purl.obolibrary.org/obo/DEMKG_1900000>	<http://www.w3.org/2000/01/rdf-schema#label>	"ATN classification value"@en
+<http://purl.obolibrary.org/obo/GO_0050890>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/HP_0000001>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/HP_0025456>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/HP_0025684>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bb40d488aX2D4723X2D4455X2Db478X2De0481bb913b2	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/HP_0025684>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:Bb40d488aX2D4723X2D4455X2Db478X2De0481bb913b2
+_:Bb40d488aX2D4723X2D4455X2Db478X2De0481bb913b2	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:B014dd949X2D9f83X2D4331X2Da8d9X2De9af4361645b	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bb40d488aX2D4723X2D4455X2Db478X2De0481bb913b2	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B014dd949X2D9f83X2D4331X2Da8d9X2De9af4361645b
+_:B014dd949X2D9f83X2D4331X2Da8d9X2De9af4361645b	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B8e969659X2D402dX2D404eX2Db39eX2D5069df71ddc5
+_:B8e969659X2D402dX2D404eX2Db39eX2D5069df71ddc5	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PATO_0001997>
+_:Bc456aa73X2D0e55X2D4f13X2DbeeeX2D4c040ada5151	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B8e969659X2D402dX2D404eX2Db39eX2D5069df71ddc5	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B2004c5f4X2D227cX2D4f30X2D90f7X2D442ae6323389
+_:B2004c5f4X2D227cX2D4f30X2D90f7X2D442ae6323389	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bc456aa73X2D0e55X2D4f13X2DbeeeX2D4c040ada5151
+_:Bc456aa73X2D0e55X2D4f13X2DbeeeX2D4c040ada5151	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:B42a2b5ecX2Dbc0eX2D4ba7X2Db54aX2Db51904af0a8e	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bc456aa73X2D0e55X2D4f13X2DbeeeX2D4c040ada5151	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B42a2b5ecX2Dbc0eX2D4ba7X2Db54aX2Db51904af0a8e
+_:B42a2b5ecX2Dbc0eX2D4ba7X2Db54aX2Db51904af0a8e	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B589009fbX2D6302X2D486eX2D978aX2D2e144a1a5ee0
+_:B589009fbX2D6302X2D486eX2D978aX2D2e144a1a5ee0	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PR_000050063>
+_:B3b65bf80X2Debd9X2D4d49X2Da2abX2De43243e8f5cd	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B589009fbX2D6302X2D486eX2D978aX2D2e144a1a5ee0	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B59a27971X2Dc37cX2D4756X2D8dc2X2D36e91c742519
+_:B59a27971X2Dc37cX2D4756X2D8dc2X2D36e91c742519	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B3b65bf80X2Debd9X2D4d49X2Da2abX2De43243e8f5cd
+_:B3b65bf80X2Debd9X2D4d49X2Da2abX2De43243e8f5cd	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000050>
+_:B3b65bf80X2Debd9X2D4d49X2Da2abX2De43243e8f5cd	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/UBERON_0001359>
+_:B59a27971X2Dc37cX2D4756X2D8dc2X2D36e91c742519	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+_:Bbdd84d34X2Dca2bX2D4371X2Da86cX2D84f3992ae2f3	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B2004c5f4X2D227cX2D4f30X2D90f7X2D442ae6323389	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bb7f4a11bX2D1c55X2D43a3X2Dbf98X2D21918325978d
+_:Bb7f4a11bX2D1c55X2D43a3X2Dbf98X2D21918325978d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bbdd84d34X2Dca2bX2D4371X2Da86cX2D84f3992ae2f3
+_:Bbdd84d34X2Dca2bX2D4371X2Da86cX2D84f3992ae2f3	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:Bbdd84d34X2Dca2bX2D4371X2Da86cX2D84f3992ae2f3	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000460>
+_:Bb7f4a11bX2D1c55X2D43a3X2Dbf98X2D21918325978d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/OBI_0001930>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/PATO_0000460>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/PATO_0000461>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/PATO_0000467>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/PATO_0000470>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/PATO_0001509>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/PATO_0001997>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/PR_000010173>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/PR_000027446>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/PR_000050063>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/UBERON_0001016>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/UBERON_0001359>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/#DEMKG_0000002>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B7cd56514X2D09ceX2D4996X2D98f6X2D3e9b6646eeaa	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/#DEMKG_0000002>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:B7cd56514X2D09ceX2D4996X2D98f6X2D3e9b6646eeaa
+_:B7cd56514X2D09ceX2D4996X2D98f6X2D3e9b6646eeaa	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:Bea1cb4c7X2D1bf0X2D4ed4X2D81b9X2D34834fe54e29	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B7cd56514X2D09ceX2D4996X2D98f6X2D3e9b6646eeaa	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:Bea1cb4c7X2D1bf0X2D4ed4X2D81b9X2D34834fe54e29
+_:Bea1cb4c7X2D1bf0X2D4ed4X2D81b9X2D34834fe54e29	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B7fcb492bX2D3d4bX2D4af6X2Da509X2Dd137f60dd7e0
+_:B7fcb492bX2D3d4bX2D4af6X2Da509X2Dd137f60dd7e0	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/BFO_0000019>
+_:Bbbf38275X2Ddf4bX2D4f43X2D9713X2D94d0585acd64	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B7fcb492bX2D3d4bX2D4af6X2Da509X2Dd137f60dd7e0	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Ba7a054efX2D7d53X2D49d5X2Da088X2Db7dfb0a3ea70
+_:Ba7a054efX2D7d53X2D49d5X2Da088X2Db7dfb0a3ea70	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bbbf38275X2Ddf4bX2D4f43X2D9713X2D94d0585acd64
+_:Bbbf38275X2Ddf4bX2D4f43X2D9713X2D94d0585acd64	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:Bbbf38275X2Ddf4bX2D4f43X2D9713X2D94d0585acd64	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/UBERON_0001016>
+_:B2560b41fX2D2708X2D49b2X2D84b9X2D53babdb9fdc5	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Ba7a054efX2D7d53X2D49d5X2Da088X2Db7dfb0a3ea70	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B78cf8de0X2D65f6X2D4688X2Da730X2D3a6b7332ea3d
+_:B78cf8de0X2D65f6X2D4688X2Da730X2D3a6b7332ea3d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:B2560b41fX2D2708X2D49b2X2D84b9X2D53babdb9fdc5
+_:B2560b41fX2D2708X2D49b2X2D84b9X2D53babdb9fdc5	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:B2560b41fX2D2708X2D49b2X2D84b9X2D53babdb9fdc5	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000461>
+_:B78cf8de0X2D65f6X2D4688X2Da730X2D3a6b7332ea3d	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/#DEMKG_0000002>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000001>
+<http://purl.obolibrary.org/obo/#DEMKG_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normality of the nervous system"
+<http://purl.obolibrary.org/obo/#DEMKG_0000003>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B39ca8727X2Dd9c5X2D403dX2Daec7X2D768c9e632ede	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/#DEMKG_0000003>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:B39ca8727X2Dd9c5X2D403dX2Daec7X2D768c9e632ede
+_:B39ca8727X2Dd9c5X2D403dX2Daec7X2D768c9e632ede	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:Bf7cd3522X2D328fX2D4c9aX2D9469X2Dcd0ea1e23916	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:B39ca8727X2Dd9c5X2D403dX2Daec7X2D768c9e632ede	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:Bf7cd3522X2D328fX2D4c9aX2D9469X2Dcd0ea1e23916
+_:Bf7cd3522X2D328fX2D4c9aX2D9469X2Dcd0ea1e23916	<http://www.w3.org/2002/07/owl#intersectionOf>	_:B11028149X2D6e51X2D4b44X2Da827X2Da72eec94d9cf
+_:B11028149X2D6e51X2D4b44X2Da827X2Da72eec94d9cf	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PATO_0001509>
+_:Bb88fde36X2Ddc64X2D43f7X2Dab4dX2D9ef4b5ed1a00	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B11028149X2D6e51X2D4b44X2Da827X2Da72eec94d9cf	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B2f6d001aX2D2cfbX2D41dbX2D924dX2D61f5b97552d2
+_:B2f6d001aX2D2cfbX2D41dbX2D924dX2D61f5b97552d2	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bb88fde36X2Ddc64X2D43f7X2Dab4dX2D9ef4b5ed1a00
+_:Bb88fde36X2Ddc64X2D43f7X2Dab4dX2D9ef4b5ed1a00	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:Bb88fde36X2Ddc64X2D43f7X2Dab4dX2D9ef4b5ed1a00	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/UBERON_0001016>
+_:Bb631538fX2D5517X2D424bX2D9780X2D3bdac7f74256	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B2f6d001aX2D2cfbX2D41dbX2D924dX2D61f5b97552d2	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:Bba3e3aa7X2D2efcX2D481dX2D860bX2D324536020b6f
+_:Bba3e3aa7X2D2efcX2D481dX2D860bX2D324536020b6f	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bb631538fX2D5517X2D424bX2D9780X2D3bdac7f74256
+_:Bb631538fX2D5517X2D424bX2D9780X2D3bdac7f74256	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:Bb631538fX2D5517X2D424bX2D9780X2D3bdac7f74256	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000461>
+_:Bba3e3aa7X2D2efcX2D481dX2D860bX2D324536020b6f	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/#DEMKG_0000003>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000002>
+<http://purl.obolibrary.org/obo/#DEMKG_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal nervous system physiology"
+<http://purl.obolibrary.org/obo/#DEMKG_0000004>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+<http://purl.obolibrary.org/obo/#DEMKG_0000004>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000003>
+<http://purl.obolibrary.org/obo/#DEMKG_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normality of higher mental function"
+<http://purl.obolibrary.org/obo/#DEMKG_0000005>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bf18adf35X2D5d7fX2D4c1eX2Daf5cX2Debaacd9e61b8	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+<http://purl.obolibrary.org/obo/#DEMKG_0000005>	<http://www.w3.org/2002/07/owl#equivalentClass>	_:Bf18adf35X2D5d7fX2D4c1eX2Daf5cX2Debaacd9e61b8
+_:Bf18adf35X2D5d7fX2D4c1eX2Daf5cX2Debaacd9e61b8	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/BFO_0000051>
+_:B61ff28b9X2D779eX2D437aX2D871dX2Ddbc9885f0329	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Class>
+_:Bf18adf35X2D5d7fX2D4c1eX2Daf5cX2Debaacd9e61b8	<http://www.w3.org/2002/07/owl#someValuesFrom>	_:B61ff28b9X2D779eX2D437aX2D871dX2Ddbc9885f0329
+_:B61ff28b9X2D779eX2D437aX2D871dX2Ddbc9885f0329	<http://www.w3.org/2002/07/owl#intersectionOf>	_:Bf6ee1d6eX2D0871X2D459fX2Da47aX2De0c9f1ec09d1
+_:Bf6ee1d6eX2D0871X2D459fX2Da47aX2De0c9f1ec09d1	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	<http://purl.obolibrary.org/obo/PATO_0001509>
+_:Ba4bb818eX2D8ffaX2D4068X2DaeccX2Dd7de9b856bd3	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:Bf6ee1d6eX2D0871X2D459fX2Da47aX2De0c9f1ec09d1	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B7e49281dX2D63c9X2D4225X2D822dX2D5074dc274d99
+_:B7e49281dX2D63c9X2D4225X2D822dX2D5074dc274d99	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Ba4bb818eX2D8ffaX2D4068X2DaeccX2Dd7de9b856bd3
+_:Ba4bb818eX2D8ffaX2D4068X2DaeccX2Dd7de9b856bd3	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0000052>
+_:Ba4bb818eX2D8ffaX2D4068X2DaeccX2Dd7de9b856bd3	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/GO_0050890>
+_:Bc94f4265X2Dae41X2D4721X2Dbd65X2Dfeb17f5ecf96	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Restriction>
+_:B7e49281dX2D63c9X2D4225X2D822dX2D5074dc274d99	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	_:B4e9ff5afX2Dcc93X2D426eX2D8fbfX2Da42c00944a1a
+_:B4e9ff5afX2Dcc93X2D426eX2D8fbfX2Da42c00944a1a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>	_:Bc94f4265X2Dae41X2D4721X2Dbd65X2Dfeb17f5ecf96
+_:Bc94f4265X2Dae41X2D4721X2Dbd65X2Dfeb17f5ecf96	<http://www.w3.org/2002/07/owl#onProperty>	<http://purl.obolibrary.org/obo/RO_0002573>
+_:Bc94f4265X2Dae41X2D4721X2Dbd65X2Dfeb17f5ecf96	<http://www.w3.org/2002/07/owl#someValuesFrom>	<http://purl.obolibrary.org/obo/PATO_0000461>
+_:B4e9ff5afX2Dcc93X2D426eX2D8fbfX2Da42c00944a1a	<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+<http://purl.obolibrary.org/obo/#DEMKG_0000005>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/DEMKG_0000004>
+<http://purl.obolibrary.org/obo/#DEMKG_0000005>	<http://www.w3.org/2000/01/rdf-schema#label>	"Normal cognition"

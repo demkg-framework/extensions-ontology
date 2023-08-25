@@ -9,12 +9,12 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/demkg/demkg-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/demkg/releases/2023-07-08/demkg-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/demkg/releases/2023-08-01/demkg-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>demKG extensions ontology</terms:title>
-        <owl:versionInfo>2023-07-08</owl:versionInfo>
+        <owl:versionInfo>2023-08-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -83,6 +83,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
@@ -112,40 +118,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DEMKG_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
-        <rdfs:label xml:lang="en">Phenotypic normality</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DEMKG_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000002">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001016"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000001"/>
-        <rdfs:label>Normality of the nervous system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
+        <rdfs:label>Phenotypic normality</rdfs:label>
     </owl:Class>
     
 
@@ -153,28 +130,8 @@
     <!-- http://purl.obolibrary.org/obo/DEMKG_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000003">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001509"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001016"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
-        <rdfs:label>Normal nervous system physiology</rdfs:label>
+        <rdfs:label>normality of the nervous system</rdfs:label>
     </owl:Class>
     
 
@@ -183,7 +140,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000003"/>
-        <rdfs:label>Normality of higher mental function</rdfs:label>
+        <rdfs:label>normal nervous system physiology</rdfs:label>
     </owl:Class>
     
 
@@ -191,35 +148,960 @@
     <!-- http://purl.obolibrary.org/obo/DEMKG_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000005">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001509"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050890"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000004"/>
+        <rdfs:label>normality of higher mental function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000005"/>
+        <rdfs:label>Normal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of metabolism/homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000008"/>
+        <rdfs:label>normal circulating metabolite concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000009"/>
+        <rdfs:label>normal circulating protein concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000010"/>
+        <rdfs:label>normal circulating albumin concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of blood and blood-forming tissues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000012"/>
+        <rdfs:label>normal leukocyte morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000013"/>
+        <rdfs:label>normal leukocyte count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000004"/>
+        <rdfs:label>normal central motor function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000003"/>
+        <rdfs:label>normal nervous system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000020"/>
+        <rdfs:label>normal peripheral nervous system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000021"/>
+        <rdfs:label>normal cranial nerve morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000004"/>
+        <rdfs:label>normality of movement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000023"/>
+        <rdfs:label>Postural stability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of the respiratory system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000025"/>
+        <rdfs:label>normal respiratory system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000023"/>
+        <rdfs:label>Normal gait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000009"/>
+        <rdfs:label>normal blood ion concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000028"/>
+        <rdfs:label>normal blood cation concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000029"/>
+        <rdfs:label>normal blood inorganic cation concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000030"/>
+        <rdfs:label>normal circulating calcium concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000008"/>
+        <rdfs:label>normal erythrocyte sedimentation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000008"/>
+        <rdfs:label>normal metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000033"/>
+        <rdfs:label>normality of vitamin metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000034"/>
+        <rdfs:label>normality of vitamin D metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000026"/>
+        <rdfs:label>normal pattern of respiration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of the cardiovascular system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000039"/>
+        <rdfs:label>normality of the vasculature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000040"/>
+        <rdfs:label>normal vascular morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000041"/>
+        <rdfs:label>normal blood vessel morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000042"/>
+        <rdfs:label>normal systemic arterial morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000043"/>
+        <rdfs:label>normal carotid artery morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000012"/>
+        <rdfs:label>normal bleeding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of the ear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000049"/>
+        <rdfs:label>normal ear physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000050"/>
+        <rdfs:label>Hearing normality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of the digestive system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000052"/>
+        <rdfs:label>normality of digestive system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000017"/>
+        <rdfs:label>normality of coordination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of the eye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000055"/>
+        <rdfs:label>normal eye physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000056"/>
+        <rdfs:label>normality of vision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000009"/>
+        <rdfs:label>normal circulating lipid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000058"/>
+        <rdfs:label>normal circulating cholesterol concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of the genitourinary system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000061"/>
+        <rdfs:label>normality of the genital system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000062"/>
+        <rdfs:label>normality of reproductive system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000008"/>
+        <rdfs:label>normal CSF protein concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000064"/>
+        <rdfs:label>normal amyloid beta peptide CSF concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000065"/>
+        <rdfs:label>normal amyloid beta 42 peptide CSF concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000029"/>
+        <rdfs:label>normal blood monovalent inorganic cation concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000068"/>
+        <rdfs:label>normal blood sodium concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000006"/>
+        <rdfs:label>Normal personality functioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000006"/>
+        <rdfs:label>Normal sleep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000053"/>
+        <rdfs:label>Normal appetite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of the endocrine system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000078"/>
+        <rdfs:label>normality of the hypothalamus-pituitary axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000079"/>
+        <rdfs:label>normality of the pituitary gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000080"/>
+        <rdfs:label>normal thyroid-stimulating hormone level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000008"/>
+        <rdfs:label>normal homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000082"/>
+        <rdfs:label>normal glucose homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000083"/>
+        <rdfs:label>normal blood glucose concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000004"/>
+        <rdfs:label>Normal somatic sensory function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000023"/>
+        <rdfs:label>normal reflex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000012"/>
+        <rdfs:label>normal erythrocyte morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000087"/>
+        <rdfs:label>normal hemoglobin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000010"/>
+        <rdfs:label>normal circulating C-reactive protein concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000034"/>
+        <rdfs:label>normality of vitamin B metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000090"/>
+        <rdfs:label>normality of vitamin B12 metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000091"/>
+        <rdfs:label>normal vitamin B12 level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000090"/>
+        <rdfs:label>normality of folate metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000094"/>
+        <rdfs:label>normal blood folate concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000061"/>
+        <rdfs:label>normality of the urinary system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000008"/>
+        <rdfs:label>normal CSF metabolite concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000097"/>
+        <rdfs:label>normal CSF glucose concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000005"/>
         <rdfs:label>Normal cognition</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DEMKG_000100 -->
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000100 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_000100">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000010"/>
+        <rdfs:label>normal circulating ferritin concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000087"/>
+        <rdfs:label>normal hematocrit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000068"/>
+        <rdfs:label>normal blood potassium concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000052"/>
+        <rdfs:label>normal abdomen morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000020"/>
+        <rdfs:label>Morphological central nervous system normality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000105"/>
+        <rdfs:label>normality of brain morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000106"/>
+        <rdfs:label>normal cerebral vascular morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000106"/>
+        <rdfs:label>normal forebrain morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000110"/>
+        <rdfs:label>normal cerebral morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000059"/>
+        <rdfs:label>normality of lipoprotein cholesterol concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000114"/>
+        <rdfs:label>normal HDL cholesterol concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000017"/>
+        <rdfs:label>normality of extrapyramidal motor function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000039"/>
+        <rdfs:label>normal cardiovascular system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000118"/>
+        <rdfs:label>normal systemic blood pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000119"/>
+        <rdfs:label>Normal blood pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>normality of head or neck</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000124"/>
+        <rdfs:label>normality of the head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000125"/>
+        <rdfs:label>normality of the face</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000126"/>
+        <rdfs:label>normality of the nose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000127"/>
+        <rdfs:label>normality of the sense of smell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000070"/>
+        <rdfs:label>normal fear/anxiety-related behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000114"/>
+        <rdfs:label>normal LDL cholesterol concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000009"/>
+        <rdfs:label>normal circulating carboxylic acid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000135"/>
+        <rdfs:label>normal circulating amino acid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000136"/>
+        <rdfs:label>normal circulating proteinogenic amino acid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000137"/>
+        <rdfs:label>normal circulating sulfur amino acid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000138"/>
+        <rdfs:label>normal circulating homocysteine concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000009"/>
+        <rdfs:label>normal circulating nitrogen compound concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000140"/>
+        <rdfs:label>normal circulating creatinine concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000200">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -256,9 +1138,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DEMKG_000101 -->
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000201 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_000101">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000201">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -295,9 +1177,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DEMKG_000102 -->
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000202 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_000102">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000202">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -334,9 +1216,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DEMKG_000103 -->
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000203 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_000103">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000203">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -369,6 +1251,309 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025456"/>
         <rdfs:label>Decreased levels of total tau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000204">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000467"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000027446"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001359"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000064"/>
+        <rdfs:label>Normal levels of phosphorylated tau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000205">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000467"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010173"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001359"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000064"/>
+        <rdfs:label>Normal levels of total tau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000500">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000066"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000204"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000205"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900000"/>
+        <rdfs:label>A-T-N-</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000501">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000204"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000205"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0025684"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900000"/>
+        <rdfs:label>A+T-N-</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000502">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000066"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000201"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000205"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900000"/>
+        <rdfs:label>A-T+N-</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000503">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000066"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000202"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000204"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900000"/>
+        <rdfs:label>A-T-N+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000504">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000201"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000205"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0025684"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900000"/>
+        <rdfs:label>A+T+N-</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000505">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000202"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000204"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0025684"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900000"/>
+        <rdfs:label>A+T-N+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000506">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000066"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000201"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000202"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900000"/>
+        <rdfs:label>A-T+N+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_0000507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_0000507">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000201"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000202"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0025684"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900000"/>
+        <rdfs:label>A+T+N+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMKG_1900000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <rdfs:label xml:lang="en">ATN classification value</rdfs:label>
     </owl:Class>
     
 
@@ -428,6 +1613,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000460 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000460"/>
@@ -437,6 +1628,12 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0000461 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000461"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000467"/>
     
 
 
@@ -485,9 +1682,76 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001359"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/#DEMKG_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/#DEMKG_0000003">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001509"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001016"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000002"/>
+        <rdfs:label>Normal nervous system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/#DEMKG_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/#DEMKG_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000003"/>
+        <rdfs:label>Normality of higher mental function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/#DEMKG_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/#DEMKG_0000005">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001509"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050890"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMKG_0000004"/>
+        <rdfs:label>Normal cognition</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
