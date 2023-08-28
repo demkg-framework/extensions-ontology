@@ -1,0 +1,128 @@
+defined_class	sc	has_equivalences	label	original_label	original_class
+DEMKG:0000002	DEMKG:0000001	*	Normality of metabolism/homeostasis	Abnormality of metabolism/homeostasis	HP:0001939
+DEMKG:0000003	DEMKG:0000002		Normal circulating metabolite concentration	Abnormal circulating metabolite concentration	HP:0032180
+DEMKG:0000004	DEMKG:0000003	*	Normal blood ion concentration	Abnormal blood ion concentration	HP:0003111
+DEMKG:0000005	DEMKG:0000004	*	Normal blood cation concentration	Abnormal blood cation concentration	HP:0010929
+DEMKG:0000006	DEMKG:0000005	*	Normal blood inorganic cation concentration	Abnormal blood inorganic cation concentration	HP:0010927
+DEMKG:0000007	DEMKG:0000006	*	Normal circulating calcium concentration	Abnormal circulating calcium concentration	HP:0004363
+DEMKG:0000008	DEMKG:0000003	*	Normal circulating lipid concentration	Abnormal circulating lipid concentration	HP:0003119
+DEMKG:0000009	DEMKG:0000008	*	Normal circulating cholesterol concentration	Abnormal circulating cholesterol concentration	HP:0003107
+DEMKG:0000010	DEMKG:0000009	*	Normality of lipoprotein cholesterol concentration	Abnormality of lipoprotein cholesterol concentration	HP:0010979
+DEMKG:0000011	DEMKG:0000010		Normal LDL cholesterol concentration	Abnormal LDL cholesterol concentration	HP:0031886
+DEMKG:0000012	DEMKG:0000001	*	Normality of the nervous system	Abnormality of the nervous system	HP:0000707
+DEMKG:0000013	DEMKG:0000012	*	Normal nervous system physiology	Abnormal nervous system physiology	HP:0012638
+DEMKG:0000014	DEMKG:0000013		Normality of higher mental function	Abnormality of higher mental function	HP:0011446
+DEMKG:0000015	DEMKG:0000014	*	Normal behavior	Atypical behavior	HP:0000708
+DEMKG:0000016	DEMKG:0000015	*	Normal Sleep	Sleep disturbance	HP:0002360
+DEMKG:0000017	DEMKG:0000002		Normal metabolism	Abnormal metabolism	HP:0032245
+DEMKG:0000018	DEMKG:0000017	*	Normality of vitamin metabolism	Abnormality of vitamin metabolism	HP:0100508
+DEMKG:0000019	DEMKG:0000018	*	Normality of vitamin D metabolism	Abnormality of vitamin D metabolism	HP:0100511
+DEMKG:0000020	DEMKG:0000001	*	Normality of head or neck	Abnormality of head or neck	HP:0000152
+DEMKG:0000021	DEMKG:0000020	*	Normality of the head	Abnormality of the head	HP:0000234
+DEMKG:0000022	DEMKG:0000021	*	Normality of the face	Abnormality of the face	HP:0000271
+DEMKG:0000023	DEMKG:0000022	*	Normality of the nose	Abnormality of the nose	HP:0000366
+DEMKG:0000024	DEMKG:0000023	*	Normality of the sense of smell	Abnormality of the sense of smell	HP:0004408
+DEMKG:0000024	DEMKG:0000013	*	Normality of the sense of smell	Abnormality of the sense of smell	HP:0004408
+DEMKG:0000025	DEMKG:0000012	*	Normal nervous system morphology	Abnormal nervous system morphology	HP:0012639
+DEMKG:0000026	DEMKG:0000025	*	Morphological central nervous system normality	Morphological central nervous system abnormality	HP:0002011
+DEMKG:0000029	DEMKG:0000026	*	Normality of brain morphology	Abnormality of brain morphology	HP:0012443
+DEMKG:0000030	DEMKG:0000001	*	Normality of the cardiovascular system	Abnormality of the cardiovascular system	HP:0001626
+DEMKG:0000031	DEMKG:0000030	*	Normality of the vasculature	Abnormality of the vasculature	HP:0002597
+DEMKG:0000032	DEMKG:0000030	*	Normality of cardiovascular system morphology	Abnormality of cardiovascular system morphology	HP:0030680
+DEMKG:0000033	DEMKG:0000031	*	Normal vascular morphology	Abnormal vascular morphology	HP:0025015
+DEMKG:0000033	DEMKG:0000032	*	Normal vascular morphology	Abnormal vascular morphology	HP:0025015
+DEMKG:0000034	DEMKG:0000029	*	Normal cerebral vascular morphology	Abnormal cerebral vascular morphology	HP:0100659
+DEMKG:0000034	DEMKG:0000033	*	Normal cerebral vascular morphology	Abnormal cerebral vascular morphology	HP:0100659
+DEMKG:0000036	DEMKG:0000030	*	Normal cardiovascular system physiology	Abnormal cardiovascular system physiology	HP:0011025
+DEMKG:0000037	DEMKG:0000031	*	Normal vascular physiology	Abnormal vascular physiology	HP:0030163
+DEMKG:0000037	DEMKG:0000036	*	Normal vascular physiology	Abnormal vascular physiology	HP:0030163
+DEMKG:0000038	DEMKG:0000037	*	Normal arterial physiology	Abnormal arterial physiology	HP:0025323
+DEMKG:0000041	DEMKG:0000029	*	Normal forebrain morphology	Abnormal forebrain morphology	HP:0100547
+DEMKG:0000042	DEMKG:0000041	*	Normal cerebral morphology	Abnormal cerebral morphology	HP:0002060
+DEMKG:0000045	DEMKG:0000026	*	Normal cerebrospinal fluid morphology	Abnormal cerebrospinal fluid morphology	HP:0002921
+DEMKG:0000046	DEMKG:0000002	*	Normal CSF metabolite concentration	Abnormal CSF metabolite concentration	HP:0025454
+DEMKG:0000046	DEMKG:0000045	*	Normal CSF metabolite concentration	Abnormal CSF metabolite concentration	HP:0025454
+DEMKG:0000047	DEMKG:0000046		Normal CSF glucose concentration	Abnormal CSF glucose concentration	HP:0031884
+DEMKG:0000048	DEMKG:0000013		Normal central motor function	Abnormal central motor function	HP:0011442
+DEMKG:0000049	DEMKG:0000048		Normality of extrapyramidal motor function	Abnormality of extrapyramidal motor function	HP:0002071
+DEMKG:0000051	DEMKG:0000018		Normality of vitamin B metabolism	Abnormality of vitamin B metabolism	HP:0004340
+DEMKG:0000052	DEMKG:0000051		Normality of folate metabolism	Abnormality of folate metabolism	HP:0012335
+DEMKG:0000053	DEMKG:0000052	*	Normal blood folate concentration	Abnormal blood folate concentration	HP:0040087
+DEMKG:0000054	DEMKG:0000002		Normal homeostasis	Abnormal homeostasis	HP:0012337
+DEMKG:0000055	DEMKG:0000054	*	Normal glucose homeostasis	Abnormal glucose homeostasis	HP:0011014
+DEMKG:0000056	DEMKG:0000055	*	Normal blood glucose concentration	Abnormal blood glucose concentration	HP:0011015
+DEMKG:0000057	DEMKG:0000015		Normal personality functioning	Impairment in personality functioning	HP:0031466
+DEMKG:0000059	DEMKG:0000015	*	Normal emotion/affect behavior	Abnormal emotion/affect behavior	HP:0100851
+DEMKG:0000060	DEMKG:0000057		Emotional stability	Emotional lability	HP:0000712
+DEMKG:0000060	DEMKG:0000059		Emotional stability	Emotional lability	HP:0000712
+DEMKG:0000064	DEMKG:0000005	*	Normal blood monovalent inorganic cation concentration	Abnormal blood monovalent inorganic cation concentration	HP:0010930
+DEMKG:0000065	DEMKG:0000064	*	Normal blood potassium concentration	Abnormal blood potassium concentration	HP:0011042
+DEMKG:0000066	DEMKG:0000013	*	Normality of movement	Abnormality of movement	HP:0100022
+DEMKG:0000067	DEMKG:0000066	*	Normal reflex	Abnormal reflex	HP:0031826
+DEMKG:0000069	DEMKG:0000048	*	Normality of coordination	Abnormality of coordination	HP:0011443
+DEMKG:0000071	DEMKG:0000001	*	Normality of the ear	Abnormality of the ear	HP:0000598
+DEMKG:0000072	DEMKG:0000071	*	Normal ear physiology	Abnormal ear physiology	HP:0031704
+DEMKG:0000073	DEMKG:0000072	*	Hearing normality	Hearing abnormality	HP:0000364
+DEMKG:0000074	DEMKG:0000025	*	Normal peripheral nervous system morphology	Abnormal peripheral nervous system morphology	HP:0000759
+DEMKG:0000075	DEMKG:0000074	*	Normal cranial nerve morphology	Abnormal cranial nerve morphology	HP:0001291
+DEMKG:0000076	DEMKG:0000003	*	Normal circulating protein concentration	Abnormal circulating protein concentration	HP:0010876
+DEMKG:0000077	DEMKG:0000076		Normal circulating C-reactive protein concentration	Abnormal circulating C-reactive protein concentration	HP:0032436
+DEMKG:0000078	DEMKG:0000001	*	Normality of the endocrine system	Abnormality of the endocrine system	HP:0000818
+DEMKG:0000079	DEMKG:0000078	*	Normal circulating hormone concentration	Abnormal circulating hormone concentration	HP:0003117
+DEMKG:0000080	DEMKG:0000079		Normal thyroid-stimulating hormone level	Abnormal thyroid-stimulating hormone level	HP:0031097
+DEMKG:0000081	DEMKG:0000010	*	Normal HDL cholesterol concentration	Abnormal HDL cholesterol concentration	HP:0031888
+DEMKG:0000082	DEMKG:0000076	*	Normal circulating albumin concentration	Abnormal circulating albumin concentration	HP:0012116
+DEMKG:0000083	DEMKG:0000076	*	Normal circulating ferritin concentration	Abnormal circulating ferritin concentration	HP:0040133
+DEMKG:0000084	DEMKG:0000001	*	Normality of the respiratory system	Abnormality of the respiratory system	HP:0002086
+DEMKG:0000085	DEMKG:0000084	*	Normal respiratory system physiology	Abnormal respiratory system physiology	HP:0002795
+DEMKG:0000086	DEMKG:0000085		Normal pattern of respiration	Abnormal pattern of respiration	HP:0002793
+DEMKG:0000089	DEMKG:0000036	*	Normal systemic blood pressure	Abnormal systemic blood pressure	HP:0030972
+DEMKG:0000090	DEMKG:0000089		Normal blood pressure	Increased blood pressure	HP:0032263
+DEMKG:0000092	DEMKG:0000051	*	Normality of vitamin B12 metabolism	Abnormality of vitamin B12 metabolism	HP:0004341
+DEMKG:0000093	DEMKG:0000092	*	Normal vitamin B12 level	Abnormal vitamin B12 level	HP:0040126
+DEMKG:0000094	DEMKG:0000001	*	Normality of blood and blood-forming tissues	Abnormality of blood and blood-forming tissues	HP:0001871
+DEMKG:0000095	DEMKG:0000094	*	Normal erythrocyte morphology	Abnormal erythrocyte morphology	HP:0001877
+DEMKG:0000096	DEMKG:0000095	*	Normal hemoglobin	Abnormal hemoglobin	HP:0011902
+DEMKG:0000097	DEMKG:0000057	*	Normal fear/anxiety-related behavior	Abnormal fear/anxiety-related behavior	HP:0100852
+DEMKG:0000102	DEMKG:0000001	*	Normality of the digestive system	Abnormality of the digestive system	HP:0025031
+DEMKG:0000102	DEMKG:0000101	*	Normality of the digestive system	Abnormality of the digestive system	HP:0025031
+DEMKG:0000103	DEMKG:0000102	*	Normal abdomen morphology	Abnormal abdomen morphology	HP:0001438
+DEMKG:0000104	DEMKG:0000015	*	Stable Personality	Personality changes	HP:0000751
+DEMKG:0000106	DEMKG:0000001	*	Normality of the genitourinary system	Abnormality of the genitourinary system	HP:0000119
+DEMKG:0000107	DEMKG:0000106	*	Normality of the urinary system	Abnormality of the urinary system	HP:0000079
+DEMKG:0000108	DEMKG:0000066		Normal Gait	Gait disturbance	HP:0001288
+DEMKG:0000111	DEMKG:0000001	*	Normality of the immune system	Abnormality of the immune system	HP:0002715
+DEMKG:0000112	DEMKG:0000111		Normal immune system morphology	Abnormal immune system morphology	HP:0032251
+DEMKG:0000113	DEMKG:0000112		Normal cellular immune system morphology	Abnormal cellular immune system morphology	HP:0010987
+DEMKG:0000114	DEMKG:0000094	*	Normal leukocyte morphology	Abnormal leukocyte morphology	HP:0001881
+DEMKG:0000114	DEMKG:0000113	*	Normal leukocyte morphology	Abnormal leukocyte morphology	HP:0001881
+DEMKG:0000115	DEMKG:0000114	*	Normal leukocyte count	Abnormal leukocyte count	HP:0011893
+DEMKG:0000117	DEMKG:0000095		Normal hematocrit	Abnormal hematocrit	HP:0031850
+DEMKG:0000118	DEMKG:0000013		Normal Somatic sensory function	Somatic sensory dysfunction	HP:0003474
+DEMKG:0000119	DEMKG:0000002		Normal erythrocyte sedimentation rate	Abnormal erythrocyte sedimentation rate	HP:0025021
+DEMKG:0000120	DEMKG:0000102	*	Normality of digestive system physiology	Abnormality of digestive system physiology	HP:0025032
+DEMKG:0000122	DEMKG:0000120		Normal appetite	Poor appetite	HP:0004396
+DEMKG:0000123	DEMKG:0000003	*	Normal circulating nitrogen compound concentration	Abnormal circulating nitrogen compound concentration	HP:0004364
+DEMKG:0000124	DEMKG:0000123	*	Normal circulating creatinine concentration	Abnormal circulating creatinine concentration	HP:0012100
+DEMKG:0000125	DEMKG:0000033		Normal blood vessel morphology	Abnormal blood vessel morphology	HP:0033353
+DEMKG:0000126	DEMKG:0000125	*	Normal systemic arterial morphology	Abnormal systemic arterial morphology	HP:0011004
+DEMKG:0000127	DEMKG:0000126	*	Normal carotid artery morphology	Abnormal carotid artery morphology	HP:0005344
+DEMKG:0000128	DEMKG:0000003	*	Normal circulating carboxylic acid concentration	Abnormal circulating carboxylic acid concentration	HP:0004354
+DEMKG:0000129	DEMKG:0000128	*	Normal circulating amino acid concentration	Abnormal circulating amino acid concentration	HP:0003112
+DEMKG:0000130	DEMKG:0000129		Normal circulating proteinogenic amino acid concentration	Abnormal circulating proteinogenic amino acid concentration	HP:0033107
+DEMKG:0000131	DEMKG:0000130	*	Normal circulating sulfur amino acid concentration	Abnormal circulating sulfur amino acid concentration	HP:0004339
+DEMKG:0000132	DEMKG:0000131	*	Normal circulating homocysteine concentration	Abnormal circulating homocysteine concentration	HP:0010919
+DEMKG:0000133	DEMKG:0000094	*	Normal bleeding	Abnormal bleeding	HP:0001892
+DEMKG:0000134	DEMKG:0000036	*	Normality of blood circulation	Abnormality of blood circulation	HP:0011028
+DEMKG:0000140	DEMKG:0000001	*	Normality of the eye	Abnormality of the eye	HP:0000478
+DEMKG:0000141	DEMKG:0000140	*	Normal eye physiology	Abnormal eye physiology	HP:0012373
+DEMKG:0000142	DEMKG:0000141	*	Normality of vision	Abnormality of vision	HP:0000504
+DEMKG:0000143	DEMKG:0000014	*	Normal Cognition	Cognitive impairment	HP:0100543
+DEMKG:0000146	DEMKG:0000106	*	Normality of the genital system	Abnormality of the genital system	HP:0000078
+DEMKG:0000147	DEMKG:0000146	*	Normality of reproductive system physiology	Abnormality of reproductive system physiology	HP:0000080
+DEMKG:0000148	DEMKG:0000002	*	Normal CSF protein concentration	Abnormal CSF protein concentration	HP:0025456
+DEMKG:0000148	DEMKG:0000045	*	Normal CSF protein concentration	Abnormal CSF protein concentration	HP:0025456
+DEMKG:0000149	DEMKG:0000148		Normal amyloid beta peptide CSF concentration	Abnormal amyloid beta peptide CSF concentration	HP:0025688
+DEMKG:0000150	DEMKG:0000149		Normal amyloid beta 42 peptide CSF concentration	Abnormal amyloid beta 42 peptide CSF concentration	HP:0025683
+DEMKG:0000152	DEMKG:0000066		Postural stability	Postural instability	HP:0002172
+DEMKG:0000153	DEMKG:0000064	*	Normal blood sodium concentration	Abnormal blood sodium concentration	HP:0010931

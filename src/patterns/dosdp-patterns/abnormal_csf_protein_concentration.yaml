@@ -1,6 +1,6 @@
 pattern_name: csf_protein_concentration
-pattern_iri: http://purl.archive.org/demkg/patterns/csf_protein_concentration.yaml
-
+pattern_iri: http://purl.org/demkg/patterns/csf_protein_concentration.yaml
+base_IRI: http://purl.org/demkg/
 description: "A pattern to define CSF protein concentration subclasses."
 
 classes:  

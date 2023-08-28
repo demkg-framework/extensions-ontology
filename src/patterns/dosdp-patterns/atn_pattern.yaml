@@ -1,7 +1,7 @@
 pattern_name: atn_pattern
-pattern_iri: http://purl.archive.org/demkg/patterns/atn_pattern.yaml
-
-description: "A pattern to define the ATN categories."
+pattern_iri: http://purl.org/demkg/patterns/atn_pattern.yaml
+base_IRI: http://purl.org/demkg/
+description: "A pattern to define the AT(N) biomarker categories."
 
 classes:  
   atn: DEMKG:1900000

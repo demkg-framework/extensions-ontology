@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/demkg/patterns/definitions.owl#>)
+Prefix(:=<https://purl.org/demkg/ontology/patterns/definitions.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,136 +6,11 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/demkg/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/demkg/releases/2023-08-01/patterns/definitions.owl>
-Annotation(owl:versionInfo "2023-08-01")
+Ontology(<https://purl.org/demkg/ontology/patterns/definitions.owl>
+<https://purl.org/demkg/ontology/releases/2023-08-28/patterns/definitions.owl>
+Annotation(owl:versionInfo "2023-08-28")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000002>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000003>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000004>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000005>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000006>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000008>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000009>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000010>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000011>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000012>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000013>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000014>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000017>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000020>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000021>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000022>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000023>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000024>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000025>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000026>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000027>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000028>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000029>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000030>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000031>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000032>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000033>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000034>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000035>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000036>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000039>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000040>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000041>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000042>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000043>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000044>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000045>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000049>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000050>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000051>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000052>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000053>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000054>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000055>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000056>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000057>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000058>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000059>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000061>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000062>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000063>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000064>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000065>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000066>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000068>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000069>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000070>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000072>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000075>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000078>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000079>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000080>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000081>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000082>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000083>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000084>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000085>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000086>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000087>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000088>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000089>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000090>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000091>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000092>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000094>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000095>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000096>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000097>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000098>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000099>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000100>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000101>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000102>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000103>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000105>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000106>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000107>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000110>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000111>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000114>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000115>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000116>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000118>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000119>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000120>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000124>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000125>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000126>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000127>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000128>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000129>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000134>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000135>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000136>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000137>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000138>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000139>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000140>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000141>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000200>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000201>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000202>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000203>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000204>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000205>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000500>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000501>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000502>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000503>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000504>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000505>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000506>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_0000507>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050890>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025456>))
@@ -152,13 +27,176 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001359>))
 Declaration(Class(<http://purl.obolibrary.org/obo/#DEMKG_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/#DEMKG_0000003>))
-Declaration(Class(<http://purl.obolibrary.org/obo/#DEMKG_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/#DEMKG_0000005>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000001>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000002>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000003>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000004>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000005>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000006>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000007>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000008>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000009>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000010>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000011>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000012>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000013>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000014>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000015>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000016>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000017>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000018>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000019>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000020>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000021>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000022>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000023>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000024>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000025>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000026>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000027>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000028>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000029>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000030>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000031>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000032>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000033>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000034>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000035>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000036>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000037>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000038>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000039>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000040>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000041>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000042>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000043>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000044>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000045>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000046>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000047>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000048>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000049>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000050>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000051>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000052>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000053>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000054>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000055>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000056>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000057>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000058>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000059>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000060>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000061>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000062>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000063>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000064>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000065>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000066>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000067>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000068>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000069>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000070>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000071>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000072>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000073>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000074>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000075>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000076>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000077>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000078>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000079>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000080>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000081>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000082>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000083>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000084>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000085>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000086>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000087>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000088>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000089>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000090>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000091>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000092>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000093>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000094>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000095>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000096>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000097>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000098>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000099>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000100>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000101>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000102>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000103>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000104>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000105>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000106>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000107>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000108>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000110>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000111>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000112>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000113>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000114>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000115>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000116>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000117>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000118>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000119>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000120>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000122>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000123>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000124>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000125>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000126>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000127>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000128>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000129>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000130>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000131>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000132>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000133>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000134>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000135>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000136>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000137>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000138>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000139>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000140>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000141>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000142>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000143>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000146>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000147>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000148>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000149>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000150>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000152>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000153>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000200>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000201>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000202>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000203>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000204>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000205>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000500>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000501>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000502>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000503>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000504>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000505>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000506>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_0000507>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 
 
 
@@ -166,657 +204,1102 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000002> (Phenotypic normality)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000002> "Phenotypic normality")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000002> <http://purl.obolibrary.org/obo/HP_0000001>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000003> (normality of the nervous system)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000003> "normality of the nervous system")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000003> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000004> (normal nervous system physiology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000004> "normal nervous system physiology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000004> <http://purl.obolibrary.org/obo/DEMKG_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000005> (normality of higher mental function)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000005> "normality of higher mental function")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000005> <http://purl.obolibrary.org/obo/DEMKG_0000004>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000006> (Normal behavior)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000006> "Normal behavior")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000006> <http://purl.obolibrary.org/obo/DEMKG_0000005>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000008> (normality of metabolism/homeostasis)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000008> "normality of metabolism/homeostasis")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000008> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000009> (normal circulating metabolite concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000009> "normal circulating metabolite concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000009> <http://purl.obolibrary.org/obo/DEMKG_0000008>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000010> (normal circulating protein concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000010> "normal circulating protein concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000010> <http://purl.obolibrary.org/obo/DEMKG_0000009>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000011> (normal circulating albumin concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000011> "normal circulating albumin concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000011> <http://purl.obolibrary.org/obo/DEMKG_0000010>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000012> (normality of blood and blood-forming tissues)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000012> "normality of blood and blood-forming tissues")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000012> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000013> (normal leukocyte morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000013> "normal leukocyte morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000013> <http://purl.obolibrary.org/obo/DEMKG_0000012>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000014> (normal leukocyte count)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000014> "normal leukocyte count")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000014> <http://purl.obolibrary.org/obo/DEMKG_0000013>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000017> (normal central motor function)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000017> "normal central motor function")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000017> <http://purl.obolibrary.org/obo/DEMKG_0000004>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000020> (normal nervous system morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000020> "normal nervous system morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000020> <http://purl.obolibrary.org/obo/DEMKG_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000021> (normal peripheral nervous system morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000021> "normal peripheral nervous system morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000021> <http://purl.obolibrary.org/obo/DEMKG_0000020>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000022> (normal cranial nerve morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000022> "normal cranial nerve morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000022> <http://purl.obolibrary.org/obo/DEMKG_0000021>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000023> (normality of movement)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000023> "normality of movement")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000023> <http://purl.obolibrary.org/obo/DEMKG_0000004>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000024> (Postural stability)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000024> "Postural stability")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000024> <http://purl.obolibrary.org/obo/DEMKG_0000023>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000025> (normality of the respiratory system)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000025> "normality of the respiratory system")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000025> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000026> (normal respiratory system physiology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000026> "normal respiratory system physiology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000026> <http://purl.obolibrary.org/obo/DEMKG_0000025>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000027> (Normal gait)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000027> "Normal gait")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000027> <http://purl.obolibrary.org/obo/DEMKG_0000023>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000028> (normal blood ion concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000028> "normal blood ion concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000028> <http://purl.obolibrary.org/obo/DEMKG_0000009>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000029> (normal blood cation concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000029> "normal blood cation concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000029> <http://purl.obolibrary.org/obo/DEMKG_0000028>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000030> (normal blood inorganic cation concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000030> "normal blood inorganic cation concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000030> <http://purl.obolibrary.org/obo/DEMKG_0000029>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000031> (normal circulating calcium concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000031> "normal circulating calcium concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000031> <http://purl.obolibrary.org/obo/DEMKG_0000030>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000032> (normal erythrocyte sedimentation rate)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000032> "normal erythrocyte sedimentation rate")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000032> <http://purl.obolibrary.org/obo/DEMKG_0000008>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000033> (normal metabolism)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000033> "normal metabolism")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000033> <http://purl.obolibrary.org/obo/DEMKG_0000008>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000034> (normality of vitamin metabolism)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000034> "normality of vitamin metabolism")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000034> <http://purl.obolibrary.org/obo/DEMKG_0000033>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000035> (normality of vitamin D metabolism)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000035> "normality of vitamin D metabolism")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000035> <http://purl.obolibrary.org/obo/DEMKG_0000034>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000036> (normal pattern of respiration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000036> "normal pattern of respiration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000036> <http://purl.obolibrary.org/obo/DEMKG_0000026>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000039> (normality of the cardiovascular system)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000039> "normality of the cardiovascular system")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000039> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000040> (normality of the vasculature)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000040> "normality of the vasculature")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000040> <http://purl.obolibrary.org/obo/DEMKG_0000039>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000041> (normal vascular morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000041> "normal vascular morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000041> <http://purl.obolibrary.org/obo/DEMKG_0000040>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000042> (normal blood vessel morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000042> "normal blood vessel morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000042> <http://purl.obolibrary.org/obo/DEMKG_0000041>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000043> (normal systemic arterial morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000043> "normal systemic arterial morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000043> <http://purl.obolibrary.org/obo/DEMKG_0000042>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000044> (normal carotid artery morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000044> "normal carotid artery morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000044> <http://purl.obolibrary.org/obo/DEMKG_0000043>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000045> (normal bleeding)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000045> "normal bleeding")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000045> <http://purl.obolibrary.org/obo/DEMKG_0000012>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000049> (normality of the ear)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000049> "normality of the ear")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000049> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000050> (normal ear physiology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000050> "normal ear physiology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000050> <http://purl.obolibrary.org/obo/DEMKG_0000049>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000051> (Hearing normality)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000051> "Hearing normality")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000051> <http://purl.obolibrary.org/obo/DEMKG_0000050>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000052> (normality of the digestive system)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000052> "normality of the digestive system")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000052> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000053> (normality of digestive system physiology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000053> "normality of digestive system physiology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000053> <http://purl.obolibrary.org/obo/DEMKG_0000052>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000054> (normality of coordination)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000054> "normality of coordination")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000054> <http://purl.obolibrary.org/obo/DEMKG_0000017>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000055> (normality of the eye)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000055> "normality of the eye")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000055> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000056> (normal eye physiology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000056> "normal eye physiology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000056> <http://purl.obolibrary.org/obo/DEMKG_0000055>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000057> (normality of vision)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000057> "normality of vision")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000057> <http://purl.obolibrary.org/obo/DEMKG_0000056>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000058> (normal circulating lipid concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000058> "normal circulating lipid concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000058> <http://purl.obolibrary.org/obo/DEMKG_0000009>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000059> (normal circulating cholesterol concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000059> "normal circulating cholesterol concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000059> <http://purl.obolibrary.org/obo/DEMKG_0000058>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000061> (normality of the genitourinary system)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000061> "normality of the genitourinary system")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000061> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000062> (normality of the genital system)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000062> "normality of the genital system")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000062> <http://purl.obolibrary.org/obo/DEMKG_0000061>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000063> (normality of reproductive system physiology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000063> "normality of reproductive system physiology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000063> <http://purl.obolibrary.org/obo/DEMKG_0000062>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000064> (normal CSF protein concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000064> "normal CSF protein concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000064> <http://purl.obolibrary.org/obo/DEMKG_0000008>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000065> (normal amyloid beta peptide CSF concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000065> "normal amyloid beta peptide CSF concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000065> <http://purl.obolibrary.org/obo/DEMKG_0000064>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000066> (normal amyloid beta 42 peptide CSF concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000066> "normal amyloid beta 42 peptide CSF concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000066> <http://purl.obolibrary.org/obo/DEMKG_0000065>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000068> (normal blood monovalent inorganic cation concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000068> "normal blood monovalent inorganic cation concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000068> <http://purl.obolibrary.org/obo/DEMKG_0000029>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000069> (normal blood sodium concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000069> "normal blood sodium concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000069> <http://purl.obolibrary.org/obo/DEMKG_0000068>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000070> (Normal personality functioning)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000070> "Normal personality functioning")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000070> <http://purl.obolibrary.org/obo/DEMKG_0000006>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000072> (Normal sleep)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000072> "Normal sleep")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000072> <http://purl.obolibrary.org/obo/DEMKG_0000006>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000075> (Normal appetite)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000075> "Normal appetite")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000075> <http://purl.obolibrary.org/obo/DEMKG_0000053>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000078> (normality of the endocrine system)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000078> "normality of the endocrine system")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000078> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000079> (normality of the hypothalamus-pituitary axis)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000079> "normality of the hypothalamus-pituitary axis")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000079> <http://purl.obolibrary.org/obo/DEMKG_0000078>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000080> (normality of the pituitary gland)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000080> "normality of the pituitary gland")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000080> <http://purl.obolibrary.org/obo/DEMKG_0000079>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000081> (normal thyroid-stimulating hormone level)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000081> "normal thyroid-stimulating hormone level")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000081> <http://purl.obolibrary.org/obo/DEMKG_0000080>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000082> (normal homeostasis)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000082> "normal homeostasis")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000082> <http://purl.obolibrary.org/obo/DEMKG_0000008>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000083> (normal glucose homeostasis)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000083> "normal glucose homeostasis")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000083> <http://purl.obolibrary.org/obo/DEMKG_0000082>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000084> (normal blood glucose concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000084> "normal blood glucose concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000084> <http://purl.obolibrary.org/obo/DEMKG_0000083>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000085> (Normal somatic sensory function)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000085> "Normal somatic sensory function")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000085> <http://purl.obolibrary.org/obo/DEMKG_0000004>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000086> (normal reflex)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000086> "normal reflex")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000086> <http://purl.obolibrary.org/obo/DEMKG_0000023>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000087> (normal erythrocyte morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000087> "normal erythrocyte morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000087> <http://purl.obolibrary.org/obo/DEMKG_0000012>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000088> (normal hemoglobin)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000088> "normal hemoglobin")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000088> <http://purl.obolibrary.org/obo/DEMKG_0000087>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000089> (normal circulating C-reactive protein concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000089> "normal circulating C-reactive protein concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000089> <http://purl.obolibrary.org/obo/DEMKG_0000010>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000090> (normality of vitamin B metabolism)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000090> "normality of vitamin B metabolism")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000090> <http://purl.obolibrary.org/obo/DEMKG_0000034>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000091> (normality of vitamin B12 metabolism)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000091> "normality of vitamin B12 metabolism")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000091> <http://purl.obolibrary.org/obo/DEMKG_0000090>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000092> (normal vitamin B12 level)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000092> "normal vitamin B12 level")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000092> <http://purl.obolibrary.org/obo/DEMKG_0000091>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000094> (normality of folate metabolism)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000094> "normality of folate metabolism")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000094> <http://purl.obolibrary.org/obo/DEMKG_0000090>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000095> (normal blood folate concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000095> "normal blood folate concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000095> <http://purl.obolibrary.org/obo/DEMKG_0000094>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000096> (normality of the urinary system)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000096> "normality of the urinary system")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000096> <http://purl.obolibrary.org/obo/DEMKG_0000061>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000097> (normal CSF metabolite concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000097> "normal CSF metabolite concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000097> <http://purl.obolibrary.org/obo/DEMKG_0000008>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000098> (normal CSF glucose concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000098> "normal CSF glucose concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000098> <http://purl.obolibrary.org/obo/DEMKG_0000097>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000099> (Normal cognition)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000099> "Normal cognition")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000099> <http://purl.obolibrary.org/obo/DEMKG_0000005>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000100> (normal circulating ferritin concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000100> "normal circulating ferritin concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000100> <http://purl.obolibrary.org/obo/DEMKG_0000010>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000101> (normal hematocrit)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000101> "normal hematocrit")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000101> <http://purl.obolibrary.org/obo/DEMKG_0000087>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000102> (normal blood potassium concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000102> "normal blood potassium concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000102> <http://purl.obolibrary.org/obo/DEMKG_0000068>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000103> (normal abdomen morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000103> "normal abdomen morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000103> <http://purl.obolibrary.org/obo/DEMKG_0000052>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000105> (Morphological central nervous system normality)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000105> "Morphological central nervous system normality")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000105> <http://purl.obolibrary.org/obo/DEMKG_0000020>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000106> (normality of brain morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000106> "normality of brain morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000106> <http://purl.obolibrary.org/obo/DEMKG_0000105>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000107> (normal cerebral vascular morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000107> "normal cerebral vascular morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000107> <http://purl.obolibrary.org/obo/DEMKG_0000106>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000110> (normal forebrain morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000110> "normal forebrain morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000110> <http://purl.obolibrary.org/obo/DEMKG_0000106>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000111> (normal cerebral morphology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000111> "normal cerebral morphology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000111> <http://purl.obolibrary.org/obo/DEMKG_0000110>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000114> (normality of lipoprotein cholesterol concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000114> "normality of lipoprotein cholesterol concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000114> <http://purl.obolibrary.org/obo/DEMKG_0000059>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000115> (normal HDL cholesterol concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000115> "normal HDL cholesterol concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000115> <http://purl.obolibrary.org/obo/DEMKG_0000114>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000116> (normality of extrapyramidal motor function)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000116> "normality of extrapyramidal motor function")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000116> <http://purl.obolibrary.org/obo/DEMKG_0000017>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000118> (normal cardiovascular system physiology)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000118> "normal cardiovascular system physiology")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000118> <http://purl.obolibrary.org/obo/DEMKG_0000039>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000119> (normal systemic blood pressure)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000119> "normal systemic blood pressure")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000119> <http://purl.obolibrary.org/obo/DEMKG_0000118>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000120> (Normal blood pressure)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000120> "Normal blood pressure")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000120> <http://purl.obolibrary.org/obo/DEMKG_0000119>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000124> (normality of head or neck)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000124> "normality of head or neck")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000124> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000125> (normality of the head)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000125> "normality of the head")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000125> <http://purl.obolibrary.org/obo/DEMKG_0000124>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000126> (normality of the face)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000126> "normality of the face")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000126> <http://purl.obolibrary.org/obo/DEMKG_0000125>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000127> (normality of the nose)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000127> "normality of the nose")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000127> <http://purl.obolibrary.org/obo/DEMKG_0000126>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000128> (normality of the sense of smell)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000128> "normality of the sense of smell")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000128> <http://purl.obolibrary.org/obo/DEMKG_0000127>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000129> (normal fear/anxiety-related behavior)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000129> "normal fear/anxiety-related behavior")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000129> <http://purl.obolibrary.org/obo/DEMKG_0000070>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000134> (normal LDL cholesterol concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000134> "normal LDL cholesterol concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000134> <http://purl.obolibrary.org/obo/DEMKG_0000114>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000135> (normal circulating carboxylic acid concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000135> "normal circulating carboxylic acid concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000135> <http://purl.obolibrary.org/obo/DEMKG_0000009>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000136> (normal circulating amino acid concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000136> "normal circulating amino acid concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000135>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000137> (normal circulating proteinogenic amino acid concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000137> "normal circulating proteinogenic amino acid concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000137> <http://purl.obolibrary.org/obo/DEMKG_0000136>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000138> (normal circulating sulfur amino acid concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000138> "normal circulating sulfur amino acid concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000138> <http://purl.obolibrary.org/obo/DEMKG_0000137>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000139> (normal circulating homocysteine concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000139> "normal circulating homocysteine concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000139> <http://purl.obolibrary.org/obo/DEMKG_0000138>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000140> (normal circulating nitrogen compound concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000140> "normal circulating nitrogen compound concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000140> <http://purl.obolibrary.org/obo/DEMKG_0000009>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000141> (normal circulating creatinine concentration)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000141> "normal circulating creatinine concentration")
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000141> <http://purl.obolibrary.org/obo/DEMKG_0000140>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000200> (Increased levels of phosphorylated tau)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000200> "Increased levels of phosphorylated tau")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000027446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000200> <http://purl.obolibrary.org/obo/HP_0025456>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000201> (Decreased levels of phosphorylated tau)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000201> "Decreased levels of phosphorylated tau")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001997> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000027446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000201> <http://purl.obolibrary.org/obo/HP_0025456>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000202> (Increased levels of total tau)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000202> "Increased levels of total tau")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000202> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000202> <http://purl.obolibrary.org/obo/HP_0025456>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000203> (Decreased levels of total tau)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000203> "Decreased levels of total tau")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000203> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001997> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000203> <http://purl.obolibrary.org/obo/HP_0025456>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000204> (Normal levels of phosphorylated tau)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000204> "Normal levels of phosphorylated tau")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000467> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000027446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000204> <http://purl.obolibrary.org/obo/DEMKG_0000064>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000205> (Normal levels of total tau)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000205> "Normal levels of total tau")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000205> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000467> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000205> <http://purl.obolibrary.org/obo/DEMKG_0000064>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000500> (A-T-N-)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000500> "A-T-N-")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000500> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000066>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000204>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000205>)))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000500> <http://purl.obolibrary.org/obo/DEMKG_1900000>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000501> (A+T-N-)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000501> "A+T-N-")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000501> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000204>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000205>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HP_0025684>)))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000501> <http://purl.obolibrary.org/obo/DEMKG_1900000>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000502> (A-T+N-)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000502> "A-T+N-")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000502> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000066>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000205>)))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000502> <http://purl.obolibrary.org/obo/DEMKG_1900000>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000503> (A-T-N+)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000503> "A-T-N+")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000503> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000066>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000202>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000204>)))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000503> <http://purl.obolibrary.org/obo/DEMKG_1900000>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000504> (A+T+N-)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000504> "A+T+N-")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000504> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000205>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HP_0025684>)))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000504> <http://purl.obolibrary.org/obo/DEMKG_1900000>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000505> (A+T-N+)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000505> "A+T-N+")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000505> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000202>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000204>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HP_0025684>)))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000505> <http://purl.obolibrary.org/obo/DEMKG_1900000>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000506> (A-T+N+)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000506> "A-T+N+")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000506> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000066>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000202>)))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000506> <http://purl.obolibrary.org/obo/DEMKG_1900000>)
-
-# Class: <http://purl.obolibrary.org/obo/DEMKG_0000507> (A+T+N+)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_0000507> "A+T+N+")
-EquivalentClasses(<http://purl.obolibrary.org/obo/DEMKG_0000507> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/DEMKG_0000202>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HP_0025684>)))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_0000507> <http://purl.obolibrary.org/obo/DEMKG_1900000>)
-
 # Class: <http://purl.obolibrary.org/obo/#DEMKG_0000002> (Normality of the nervous system)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#DEMKG_0000002> "Normality of the nervous system")
 EquivalentClasses(<http://purl.obolibrary.org/obo/#DEMKG_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
-SubClassOf(<http://purl.obolibrary.org/obo/#DEMKG_0000002> <http://purl.obolibrary.org/obo/DEMKG_0000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/#DEMKG_0000002> <http://purl.org/demkg/DEMKG_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/#DEMKG_0000003> (Normal nervous system physiology)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#DEMKG_0000003> "Normal nervous system physiology")
 EquivalentClasses(<http://purl.obolibrary.org/obo/#DEMKG_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
-SubClassOf(<http://purl.obolibrary.org/obo/#DEMKG_0000003> <http://purl.obolibrary.org/obo/DEMKG_0000002>)
-
-# Class: <http://purl.obolibrary.org/obo/#DEMKG_0000004> (Normality of higher mental function)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#DEMKG_0000004> "Normality of higher mental function")
-SubClassOf(<http://purl.obolibrary.org/obo/#DEMKG_0000004> <http://purl.obolibrary.org/obo/DEMKG_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/#DEMKG_0000003> <http://purl.org/demkg/DEMKG_0000002>)
 
 # Class: <http://purl.obolibrary.org/obo/#DEMKG_0000005> (Normal cognition)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#DEMKG_0000005> "Normal cognition")
 EquivalentClasses(<http://purl.obolibrary.org/obo/#DEMKG_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0050890>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
-SubClassOf(<http://purl.obolibrary.org/obo/#DEMKG_0000005> <http://purl.obolibrary.org/obo/DEMKG_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/#DEMKG_0000005> <http://purl.org/demkg/DEMKG_0000004>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000002> (Phenotypic normality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000002> "Normal counterpart of Abnormality of metabolism/homeostasis (Abnormality of metabolism/homeostasis)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000002> "Normality of metabolism/homeostasis")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000002> "Phenotypic normality")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000002> <http://purl.obolibrary.org/obo/HP_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000002> <http://purl.org/demkg/DEMKG_0000001>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000003> (normality of the nervous system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000003> "Normal counterpart of Abnormal circulating metabolite concentration (Abnormal circulating metabolite concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000003> "Normal circulating metabolite concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000003> "normality of the nervous system")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000003> <http://purl.org/demkg/DEMKG_0000002>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000004> (Normal blood ion concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000004> "Normal counterpart of Abnormal blood ion concentration (Abnormal blood ion concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000004> "Normal blood ion concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000004> "normal nervous system physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000004> <http://purl.org/demkg/DEMKG_0000003>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000005> (normality of higher mental function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000005> "Normal counterpart of Abnormal blood cation concentration (Abnormal blood cation concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000005> "Normal blood cation concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000005> "normality of higher mental function")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000005> <http://purl.org/demkg/DEMKG_0000004>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000006> (Normal blood inorganic cation concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000006> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0010927 (Abnormal blood inorganic cation concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000006> "Normal behavior")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000006> "Normal blood inorganic cation concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000006> <http://purl.org/demkg/DEMKG_0000005>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000007> (Normal circulating calcium concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000007> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0004363 (Abnormal circulating calcium concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000007> "Normal circulating calcium concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000007> <http://purl.org/demkg/DEMKG_0000006>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000008> (Normal circulating lipid concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000008> "Normal counterpart of Abnormal circulating lipid concentration (Abnormal circulating lipid concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000008> "Normal circulating lipid concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000008> "normality of metabolism/homeostasis")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000008> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000008> <http://purl.org/demkg/DEMKG_0000003>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000009> (Normal circulating cholesterol concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000009> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0003107 (Abnormal circulating cholesterol concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000009> "Normal circulating cholesterol concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000009> "normal circulating metabolite concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000009> <http://purl.org/demkg/DEMKG_0000008>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000010> (Normality of lipoprotein cholesterol concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000010> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0010979 (Abnormality of lipoprotein cholesterol concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000010> "Normality of lipoprotein cholesterol concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000010> "normal circulating protein concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000010> <http://purl.org/demkg/DEMKG_0000009>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000011> (Normal LDL cholesterol concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000011> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0031886 (Abnormal LDL cholesterol concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000011> "Normal LDL cholesterol concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000011> "normal circulating albumin concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000011> <http://purl.org/demkg/DEMKG_0000010>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000012> (Normality of the nervous system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000012> "Normal counterpart of Abnormality of the nervous system (Abnormality of the nervous system)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000012> "Normality of the nervous system")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000012> "normality of blood and blood-forming tissues")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000012> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000012> <http://purl.org/demkg/DEMKG_0000002>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000013> (normal leukocyte morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000013> "Normal counterpart of Abnormal nervous system physiology (Abnormal nervous system physiology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000013> "Normal nervous system physiology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000013> "normal leukocyte morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000013> <http://purl.org/demkg/DEMKG_0000012>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000014> (Normality of higher mental function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000014> "Normal counterpart of Abnormality of higher mental function (Abnormality of higher mental function)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000014> "Normality of higher mental function")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000014> "normal leukocyte count")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000014> <http://purl.org/demkg/DEMKG_0000013>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000015> (Normal behavior)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000015> "Normal counterpart of Atypical behavior (Atypical behavior)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000015> "Normal behavior")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000015> <http://purl.org/demkg/DEMKG_0000014>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000016> (Normal Sleep)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000016> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0002360 (Sleep disturbance)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000016> "Normal Sleep")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000016> <http://purl.org/demkg/DEMKG_0000015>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000017> (normal central motor function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000017> "Normal counterpart of Abnormal metabolism (Abnormal metabolism)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000017> "Normal metabolism")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000017> "normal central motor function")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000017> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000017> <http://purl.org/demkg/DEMKG_0000004>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000018> (Normality of vitamin metabolism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000018> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0100508 (Abnormality of vitamin metabolism)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000018> "Normality of vitamin metabolism")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000018> <http://purl.org/demkg/DEMKG_0000017>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000019> (Normality of vitamin D metabolism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000019> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0100511 (Abnormality of vitamin D metabolism)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000019> "Normality of vitamin D metabolism")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000019> <http://purl.org/demkg/DEMKG_0000018>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000020> (Normality of head or neck)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000020> "Normal counterpart of Abnormality of head or neck (Abnormality of head or neck)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000020> "Normality of head or neck")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000020> "normal nervous system morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000020> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000020> <http://purl.org/demkg/DEMKG_0000003>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000021> (normal peripheral nervous system morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000021> "Normal counterpart of Abnormality of the head (Abnormality of the head)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000021> "Normality of the head")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000021> "normal peripheral nervous system morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000021> <http://purl.org/demkg/DEMKG_0000020>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000022> (normal cranial nerve morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000022> "Normal counterpart of Abnormality of the face (Abnormality of the face)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000022> "Normality of the face")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000022> "normal cranial nerve morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000022> <http://purl.org/demkg/DEMKG_0000021>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000023> (Normality of the nose)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000023> "Normal counterpart of Abnormality of the nose (Abnormality of the nose)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000023> "Normality of the nose")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000023> "normality of movement")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000023> <http://purl.org/demkg/DEMKG_0000004>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000023> <http://purl.org/demkg/DEMKG_0000022>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000024> (Postural stability)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000024> "Normal counterpart of Abnormality of the sense of smell (Abnormality of the sense of smell)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000024> "Normality of the sense of smell")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000024> "Postural stability")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000024> <http://purl.org/demkg/DEMKG_0000013>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000024> <http://purl.org/demkg/DEMKG_0000023>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000025> (normality of the respiratory system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000025> "Normal counterpart of Abnormal nervous system morphology (Abnormal nervous system morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000025> "Normal nervous system morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000025> "normality of the respiratory system")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000025> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000025> <http://purl.org/demkg/DEMKG_0000012>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000026> (normal respiratory system physiology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000026> "Normal counterpart of Morphological central nervous system abnormality (Morphological central nervous system abnormality)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000026> "Morphological central nervous system normality")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000026> "normal respiratory system physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000026> <http://purl.org/demkg/DEMKG_0000025>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000027> (Normal gait)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000027> "Normal gait")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000027> <http://purl.org/demkg/DEMKG_0000023>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000028> (normal blood ion concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000028> "normal blood ion concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000028> <http://purl.org/demkg/DEMKG_0000009>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000029> (normal blood cation concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000029> "Normal counterpart of Abnormality of brain morphology (Abnormality of brain morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000029> "Normality of brain morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000029> "normal blood cation concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000029> <http://purl.org/demkg/DEMKG_0000026>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000029> <http://purl.org/demkg/DEMKG_0000028>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000030> (normal blood inorganic cation concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000030> "Normal counterpart of Abnormality of the cardiovascular system (Abnormality of the cardiovascular system)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000030> "Normality of the cardiovascular system")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000030> "normal blood inorganic cation concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000030> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000030> <http://purl.org/demkg/DEMKG_0000029>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000031> (normal circulating calcium concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000031> "Normal counterpart of Abnormality of the vasculature (Abnormality of the vasculature)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000031> "Normality of the vasculature")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000031> "normal circulating calcium concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000031> <http://purl.org/demkg/DEMKG_0000030>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000032> (normal erythrocyte sedimentation rate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000032> "Normal counterpart of Abnormality of cardiovascular system morphology (Abnormality of cardiovascular system morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000032> "Normality of cardiovascular system morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000032> "normal erythrocyte sedimentation rate")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000032> <http://purl.org/demkg/DEMKG_0000008>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000032> <http://purl.org/demkg/DEMKG_0000030>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000033> (normal metabolism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000033> "Normal counterpart of Abnormal vascular morphology (Abnormal vascular morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000033> "Normal vascular morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000033> "normal metabolism")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000033> <http://purl.org/demkg/DEMKG_0000008>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000033> <http://purl.org/demkg/DEMKG_0000031>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000033> <http://purl.org/demkg/DEMKG_0000032>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000034> (Normal cerebral vascular morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000034> "Normal counterpart of Abnormal cerebral vascular morphology (Abnormal cerebral vascular morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000034> "Normal cerebral vascular morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000034> "normality of vitamin metabolism")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000034> <http://purl.org/demkg/DEMKG_0000029>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000034> <http://purl.org/demkg/DEMKG_0000033>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000035> (normality of vitamin D metabolism)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000035> "normality of vitamin D metabolism")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000035> <http://purl.org/demkg/DEMKG_0000034>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000036> (normal pattern of respiration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000036> "Normal counterpart of Abnormal cardiovascular system physiology (Abnormal cardiovascular system physiology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000036> "Normal cardiovascular system physiology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000036> "normal pattern of respiration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000036> <http://purl.org/demkg/DEMKG_0000026>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000036> <http://purl.org/demkg/DEMKG_0000030>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000037> (Normal vascular physiology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000037> "Normal counterpart of Abnormal vascular physiology (Abnormal vascular physiology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000037> "Normal vascular physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000037> <http://purl.org/demkg/DEMKG_0000031>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000037> <http://purl.org/demkg/DEMKG_0000036>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000038> (Normal arterial physiology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000038> "Normal counterpart of Abnormal arterial physiology (Abnormal arterial physiology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000038> "Normal arterial physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000038> <http://purl.org/demkg/DEMKG_0000037>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000039> (normality of the cardiovascular system)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000039> "normality of the cardiovascular system")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000039> <http://purl.org/demkg/DEMKG_0000002>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000040> (normality of the vasculature)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000040> "normality of the vasculature")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000040> <http://purl.org/demkg/DEMKG_0000039>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000041> (Normal forebrain morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000041> "Normal counterpart of Abnormal forebrain morphology (Abnormal forebrain morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000041> "Normal forebrain morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000041> "normal vascular morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000041> <http://purl.org/demkg/DEMKG_0000029>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000041> <http://purl.org/demkg/DEMKG_0000040>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000042> (normal blood vessel morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000042> "Normal counterpart of Abnormal cerebral morphology (Abnormal cerebral morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000042> "Normal cerebral morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000042> "normal blood vessel morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000042> <http://purl.org/demkg/DEMKG_0000041>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000043> (normal systemic arterial morphology)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000043> "normal systemic arterial morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000043> <http://purl.org/demkg/DEMKG_0000042>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000044> (normal carotid artery morphology)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000044> "normal carotid artery morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000044> <http://purl.org/demkg/DEMKG_0000043>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000045> (normal bleeding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000045> "Normal counterpart of Abnormal cerebrospinal fluid morphology (Abnormal cerebrospinal fluid morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000045> "Normal cerebrospinal fluid morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000045> "normal bleeding")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000045> <http://purl.org/demkg/DEMKG_0000012>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000045> <http://purl.org/demkg/DEMKG_0000026>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000046> (Normal CSF metabolite concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000046> "Normal counterpart of Abnormal CSF metabolite concentration (Abnormal CSF metabolite concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000046> "Normal CSF metabolite concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000046> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000046> <http://purl.org/demkg/DEMKG_0000045>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000047> (Normal CSF glucose concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000047> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0031884 (Abnormal CSF glucose concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000047> "Normal CSF glucose concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000047> <http://purl.org/demkg/DEMKG_0000046>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000048> (Normal central motor function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000048> "Normal counterpart of Abnormal central motor function (Abnormal central motor function)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000048> "Normal central motor function")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000048> <http://purl.org/demkg/DEMKG_0000013>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000049> (Normality of extrapyramidal motor function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000049> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0002071 (Abnormality of extrapyramidal motor function)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000049> "Normality of extrapyramidal motor function")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000049> "normality of the ear")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000049> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000049> <http://purl.org/demkg/DEMKG_0000048>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000050> (normal ear physiology)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000050> "normal ear physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000050> <http://purl.org/demkg/DEMKG_0000049>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000051> (Hearing normality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000051> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0004340 (Abnormality of vitamin B metabolism)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000051> "Hearing normality")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000051> "Normality of vitamin B metabolism")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000051> <http://purl.org/demkg/DEMKG_0000018>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000051> <http://purl.org/demkg/DEMKG_0000050>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000052> (normality of the digestive system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000052> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0012335 (Abnormality of folate metabolism)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000052> "Normality of folate metabolism")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000052> "normality of the digestive system")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000052> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000052> <http://purl.org/demkg/DEMKG_0000051>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000053> (Normal blood folate concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000053> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0040087 (Abnormal blood folate concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000053> "Normal blood folate concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000053> "normality of digestive system physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000053> <http://purl.org/demkg/DEMKG_0000052>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000054> (normality of coordination)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000054> "Normal counterpart of Abnormal homeostasis (Abnormal homeostasis)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000054> "Normal homeostasis")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000054> "normality of coordination")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000054> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000054> <http://purl.org/demkg/DEMKG_0000017>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000055> (Normal glucose homeostasis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000055> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0011014 (Abnormal glucose homeostasis)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000055> "Normal glucose homeostasis")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000055> "normality of the eye")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000055> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000055> <http://purl.org/demkg/DEMKG_0000054>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000056> (Normal blood glucose concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000056> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0011015 (Abnormal blood glucose concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000056> "Normal blood glucose concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000056> "normal eye physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000056> <http://purl.org/demkg/DEMKG_0000055>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000057> (normality of vision)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000057> "Normal counterpart of Impairment in personality functioning (Impairment in personality functioning)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000057> "Normal personality functioning")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000057> "normality of vision")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000057> <http://purl.org/demkg/DEMKG_0000015>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000057> <http://purl.org/demkg/DEMKG_0000056>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000058> (normal circulating lipid concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000058> "normal circulating lipid concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000058> <http://purl.org/demkg/DEMKG_0000009>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000059> (normal circulating cholesterol concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000059> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0100851 (Abnormal emotion/affect behavior)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000059> "Normal emotion/affect behavior")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000059> "normal circulating cholesterol concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000059> <http://purl.org/demkg/DEMKG_0000015>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000059> <http://purl.org/demkg/DEMKG_0000058>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000060> (Emotional stability)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000060> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0000712 (Emotional lability)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000060> "Emotional stability")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000060> <http://purl.org/demkg/DEMKG_0000057>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000060> <http://purl.org/demkg/DEMKG_0000059>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000061> (normality of the genitourinary system)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000061> "normality of the genitourinary system")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000061> <http://purl.org/demkg/DEMKG_0000002>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000062> (normality of the genital system)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000062> "normality of the genital system")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000062> <http://purl.org/demkg/DEMKG_0000061>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000063> (normality of reproductive system physiology)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000063> "normality of reproductive system physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000063> <http://purl.org/demkg/DEMKG_0000062>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000064> (normal CSF protein concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000064> "Normal counterpart of Abnormal blood monovalent inorganic cation concentration (Abnormal blood monovalent inorganic cation concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000064> "Normal blood monovalent inorganic cation concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000064> "normal CSF protein concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000064> <http://purl.org/demkg/DEMKG_0000005>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000064> <http://purl.org/demkg/DEMKG_0000008>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000065> (Normal blood potassium concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000065> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0011042 (Abnormal blood potassium concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000065> "Normal blood potassium concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000065> "normal amyloid beta peptide CSF concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000065> <http://purl.org/demkg/DEMKG_0000064>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000066> (Normality of movement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000066> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0100022 (Abnormality of movement)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000066> "Normality of movement")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000066> "normal amyloid beta 42 peptide CSF concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000066> <http://purl.org/demkg/DEMKG_0000013>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000066> <http://purl.org/demkg/DEMKG_0000065>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000067> (Normal reflex)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000067> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0031826 (Abnormal reflex)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000067> "Normal reflex")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000067> <http://purl.org/demkg/DEMKG_0000066>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000068> (normal blood monovalent inorganic cation concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000068> "normal blood monovalent inorganic cation concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000068> <http://purl.org/demkg/DEMKG_0000029>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000069> (normal blood sodium concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000069> "Normal counterpart of Abnormality of coordination (Abnormality of coordination)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000069> "Normality of coordination")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000069> "normal blood sodium concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000069> <http://purl.org/demkg/DEMKG_0000048>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000069> <http://purl.org/demkg/DEMKG_0000068>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000070> (Normal personality functioning)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000070> "Normal personality functioning")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000070> <http://purl.org/demkg/DEMKG_0000006>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000071> (Normality of the ear)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000071> "Normal counterpart of Abnormality of the ear (Abnormality of the ear)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000071> "Normality of the ear")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000071> <http://purl.org/demkg/DEMKG_0000001>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000072> (Normal sleep)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000072> "Normal counterpart of Abnormal ear physiology (Abnormal ear physiology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000072> "Normal ear physiology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000072> "Normal sleep")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000072> <http://purl.org/demkg/DEMKG_0000006>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000072> <http://purl.org/demkg/DEMKG_0000071>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000073> (Hearing normality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000073> "Normal counterpart of Hearing abnormality (Hearing abnormality)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000073> "Hearing normality")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000073> <http://purl.org/demkg/DEMKG_0000072>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000074> (Normal peripheral nervous system morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000074> "Normal counterpart of Abnormal peripheral nervous system morphology (Abnormal peripheral nervous system morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000074> "Normal peripheral nervous system morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000074> <http://purl.org/demkg/DEMKG_0000025>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000075> (Normal cranial nerve morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000075> "Normal counterpart of Abnormal cranial nerve morphology (Abnormal cranial nerve morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000075> "Normal appetite")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000075> "Normal cranial nerve morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000075> <http://purl.org/demkg/DEMKG_0000053>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000075> <http://purl.org/demkg/DEMKG_0000074>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000076> (Normal circulating protein concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000076> "Normal counterpart of Abnormal circulating protein concentration (Abnormal circulating protein concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000076> "Normal circulating protein concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000076> <http://purl.org/demkg/DEMKG_0000003>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000077> (Normal circulating C-reactive protein concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000077> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0032436 (Abnormal circulating C-reactive protein concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000077> "Normal circulating C-reactive protein concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000077> <http://purl.org/demkg/DEMKG_0000076>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000078> (normality of the endocrine system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000078> "Normal counterpart of Abnormality of the endocrine system (Abnormality of the endocrine system)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000078> "Normality of the endocrine system")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000078> "normality of the endocrine system")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000078> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000078> <http://purl.org/demkg/DEMKG_0000002>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000079> (normality of the hypothalamus-pituitary axis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000079> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0003117 (Abnormal circulating hormone concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000079> "Normal circulating hormone concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000079> "normality of the hypothalamus-pituitary axis")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000079> <http://purl.org/demkg/DEMKG_0000078>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000080> (normality of the pituitary gland)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000080> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0031097 (Abnormal thyroid-stimulating hormone level)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000080> "Normal thyroid-stimulating hormone level")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000080> "normality of the pituitary gland")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000080> <http://purl.org/demkg/DEMKG_0000079>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000081> (Normal HDL cholesterol concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000081> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0031888 (Abnormal HDL cholesterol concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000081> "Normal HDL cholesterol concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000081> "normal thyroid-stimulating hormone level")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000081> <http://purl.org/demkg/DEMKG_0000010>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000081> <http://purl.org/demkg/DEMKG_0000080>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000082> (normal homeostasis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000082> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0012116 (Abnormal circulating albumin concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000082> "Normal circulating albumin concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000082> "normal homeostasis")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000082> <http://purl.org/demkg/DEMKG_0000008>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000082> <http://purl.org/demkg/DEMKG_0000076>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000083> (Normal circulating ferritin concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000083> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0040133 (Abnormal circulating ferritin concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000083> "Normal circulating ferritin concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000083> "normal glucose homeostasis")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000083> <http://purl.org/demkg/DEMKG_0000076>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000083> <http://purl.org/demkg/DEMKG_0000082>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000084> (Normality of the respiratory system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000084> "Normal counterpart of Abnormality of the respiratory system (Abnormality of the respiratory system)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000084> "Normality of the respiratory system")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000084> "normal blood glucose concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000084> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000084> <http://purl.org/demkg/DEMKG_0000083>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000085> (Normal somatic sensory function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000085> "Normal counterpart of Abnormal respiratory system physiology (Abnormal respiratory system physiology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000085> "Normal respiratory system physiology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000085> "Normal somatic sensory function")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000085> <http://purl.org/demkg/DEMKG_0000004>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000085> <http://purl.org/demkg/DEMKG_0000084>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000086> (normal reflex)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000086> "Normal counterpart of Abnormal pattern of respiration (Abnormal pattern of respiration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000086> "Normal pattern of respiration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000086> "normal reflex")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000086> <http://purl.org/demkg/DEMKG_0000023>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000086> <http://purl.org/demkg/DEMKG_0000085>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000087> (normal erythrocyte morphology)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000087> "normal erythrocyte morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000087> <http://purl.org/demkg/DEMKG_0000012>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000088> (normal hemoglobin)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000088> "normal hemoglobin")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000088> <http://purl.org/demkg/DEMKG_0000087>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000089> (normal circulating C-reactive protein concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000089> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0030972 (Abnormal systemic blood pressure)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000089> "Normal systemic blood pressure")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000089> "normal circulating C-reactive protein concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000089> <http://purl.org/demkg/DEMKG_0000010>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000089> <http://purl.org/demkg/DEMKG_0000036>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000090> (normality of vitamin B metabolism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000090> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0032263 (Increased blood pressure)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000090> "Normal blood pressure")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000090> "normality of vitamin B metabolism")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000090> <http://purl.org/demkg/DEMKG_0000034>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000090> <http://purl.org/demkg/DEMKG_0000089>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000091> (normality of vitamin B12 metabolism)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000091> "normality of vitamin B12 metabolism")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000091> <http://purl.org/demkg/DEMKG_0000090>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000092> (normal vitamin B12 level)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000092> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0004341 (Abnormality of vitamin B12 metabolism)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000092> "Normality of vitamin B12 metabolism")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000092> "normal vitamin B12 level")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000092> <http://purl.org/demkg/DEMKG_0000051>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000092> <http://purl.org/demkg/DEMKG_0000091>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000093> (Normal vitamin B12 level)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000093> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0040126 (Abnormal vitamin B12 level)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000093> "Normal vitamin B12 level")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000093> <http://purl.org/demkg/DEMKG_0000092>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000094> (Normality of blood and blood-forming tissues)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000094> "Normal counterpart of Abnormality of blood and blood-forming tissues (Abnormality of blood and blood-forming tissues)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000094> "Normality of blood and blood-forming tissues")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000094> "normality of folate metabolism")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000094> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000094> <http://purl.org/demkg/DEMKG_0000090>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000095> (normal blood folate concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000095> "Normal counterpart of Abnormal erythrocyte morphology (Abnormal erythrocyte morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000095> "Normal erythrocyte morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000095> "normal blood folate concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000095> <http://purl.org/demkg/DEMKG_0000094>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000096> (Normal hemoglobin)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000096> "Normal counterpart of Abnormal hemoglobin (Abnormal hemoglobin)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000096> "Normal hemoglobin")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000096> "normality of the urinary system")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000096> <http://purl.org/demkg/DEMKG_0000061>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000096> <http://purl.org/demkg/DEMKG_0000095>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000097> (normal CSF metabolite concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000097> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0100852 (Abnormal fear/anxiety-related behavior)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000097> "Normal fear/anxiety-related behavior")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000097> "normal CSF metabolite concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000097> <http://purl.org/demkg/DEMKG_0000008>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000097> <http://purl.org/demkg/DEMKG_0000057>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000098> (normal CSF glucose concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000098> "normal CSF glucose concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000098> <http://purl.org/demkg/DEMKG_0000097>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000099> (Normal cognition)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000099> "Normal cognition")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000099> <http://purl.org/demkg/DEMKG_0000005>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000100> (normal circulating ferritin concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000100> "normal circulating ferritin concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000100> <http://purl.org/demkg/DEMKG_0000010>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000101> (normal hematocrit)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000101> "normal hematocrit")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000101> <http://purl.org/demkg/DEMKG_0000087>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000102> (normal blood potassium concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000102> "Normal counterpart of Abnormality of the digestive system (Abnormality of the digestive system)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000102> "Normality of the digestive system")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000102> "normal blood potassium concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000102> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000102> <http://purl.org/demkg/DEMKG_0000068>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000102> <http://purl.org/demkg/DEMKG_0000101>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000103> (Normal abdomen morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000103> "Normal counterpart of Abnormal abdomen morphology (Abnormal abdomen morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000103> "Normal abdomen morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000103> "normal abdomen morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000103> <http://purl.org/demkg/DEMKG_0000052>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000103> <http://purl.org/demkg/DEMKG_0000102>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000104> (Stable Personality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000104> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0000751 (Personality changes)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000104> "Stable Personality")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000104> <http://purl.org/demkg/DEMKG_0000015>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000105> (Morphological central nervous system normality)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000105> "Morphological central nervous system normality")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000105> <http://purl.org/demkg/DEMKG_0000020>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000106> (normality of brain morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000106> "Normal counterpart of Abnormality of the genitourinary system (Abnormality of the genitourinary system)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000106> "Normality of the genitourinary system")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000106> "normality of brain morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000106> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000106> <http://purl.org/demkg/DEMKG_0000105>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000107> (Normality of the urinary system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000107> "Normal counterpart of Abnormality of the urinary system (Abnormality of the urinary system)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000107> "Normality of the urinary system")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000107> "normal cerebral vascular morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000107> <http://purl.org/demkg/DEMKG_0000106>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000108> (Normal Gait)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000108> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0001288 (Gait disturbance)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000108> "Normal Gait")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000108> <http://purl.org/demkg/DEMKG_0000066>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000110> (normal forebrain morphology)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000110> "normal forebrain morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000110> <http://purl.org/demkg/DEMKG_0000106>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000111> (normal cerebral morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000111> "Normal counterpart of Abnormality of the immune system (Abnormality of the immune system)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000111> "Normality of the immune system")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000111> "normal cerebral morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000111> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000111> <http://purl.org/demkg/DEMKG_0000110>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000112> (Normal immune system morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000112> "Normal counterpart of Abnormal immune system morphology (Abnormal immune system morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000112> "Normal immune system morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000112> <http://purl.org/demkg/DEMKG_0000111>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000113> (Normal cellular immune system morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000113> "Normal counterpart of Abnormal cellular immune system morphology (Abnormal cellular immune system morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000113> "Normal cellular immune system morphology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000113> <http://purl.org/demkg/DEMKG_0000112>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000114> (Normal leukocyte morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000114> "Normal counterpart of Abnormal leukocyte morphology (Abnormal leukocyte morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000114> "Normal leukocyte morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000114> "normality of lipoprotein cholesterol concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000114> <http://purl.org/demkg/DEMKG_0000059>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000114> <http://purl.org/demkg/DEMKG_0000094>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000114> <http://purl.org/demkg/DEMKG_0000113>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000115> (normal HDL cholesterol concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000115> "Normal counterpart of Abnormal leukocyte count (Abnormal leukocyte count)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000115> "Normal leukocyte count")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000115> "normal HDL cholesterol concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000115> <http://purl.org/demkg/DEMKG_0000114>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000116> (normality of extrapyramidal motor function)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000116> "normality of extrapyramidal motor function")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000116> <http://purl.org/demkg/DEMKG_0000017>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000117> (Normal hematocrit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000117> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0031850 (Abnormal hematocrit)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000117> "Normal hematocrit")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000117> <http://purl.org/demkg/DEMKG_0000095>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000118> (Normal Somatic sensory function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000118> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0003474 (Somatic sensory dysfunction)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000118> "Normal Somatic sensory function")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000118> "normal cardiovascular system physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000118> <http://purl.org/demkg/DEMKG_0000013>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000118> <http://purl.org/demkg/DEMKG_0000039>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000119> (Normal erythrocyte sedimentation rate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000119> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0025021 (Abnormal erythrocyte sedimentation rate)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000119> "Normal erythrocyte sedimentation rate")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000119> "normal systemic blood pressure")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000119> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000119> <http://purl.org/demkg/DEMKG_0000118>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000120> (Normality of digestive system physiology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000120> "Normal counterpart of Abnormality of digestive system physiology (Abnormality of digestive system physiology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000120> "Normal blood pressure")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000120> "Normality of digestive system physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000120> <http://purl.org/demkg/DEMKG_0000102>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000120> <http://purl.org/demkg/DEMKG_0000119>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000122> (Normal appetite)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000122> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0004396 (Poor appetite)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000122> "Normal appetite")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000122> <http://purl.org/demkg/DEMKG_0000120>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000123> (Normal circulating nitrogen compound concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000123> "Normal counterpart of Abnormal circulating nitrogen compound concentration (Abnormal circulating nitrogen compound concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000123> "Normal circulating nitrogen compound concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000123> <http://purl.org/demkg/DEMKG_0000003>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000124> (normality of head or neck)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000124> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0012100 (Abnormal circulating creatinine concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000124> "Normal circulating creatinine concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000124> "normality of head or neck")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000124> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000124> <http://purl.org/demkg/DEMKG_0000123>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000125> (normality of the head)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000125> "Normal counterpart of Abnormal blood vessel morphology (Abnormal blood vessel morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000125> "Normal blood vessel morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000125> "normality of the head")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000125> <http://purl.org/demkg/DEMKG_0000033>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000125> <http://purl.org/demkg/DEMKG_0000124>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000126> (normality of the face)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000126> "Normal counterpart of Abnormal systemic arterial morphology (Abnormal systemic arterial morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000126> "Normal systemic arterial morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000126> "normality of the face")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000126> <http://purl.org/demkg/DEMKG_0000125>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000127> (normality of the nose)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000127> "Normal counterpart of Abnormal carotid artery morphology (Abnormal carotid artery morphology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000127> "Normal carotid artery morphology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000127> "normality of the nose")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000127> <http://purl.org/demkg/DEMKG_0000126>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000128> (normality of the sense of smell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000128> "Normal counterpart of Abnormal circulating carboxylic acid concentration (Abnormal circulating carboxylic acid concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000128> "Normal circulating carboxylic acid concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000128> "normality of the sense of smell")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000128> <http://purl.org/demkg/DEMKG_0000003>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000128> <http://purl.org/demkg/DEMKG_0000127>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000129> (Normal circulating amino acid concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000129> "Normal counterpart of Abnormal circulating amino acid concentration (Abnormal circulating amino acid concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000129> "Normal circulating amino acid concentration")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000129> "normal fear/anxiety-related behavior")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000129> <http://purl.org/demkg/DEMKG_0000070>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000129> <http://purl.org/demkg/DEMKG_0000128>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000130> (Normal circulating proteinogenic amino acid concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000130> "Normal counterpart of Abnormal circulating proteinogenic amino acid concentration (Abnormal circulating proteinogenic amino acid concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000130> "Normal circulating proteinogenic amino acid concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000130> <http://purl.org/demkg/DEMKG_0000129>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000131> (Normal circulating sulfur amino acid concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000131> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0004339 (Abnormal circulating sulfur amino acid concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000131> "Normal circulating sulfur amino acid concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000131> <http://purl.org/demkg/DEMKG_0000130>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000132> (Normal circulating homocysteine concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000132> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0010919 (Abnormal circulating homocysteine concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000132> "Normal circulating homocysteine concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000132> <http://purl.org/demkg/DEMKG_0000131>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000133> (Normal bleeding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000133> "Normal counterpart of Abnormal bleeding (Abnormal bleeding)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000133> "Normal bleeding")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000133> <http://purl.org/demkg/DEMKG_0000094>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000134> (Normality of blood circulation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000134> "Normal counterpart of Abnormality of blood circulation (Abnormality of blood circulation)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000134> "Normality of blood circulation")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000134> "normal LDL cholesterol concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000134> <http://purl.org/demkg/DEMKG_0000036>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000134> <http://purl.org/demkg/DEMKG_0000114>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000135> (normal circulating carboxylic acid concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000135> "normal circulating carboxylic acid concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000135> <http://purl.org/demkg/DEMKG_0000009>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000136> (normal circulating amino acid concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000136> "normal circulating amino acid concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000136> <http://purl.org/demkg/DEMKG_0000135>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000137> (normal circulating proteinogenic amino acid concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000137> "normal circulating proteinogenic amino acid concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000137> <http://purl.org/demkg/DEMKG_0000136>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000138> (normal circulating sulfur amino acid concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000138> "normal circulating sulfur amino acid concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000138> <http://purl.org/demkg/DEMKG_0000137>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000139> (normal circulating homocysteine concentration)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000139> "normal circulating homocysteine concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000139> <http://purl.org/demkg/DEMKG_0000138>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000140> (Normality of the eye)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000140> "Normal counterpart of Abnormality of the eye (Abnormality of the eye)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000140> "Normality of the eye")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000140> "normal circulating nitrogen compound concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000140> <http://purl.org/demkg/DEMKG_0000001>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000140> <http://purl.org/demkg/DEMKG_0000009>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000141> (Normal eye physiology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000141> "Normal counterpart of Abnormal eye physiology (Abnormal eye physiology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000141> "Normal eye physiology")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000141> "normal circulating creatinine concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000141> <http://purl.org/demkg/DEMKG_0000140>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000142> (Normality of vision)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000142> "Normal counterpart of Abnormality of vision (Abnormality of vision)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000142> "Normality of vision")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000142> <http://purl.org/demkg/DEMKG_0000141>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000143> (Normal Cognition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000143> "Normal counterpart of Cognitive impairment (Cognitive impairment)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000143> "Normal Cognition")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000143> <http://purl.org/demkg/DEMKG_0000014>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000146> (Normality of the genital system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000146> "Normal counterpart of Abnormality of the genital system (Abnormality of the genital system)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000146> "Normality of the genital system")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000146> <http://purl.org/demkg/DEMKG_0000106>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000147> (Normality of reproductive system physiology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000147> "Normal counterpart of Abnormality of reproductive system physiology (Abnormality of reproductive system physiology)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000147> "Normality of reproductive system physiology")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000147> <http://purl.org/demkg/DEMKG_0000146>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000148> (Normal CSF protein concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000148> "Normal counterpart of Abnormal CSF protein concentration (Abnormal CSF protein concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000148> "Normal CSF protein concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000148> <http://purl.org/demkg/DEMKG_0000002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_0000148> <http://purl.org/demkg/DEMKG_0000045>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000149> (Normal amyloid beta peptide CSF concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000149> "Normal counterpart of Abnormal amyloid beta peptide CSF concentration (Abnormal amyloid beta peptide CSF concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000149> "Normal amyloid beta peptide CSF concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000149> <http://purl.org/demkg/DEMKG_0000148>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000150> (Normal amyloid beta 42 peptide CSF concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000150> "Normal counterpart of Abnormal amyloid beta 42 peptide CSF concentration (Abnormal amyloid beta 42 peptide CSF concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000150> "Normal amyloid beta 42 peptide CSF concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000150> <http://purl.org/demkg/DEMKG_0000149>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000152> (Postural stability)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000152> "Normal counterpart of http://purl.obolibrary.org/obo/HP_0002172 (Postural instability)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000152> "Postural stability")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000152> <http://purl.org/demkg/DEMKG_0000066>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000153> (Normal blood sodium concentration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/demkg/DEMKG_0000153> "Normal counterpart of Abnormal blood sodium concentration (Abnormal blood sodium concentration)")
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000153> "Normal blood sodium concentration")
+SubClassOf(<http://purl.org/demkg/DEMKG_0000153> <http://purl.org/demkg/DEMKG_0000064>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000200> (Increased levels of phosphorylated tau)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000200> "Increased levels of phosphorylated tau")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000027446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000200> <http://purl.obolibrary.org/obo/HP_0025456>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000201> (Decreased levels of phosphorylated tau)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000201> "Decreased levels of phosphorylated tau")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001997> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000027446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000201> <http://purl.obolibrary.org/obo/HP_0025456>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000202> (Increased levels of total tau)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000202> "Increased levels of total tau")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000202> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000202> <http://purl.obolibrary.org/obo/HP_0025456>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000203> (Decreased levels of total tau)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000203> "Decreased levels of total tau")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000203> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001997> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000203> <http://purl.obolibrary.org/obo/HP_0025456>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000204> (Normal levels of phosphorylated tau)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000204> "Normal levels of phosphorylated tau")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000467> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000027446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000204> <http://purl.org/demkg/DEMKG_0000064>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000205> (Normal levels of total tau)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000205> "Normal levels of total tau")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000205> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000467> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001359>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000461>))))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000205> <http://purl.org/demkg/DEMKG_0000064>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000500> (A-T-(N)-)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000500> "A-T-(N)-")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000500> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000066>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000204>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000205>)))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000500> <http://purl.org/demkg/DEMKG_1900000>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000501> (A+T-(N)-)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000501> "A+T-(N)-")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000501> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HP_0025684>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000204>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000205>)))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000501> <http://purl.org/demkg/DEMKG_1900000>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000502> (A-T+(N)-)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000502> "A-T+(N)-")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000502> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000066>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000205>)))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000502> <http://purl.org/demkg/DEMKG_1900000>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000503> (A-T-(N)+)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000503> "A-T-(N)+")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000503> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000066>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000202>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000204>)))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000503> <http://purl.org/demkg/DEMKG_1900000>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000504> (A+T+(N)-)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000504> "A+T+(N)-")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000504> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HP_0025684>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000205>)))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000504> <http://purl.org/demkg/DEMKG_1900000>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000505> (A+T-(N)+)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000505> "A+T-(N)+")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000505> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HP_0025684>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000202>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000204>)))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000505> <http://purl.org/demkg/DEMKG_1900000>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000506> (A-T+(N)+)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000506> "A-T+(N)+")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000506> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000066>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000202>)))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000506> <http://purl.org/demkg/DEMKG_1900000>)
+
+# Class: <http://purl.org/demkg/DEMKG_0000507> (A+T+(N)+)
+
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_0000507> "A+T+(N)+")
+EquivalentClasses(<http://purl.org/demkg/DEMKG_0000507> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HP_0025684>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.org/demkg/DEMKG_0000202>)))
+SubClassOf(<http://purl.org/demkg/DEMKG_0000507> <http://purl.org/demkg/DEMKG_1900000>)
 
 
 )

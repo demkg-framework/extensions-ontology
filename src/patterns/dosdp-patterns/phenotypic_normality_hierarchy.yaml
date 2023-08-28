@@ -1,0 +1,27 @@
+pattern_name: phenotypic_normality_hierarchy
+pattern_iri: http://purl.org/demkg/patterns/phenotypic_normality_hierarchy.yaml
+base_IRI: http://purl.org/demkg/
+description: Pattern to define the phenotypic normality class hierarchy.
+
+vars:
+  sc: "owl:Thing"
+  label: "owl:Thing"
+  original_label: "owl:Thing"
+  original_class: "owl:Thing"
+
+name:
+  text: "%s"
+  vars:
+    - label
+
+def:
+  text: "Normal counterpart of %s (%s)"
+  vars:
+    - original_class
+    - original_label
+
+subClassOf: 
+  text: "%s"
+  vars:
+    - sc
+

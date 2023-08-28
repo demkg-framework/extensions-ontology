@@ -2,9 +2,11 @@ id: demkg
 title: DemKG extensions ontology
 github_org: demkg-framework
 repo: extensions-ontology
+uribase: https://purl.org/demkg
+# uribase_suffix: ontology
 namespaces: 
-  - https://purl.archive.org/demkg/DEMKG_
-  - https://purl.archive.org/demkg
+  - https://purl.org/demkg/DEMKG_
+
 export_formats:
   - owl
 import_group:
@@ -16,5 +18,11 @@ import_group:
     - id: go
     - id: uberon
     - id: obi
+    - id: nddo
+      mirror_from: http://www.purl.org/NDDO
+    - id: nio
+      mirror_from: https://data.bioontology.org/ontologies/NIO/submissions/2/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb
+
 use_dosdps: true
+dosdp_tools_options: "--obo-prefixes=true --prefixes=prefixes.yaml"
 robot_java_args: '-Xmx8G'
