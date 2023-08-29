@@ -1,0 +1,4 @@
+defined_class	sc	quality_or_functionality	bearer_of_charasteristic	label
+#DEMKG:0000002	DEMKG:0000001	BFO:0000019	UBERON:0001016	Normality of the nervous system
+#DEMKG:0000003	DEMKG:0000002	PATO:0001509	UBERON:0001016	Normal nervous system physiology
+#DEMKG:0000005	DEMKG:0000004	PATO:0001509	GO:0050890	Normal cognition

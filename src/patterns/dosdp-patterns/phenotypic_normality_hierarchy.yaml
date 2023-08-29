@@ -15,10 +15,9 @@ name:
     - label
 
 def:
-  text: "Normal counterpart of %s (%s)"
+  text: "Normal counterpart of %s"
   vars:
     - original_class
-    - original_label
 
 subClassOf: 
   text: "%s"

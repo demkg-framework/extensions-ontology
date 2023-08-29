@@ -85,7 +85,6 @@ DEMKG:0000095	DEMKG:0000094	*	Normal erythrocyte morphology	Abnormal erythrocyte
 DEMKG:0000096	DEMKG:0000095	*	Normal hemoglobin	Abnormal hemoglobin	HP:0011902
 DEMKG:0000097	DEMKG:0000057	*	Normal fear/anxiety-related behavior	Abnormal fear/anxiety-related behavior	HP:0100852
 DEMKG:0000102	DEMKG:0000001	*	Normality of the digestive system	Abnormality of the digestive system	HP:0025031
-DEMKG:0000102	DEMKG:0000101	*	Normality of the digestive system	Abnormality of the digestive system	HP:0025031
 DEMKG:0000103	DEMKG:0000102	*	Normal abdomen morphology	Abnormal abdomen morphology	HP:0001438
 DEMKG:0000104	DEMKG:0000015	*	Stable Personality	Personality changes	HP:0000751
 DEMKG:0000106	DEMKG:0000001	*	Normality of the genitourinary system	Abnormality of the genitourinary system	HP:0000119

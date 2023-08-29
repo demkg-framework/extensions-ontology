@@ -1,0 +1,39 @@
+pattern_name: phenotypic_normality_pattern
+pattern_iri: http://purl.obolibrary.org/obo/demkg/patterns/phenotypic_normality_pattern.yaml
+
+description: "
+  Mirrors the phenotypic abnormality branch to allocate terms for phenotypic normality."
+
+classes:
+  quality: BFO:0000019
+  normal: PATO:0000461
+  nervous system: UBERON:0001016
+
+relations:
+  has part: BFO:0000051
+  characteristic of part of: RO:0002314
+  characteristic of: RO:0000052
+  has modifier: RO:0002573
+
+vars:
+  quality_or_functionality: "owl:Thing"
+  bearer_of_charasteristic: "owl:Thing"
+  sc: "owl:Thing"
+  label: "owl:Thing"
+
+name:
+  text: "%s"
+  vars:
+    - label
+
+equivalentTo:
+  text: "'has part' some (%s and ('characteristic of' some %s) and ('has modifier' some 'normal'))"
+  vars:
+    - quality_or_functionality
+    - bearer_of_charasteristic
+
+subClassOf: 
+  text: "%s"
+  vars:
+    - sc
+
