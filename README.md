@@ -1,6 +1,4 @@
-
-![Build Status](https://github.com/DDI-NO/demkg/workflows/CI/badge.svg)
-# demKG extensions ontology
+# DemKG extensions ontology
 
 Description: None
 

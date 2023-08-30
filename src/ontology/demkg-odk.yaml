@@ -4,8 +4,6 @@ github_org: demkg-framework
 repo: extensions-ontology
 uribase: http://purl.org/demkg
 uribase_suffix: ontology
-namespaces: 
-  - http://purl.org/demkg/DEMKG_
 
 export_formats:
   - owl
