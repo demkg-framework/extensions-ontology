@@ -1,5 +1,6 @@
-NPT:0010002
-NPT:0010052
-NPT:0012051
-NPT:0012052
-NPT:0012029
+http://purl.obolibrary.org/obo/NPT_0010002
+http://purl.obolibrary.org/obo/NPT_0010052
+http://purl.obolibrary.org/obo/NPT_0012051
+http://purl.obolibrary.org/obo/NPT_0012052
+http://purl.obolibrary.org/obo/NPT_0012029
+http://purl.obolibrary.org/obo/NPT_0012072

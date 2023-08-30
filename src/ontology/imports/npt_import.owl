@@ -74,6 +74,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0010002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0010025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0010027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0010028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0010035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0010040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0010051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0010052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0011001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0011003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0011015>))
@@ -84,8 +88,18 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0011073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012072>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0012082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0013002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NPT_0013003>))
@@ -1836,6 +1850,43 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0010028> "cog
 SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010028> <http://purl.obolibrary.org/obo/NPT_0010027>)
 SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/NPT_0012026>))
 
+# Class: <http://purl.obolibrary.org/obo/NPT_0010035> (memory/learning cognitive process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0010035> "A cognitive process that realizes one or more memory/learning functions."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0010035> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NPT_0010035> "memory/learning cognitive functioning"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0010035> "memory/learning cognitive process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010035> <http://purl.obolibrary.org/obo/NPT_0010028>)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/NPT_0012034>))
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0010040> (declarative memory cognitive process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0010040> "A memory/learning process that realizes one or more declarative memory functions."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0010040> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NPT_0010040> "declarative memory cognitive functioning"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0010040> "declarative memory cognitive process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010040> <http://purl.obolibrary.org/obo/NPT_0010035>)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/NPT_0012039>))
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0010051> (remembering cognitive process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0010051> "A declarative memory process, which, when successful, realizes the remembering function and results in the retrieval of the specified stored information."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0010051> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NPT_0010051> "remembering"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NPT_0010051> "remembering cognitive functioning"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0010051> "remembering cognitive process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010051> <http://purl.obolibrary.org/obo/NPT_0010040>)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/NPT_0012050>))
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0010052> (recall memory cognitive process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0010052> "A remembering process, which, when successful, realizes the recall function and results in the retrieval of the specified stored information."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0010052> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NPT_0010052> "recall memory cognitive functioning"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0010052> "recall memory cognitive process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010052> <http://purl.obolibrary.org/obo/NPT_0010051>)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0010052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/NPT_0012051>))
+
 # Class: <http://purl.obolibrary.org/obo/NPT_0011001> (level of cognitive functioning categorical measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0011001> "A categorical measurement datum used to record the results of a cognitive functioning examination as either a normal, mildly impaired, moderately impaired, or severely impaired level of cognitive functioning."@en)
@@ -1927,6 +1978,26 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012026> "cognitive function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012026> <http://purl.obolibrary.org/obo/NPT_0012031>)
 
+# Class: <http://purl.obolibrary.org/obo/NPT_0012028> (linguistic cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012028> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012028> "An expressive cognitive function that is manifested through a linguistic process as part of some linguistic cognitive activity of a thinking entity.
+
+*** REVIEW ***"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012028> "Alexander P. Cox"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012028> "linguistic cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012028> <http://purl.obolibrary.org/obo/NPT_0012036>)
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0012029> (visual/spatial cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012029> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012029> "A cognitive function that is manifested through the visual/spatial cognitive activity of a thinking entity.
+
+*** REVIEW ***"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012029> "Alexander P. Cox"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012029> "visual/spatial cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012029> <http://purl.obolibrary.org/obo/NPT_0012026>)
+
 # Class: <http://purl.obolibrary.org/obo/NPT_0012031> (mental function)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012031> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -1941,6 +2012,97 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012031> "mental function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012031> <http://purl.obolibrary.org/obo/NPT_0012068>)
 
+# Class: <http://purl.obolibrary.org/obo/NPT_0012034> (memory/learning cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012034> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012034> "A cognitive function which, when realized, is the means through which information is stored or retrieved by a thinking being."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/NPT_0012034> "As many as 134 named types of memory have been proposed."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012034> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NPT_0012034> "Adapted from: Chapter 2 of Lezak, et. al. (2004) /Neuropsychological Assessment/ 4th Ed.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/NPT_0012034> "From http://en.wikipedia.org/wiki/Memory:
+
+In psychology, memory is the processes by which information is encoded, stored, and retrieved.  Encoding allows information that is from the outside world to reach our senses in the forms of chemical and physical stimuli.  In this first stage we must change the information so that we may put the memory into the encoding process.  Storage is the second memory stage or process.  This entails that we maintain information over periods of time.  Finally the third process is retrieval.  This is the retrieval of information that we have stored. We must locate it and return it to our consciousness.  Some retrieval attempts may be effortless due to the type of information.
+
+From an information processing perspective there are three main stages in the formation and retrieval of memory:
+
+1. Encoding or registration (receiving, processing and combining of received information)
+2. Storage (creation of a permanent record of the encoded information)
+3. Retrieval, recall or recollection (calling back the stored information in response to some cue for use in a process or activity)
+"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012034> "memory/learning cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012034> <http://purl.obolibrary.org/obo/NPT_0012026>)
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0012036> (expressive cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012036> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012036> "A cognitive function which, when realized, is the means through which information is communicated or acted upon. The expressive functions make up the sum of observable behavior and are the means through which mental activity is inferred. Expressive functions include speaking, drawing or writing, manipulating objects, physical gestures, and facial expressions or gestures. Common problems with expressive functions include apraxia, constructional disorders, and aphasia and dysphasia."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012036> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NPT_0012036> "Adapted from: Chapter 2 of Lezak, et. al. (2004) /Neuropsychological Assessment/ 4th Ed.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012036> "expressive cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012036> <http://purl.obolibrary.org/obo/NPT_0012026>)
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0012039> (declarative memory cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012039> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012039> "A memory/learning cognitive function which, when realized, involves a conscious and intentional recollection process."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012039> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NPT_0012039> "explicit memory function"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NPT_0012039> "Adapted from: Chapter 2 of Lezak, et. al. (2004) /Neuropsychological Assessment/ 4th Ed.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/NPT_0012039> "From http://en.wikipedia.org/wiki/Declarative_memory:
+
+Declarative memory (sometimes referred to as explicit memory) is one of two types of long term human memory.  It refers to memories which can be consciously recalled such as facts and knowledge.  Its counterpart is known as non-declarative or Procedural memory, which refers to unconscious memories such as skills (e.g. learning to ride a bicycle).  Declarative memory can be divided into two categories: episodic memory which stores specific personal experiences and semantic memory which stores factual information.
+
+There are two types of declarative memory.  Semantic memories are those that store general factual knowledge that is independent of personal experience.  Examples include types of food, capital cities, lexical knowledge (vocabulary), etc.  Episodic memories are those that store specific events such as attending a class or flying to France. Retrieval of these memories can be thought of as mentally reliving the past events they concern.  Episodic memory is believed to be the system that provides the basic support for semantic memory.
+
+From http://en.wikipedia.org/wiki/Explicit_memory:
+
+Explicit memory is the conscious, intentional recollection of previous experiences and information.  People use explicit memory throughout the day, such as remembering the time of an appointment or recollecting an event from years ago.  Explicit memory involves conscious recollection, compared with implicit memory which is an unconscious, unintentional form of memory.  Remembering a specific driving lesson is an example of explicit memory, while improved driving skill as a result of the lesson is an example of implicit memory."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012039> "declarative memory cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012039> <http://purl.obolibrary.org/obo/NPT_0012034>)
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0012050> (remembering cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012050> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012050> "A declarative memory cognitive function which, when realized, involves retrieving stored information."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012050> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NPT_0012050> "Adapted from: Chapter 2 of Lezak, et. al. (2004) /Neuropsychological Assessment/ 4th Ed.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012050> "remembering cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012050> <http://purl.obolibrary.org/obo/NPT_0012039>)
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0012051> (recall memory cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012051> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012051> "A remembering cognitive function which, when realized, involves retrieving stored information through an active complex search process."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012051> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NPT_0012051> "Adapted from: Chapter 2 of Lezak, et. al. (2004) /Neuropsychological Assessment/ 4th Ed.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/NPT_0012051> "From http://en.wikipedia.org/wiki/Recollection:
+
+Recall in memory refers to the retrieval of events or information from the past.  Along with encoding and storage, it is one of the three core processes of memory. There are three main types of recall: free recall, cued recall and serial recall.  Psychologists test these forms of recall as a way to study the memory processes of humans and animals.  Two main theories of the process of recall are the Two-Stage Theory and the theory of Encoding Specificity.
+
+The Austin Simonson theory states that the process of recall begins with a search and retrieval process, and then a decision or recognition process where the correct information is chosen from what has been retrieved.  In this theory, recognition only involves the latter of these two stages, or processes, and this is thought to account for the superiority of the recognition process over recall.  Recognition only involves one process in which error or failure may occur, while recall involves two.  However, recall has been found to be superior to recognition in some cases, such as a failure to recognize words that can later be recalled.
+
+The theory of encoding specificity finds similarities between the process of recognition and that of recall.  The encoding specificity principle states that memory utilizes information from the memory trace, or the situation in which it was learned, and from the environment in which it is retrieved.  Encoding specificity helps to take into account context cues because of its focus on the retrieval environment, and it also accounts for the fact recognition may not always be superior to recall.
+
+See also: http://en.wikipedia.org/wiki/Recall_%28memory%29"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012051> "recall memory cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012051> <http://purl.obolibrary.org/obo/NPT_0012050>)
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0012052> (recognition memory cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012052> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012052> "A remembering cognitive function which, when realized, involves retrieving stored information when a stimulus triggers awareness."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012052> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NPT_0012052> "Adapted from: Chapter 2 of Lezak, et. al. (2004) /Neuropsychological Assessment/ 4th Ed.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/NPT_0012052> "From http://en.wikipedia.org/wiki/Recognition_memory:
+
+Recognition memory is a subcategory of declarative memory.  Essentially, recognition memory is the ability to recognize previously encountered events, objects, or people. When the previously experienced event is reexperienced, this environmental content is matched to stored memory representations, eliciting matching signals.  Recognition memory can be subdivided into two component processes: recollection and familiarity, sometimes referred to as \"remembering\" and \"knowing\", respectively.  Recollection is the retrieval of details associated with the previously experienced event.  In contrast, familiarity is the feeling that the event was previously experienced, without recollection.  Thus, the fundamental distinction between the two processes is that recollection is a slow, controlled search process, whereas familiarity is a fast, automatic process.
+
+Mandler's \"Butcher-on-the-bus\" example:
+
+Imagine taking a seat on a crowded bus.  You look to your left and notice a man.  Immediately, you are overcome with this sense that you've seen this man before, but you cannot remember who he is.  This automatically elicited feeling is familiarity. While trying to remember who this man is, you begin retrieving specific details about your previous encounter.  For example, you might remember that this man handed you a fine chop of meat in the grocery store.  Or perhaps you remember him wearing an apron.  This search process is recollection."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012052> "recognition memory cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012052> <http://purl.obolibrary.org/obo/NPT_0012050>)
+
 # Class: <http://purl.obolibrary.org/obo/NPT_0012068> (bodily function)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012068> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -1948,6 +2110,23 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/NPT_0012068> "Maybe this should be called 'biological function' instead of 'bodily function'.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012068> "bodily function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012068> <http://purl.obolibrary.org/obo/BFO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0012070> (word generation cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012070> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012070> "A linguistic cognitive function which, when realized, is the means through which a list of words is produced."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012070> "Alexander P. Cox"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/NPT_0012070> "Is this a function or should it be removed?")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012070> "word generation cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012070> <http://purl.obolibrary.org/obo/NPT_0012028>)
+
+# Class: <http://purl.obolibrary.org/obo/NPT_0012072> (linguistic letter fluency cognitive function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/NPT_0012072> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NPT_0012072> "A word generation cognitive function which, when realized, is the means through which a list of words that begin with a common letter is produced."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/NPT_0012072> "Alexander P. Cox"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NPT_0012072> "linguistic letter fluency cognitive function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NPT_0012072> <http://purl.obolibrary.org/obo/NPT_0012070>)
 
 # Class: <http://purl.obolibrary.org/obo/NPT_0012082> (mental functioning assay plan)
 
