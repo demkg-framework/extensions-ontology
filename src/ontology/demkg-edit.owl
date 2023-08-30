@@ -22,21 +22,21 @@ Annotation(dcterms:description "An ontology to provide class and axioms definiti
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "DemKG extensions ontology")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900002>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900003>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900004>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900005>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900006>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900007>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900008>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900009>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900010>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900011>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900012>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900013>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900014>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DEMKG_1900015>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900001>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900002>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900003>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900004>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900005>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900006>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900007>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900008>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900009>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900010>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900011>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900012>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900013>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900014>))
+Declaration(Class(<http://purl.org/demkg/DEMKG_1900015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000050063>))
 Declaration(Class(<http://purl.org/demkg/DEMKG_0000001>))
@@ -67,87 +67,87 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900001> (CERAD WLT assay)
+# Class: <http://purl.org/demkg/DEMKG_1900001> (CERAD WLT assay)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900001> "CERAD WLT assay"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900001> <http://purl.obolibrary.org/obo/NPT_0010002>)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/DEMKG_1900002>))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/DEMKG_1900003>))
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/DEMKG_1900004>))
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900001> "CERAD WLT assay"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900001> <http://purl.obolibrary.org/obo/NPT_0010002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.org/demkg/DEMKG_1900002>))
+SubClassOf(<http://purl.org/demkg/DEMKG_1900001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.org/demkg/DEMKG_1900003>))
+SubClassOf(<http://purl.org/demkg/DEMKG_1900001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.org/demkg/DEMKG_1900004>))
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900002> (CERAD WLT trial 1 assay)
+# Class: <http://purl.org/demkg/DEMKG_1900002> (CERAD WLT trial 1 assay)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900002> "CERAD WLT trial 1 assay"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900002> <http://purl.obolibrary.org/obo/NPT_0010002>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900002> "CERAD WLT trial 1 assay"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900002> <http://purl.obolibrary.org/obo/NPT_0010002>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900003> (CERAD WLT trial 2 assay)
+# Class: <http://purl.org/demkg/DEMKG_1900003> (CERAD WLT trial 2 assay)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900003> "CERAD WLT trial 2 assay"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900003> <http://purl.obolibrary.org/obo/NPT_0010002>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900003> "CERAD WLT trial 2 assay"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900003> <http://purl.obolibrary.org/obo/NPT_0010002>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900004> (CERAD WLT trial 3 assay)
+# Class: <http://purl.org/demkg/DEMKG_1900004> (CERAD WLT trial 3 assay)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900004> "CERAD WLT trial 3 assay"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900004> <http://purl.obolibrary.org/obo/NPT_0010002>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900004> "CERAD WLT trial 3 assay"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900004> <http://purl.obolibrary.org/obo/NPT_0010002>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900005> (CERAD WLT recall trial assay)
+# Class: <http://purl.org/demkg/DEMKG_1900005> (CERAD WLT recall trial assay)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900005> "CERAD WLT recall trial assay"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900005> <http://purl.obolibrary.org/obo/NPT_0010002>)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NPT_0012051>))
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900005> "CERAD WLT recall trial assay"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900005> <http://purl.obolibrary.org/obo/NPT_0010002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NPT_0012051>))
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900006> (CERAD WLT recognition trial assay)
+# Class: <http://purl.org/demkg/DEMKG_1900006> (CERAD WLT recognition trial assay)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900006> "CERAD WLT recognition trial assay"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900006> <http://purl.obolibrary.org/obo/NPT_0010002>)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NPT_0012052>))
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900006> "CERAD WLT recognition trial assay"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900006> <http://purl.obolibrary.org/obo/NPT_0010002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NPT_0012052>))
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900007> (Visual Object and Space Perception (VOSP) assay)
+# Class: <http://purl.org/demkg/DEMKG_1900007> (Visual Object and Space Perception (VOSP) assay)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900007> "Visual Object and Space Perception (VOSP) assay"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900007> <http://purl.obolibrary.org/obo/NPT_0010002>)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NPT_0012029>))
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900007> "Visual Object and Space Perception (VOSP) assay"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900007> <http://purl.obolibrary.org/obo/NPT_0010002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NPT_0012029>))
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900008> (Controlled Oral Word Association Test assay)
+# Class: <http://purl.org/demkg/DEMKG_1900008> (Controlled Oral Word Association Test assay)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900008> "Controlled Oral Word Association Test assay"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900008> <http://purl.obolibrary.org/obo/NPT_0010002>)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NPT_0012072>))
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900008> "Controlled Oral Word Association Test assay"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900008> <http://purl.obolibrary.org/obo/NPT_0010002>)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NPT_0012072>))
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900009> (CERAD WLT recall trial scalar measurement datum)
+# Class: <http://purl.org/demkg/DEMKG_1900009> (CERAD WLT recall trial scalar measurement datum)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900009> "CERAD WLT recall trial scalar measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900009> <http://purl.obolibrary.org/obo/IAO_0000032>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900009> "CERAD WLT recall trial scalar measurement datum"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900009> <http://purl.obolibrary.org/obo/IAO_0000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900010> (CERAD WLT recognition scalar measurement datum)
+# Class: <http://purl.org/demkg/DEMKG_1900010> (CERAD WLT recognition scalar measurement datum)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900010> "CERAD WLT recognition scalar measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900010> <http://purl.obolibrary.org/obo/IAO_0000032>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900010> "CERAD WLT recognition scalar measurement datum"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900010> <http://purl.obolibrary.org/obo/IAO_0000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900011> (CERAD WLT trial 1 scalar measurement datum)
+# Class: <http://purl.org/demkg/DEMKG_1900011> (CERAD WLT trial 1 scalar measurement datum)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900011> "CERAD WLT trial 1 scalar measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900011> <http://purl.obolibrary.org/obo/IAO_0000032>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900011> "CERAD WLT trial 1 scalar measurement datum"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900011> <http://purl.obolibrary.org/obo/IAO_0000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900012> (CERAD WLT trial 2 scalar measurement datum)
+# Class: <http://purl.org/demkg/DEMKG_1900012> (CERAD WLT trial 2 scalar measurement datum)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900012> "CERAD WLT trial 2 scalar measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900012> <http://purl.obolibrary.org/obo/IAO_0000032>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900012> "CERAD WLT trial 2 scalar measurement datum"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900012> <http://purl.obolibrary.org/obo/IAO_0000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900013> (CERAD WLT trial 3 scalar measurement datum)
+# Class: <http://purl.org/demkg/DEMKG_1900013> (CERAD WLT trial 3 scalar measurement datum)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900013> "CERAD WLT trial 3 scalar measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900013> <http://purl.obolibrary.org/obo/IAO_0000032>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900013> "CERAD WLT trial 3 scalar measurement datum"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900013> <http://purl.obolibrary.org/obo/IAO_0000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900014> (Controlled Oral Word Association Test scalar measurement datum)
+# Class: <http://purl.org/demkg/DEMKG_1900014> (Controlled Oral Word Association Test scalar measurement datum)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900014> "Controlled Oral Word Association Test scalar measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900014> <http://purl.obolibrary.org/obo/IAO_0000032>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900014> "Controlled Oral Word Association Test scalar measurement datum"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900014> <http://purl.obolibrary.org/obo/IAO_0000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DEMKG_1900015> (Visual Object and Space Perception (VOSP) scalar measurement datum)
+# Class: <http://purl.org/demkg/DEMKG_1900015> (Visual Object and Space Perception (VOSP) scalar measurement datum)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DEMKG_1900015> "Visual Object and Space Perception (VOSP) scalar measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/DEMKG_1900015> <http://purl.obolibrary.org/obo/IAO_0000032>)
+AnnotationAssertion(rdfs:label <http://purl.org/demkg/DEMKG_1900015> "Visual Object and Space Perception (VOSP) scalar measurement datum"@en)
+SubClassOf(<http://purl.org/demkg/DEMKG_1900015> <http://purl.obolibrary.org/obo/IAO_0000032>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0025684> (Decreased amyloid beta 42 peptide CSF concentration)
 

@@ -4,8 +4,8 @@ idspace: DEMKG
 base_url: /obo/demkg
 
 products:
-- demkg.owl: https://raw.githubusercontent.com/DDI-NO/demkg/main/demkg.owl
-- demkg.obo: https://raw.githubusercontent.com/DDI-NO/demkg/main/demkg.obo
+- demkg.owl: https://raw.githubusercontent.com/demkg-framework/extensions-ontology/main/demkg.owl
+- demkg.obo: https://raw.githubusercontent.com/demkg-framework/extensions-ontology/main/demkg.obo
 
 term_browser: ontobee
 example_terms:
@@ -14,15 +14,15 @@ example_terms:
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/DDI-NO/demkg/v
+  replacement: https://raw.githubusercontent.com/demkg-framework/extensions-ontology/v
 
 - prefix: /tracker/
-  replacement: https://github.com/DDI-NO/demkg/issues
+  replacement: https://github.com/demkg-framework/extensions-ontology/issues
 
 - prefix: /about/
   replacement: http://www.ontobee.org/ontology/DEMKG?iri=http://purl.obolibrary.org/obo/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/DDI-NO/demkg/main/
+  replacement: https://raw.githubusercontent.com/demkg-framework/extensions-ontology/main/
 

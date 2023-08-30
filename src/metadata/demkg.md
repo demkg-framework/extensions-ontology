@@ -3,10 +3,10 @@ layout: ontology_detail
 id: demkg
 title: demKG extensions ontology
 jobs:
-  - id: https://travis-ci.org/DDI-NO/demkg
+  - id: https://travis-ci.org/demkg-framework/extensions-ontology
     type: travis-ci
 build:
-  checkout: git clone https://github.com/DDI-NO/demkg.git
+  checkout: git clone https://github.com/demkg-framework/extensions-ontology.git
   system: git
   path: "."
 contact:
@@ -15,7 +15,7 @@ contact:
   github: 
 description: demKG extensions ontology is an ontology...
 domain: stuff
-homepage: https://github.com/DDI-NO/demkg
+homepage: https://github.com/demkg-framework/extensions-ontology
 products:
   - id: demkg.owl
     name: "demKG extensions ontology main release in OWL format"
@@ -34,7 +34,7 @@ dependencies:
 - id: bfo
 - id: pato
 
-tracker: https://github.com/DDI-NO/demkg/issues
+tracker: https://github.com/demkg-framework/extensions-ontology/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/
   label: CC-BY
