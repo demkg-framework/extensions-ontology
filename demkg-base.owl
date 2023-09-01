@@ -10,12 +10,12 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.org/demkg/ontology/demkg-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.org/demkg/ontology/releases/2023-08-30/demkg-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.org/demkg/ontology/releases/2023-09-01/demkg-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description xml:lang="en">An ontology to provide class and axioms definitions for DemKG framework.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>DemKG extensions ontology</dcterms:title>
-        <owl:versionInfo>2023-08-30</owl:versionInfo>
+        <owl:versionInfo>2023-09-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -116,183 +116,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DEMKG_1900004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">CERAD WLT assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
-        <rdfs:label xml:lang="en">CERAD WLT trial 1 assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
-        <rdfs:label xml:lang="en">CERAD WLT trial 2 assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
-        <rdfs:label xml:lang="en">CERAD WLT trial 3 assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012051"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">CERAD WLT recall trial assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/demkg/DEMKG_1900006 -->
-
-    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012052"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">CERAD WLT recognition trial assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012029"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Visual Object and Space Perception (VOSP) assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012072"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Controlled Oral Word Association Test assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label xml:lang="en">CERAD WLT recall trial scalar measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label xml:lang="en">CERAD WLT recognition scalar measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label xml:lang="en">CERAD WLT trial 1 scalar measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label xml:lang="en">CERAD WLT trial 2 scalar measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label xml:lang="en">CERAD WLT trial 3 scalar measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label xml:lang="en">Controlled Oral Word Association Test scalar measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DEMKG_1900015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMKG_1900015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label xml:lang="en">Visual Object and Space Perception (VOSP) scalar measurement datum</rdfs:label>
-    </owl:Class>
     
 
 
@@ -2094,8 +1917,186 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <rdfs:label xml:lang="en">AT(N) biomarker profile value</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900001 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/demkg/DEMKG_1900002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/demkg/DEMKG_1900003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/demkg/DEMKG_1900004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CERAD WLT assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900002 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:label xml:lang="en">CERAD WLT trial 1 assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900003 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:label xml:lang="en">CERAD WLT trial 2 assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900004 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:label xml:lang="en">CERAD WLT trial 3 assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900005 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CERAD WLT recall trial assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900006 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CERAD WLT recognition trial assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900007 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Visual Object and Space Perception (VOSP) assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900008 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Controlled Oral Word Association Test assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900009 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:label xml:lang="en">CERAD WLT recall trial scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900010 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:label xml:lang="en">CERAD WLT recognition scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900011 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:label xml:lang="en">CERAD WLT trial 1 scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900012 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:label xml:lang="en">CERAD WLT trial 2 scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900013 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:label xml:lang="en">CERAD WLT trial 3 scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900014 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:label xml:lang="en">Controlled Oral Word Association Test scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/demkg/DEMKG_1900015 -->
+
+    <owl:Class rdf:about="http://purl.org/demkg/DEMKG_1900015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:label xml:lang="en">Visual Object and Space Perception (VOSP) scalar measurement datum</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
 
 <!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+
